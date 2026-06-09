@@ -12,6 +12,9 @@ logger = logging.getLogger("database")
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
+if DATABASE_URL and DATABASE_URL.startswith("postgresql://"):
+    DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+pg8000://", 1)
+
 logger.info(f"Loaded DATABASE_URL config: {DATABASE_URL}")
 
 # Premium Fallback Mechanism:
