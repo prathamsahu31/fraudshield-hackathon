@@ -1,0 +1,1001 @@
+id,timestamp,sender_id,receiver_id,receiver_bank,amount,type,risk_score,status,flags_raw,geo_ip,location,device
+TXN-FRAUD-0111,2026-05-01 02:09:48,ACT-SMURF-03-1,ACT-HUB-03,NeoBank Tech,3713.47,Wire,77,Flagged,"Structuring Threshold Mismatch,Layering Phase",137.81.25.114,United States (via VPN),Safari/iOS 17
+TXN-SAFE-0006,2026-05-01 02:13:06,ACT-SAFE-13,ACT-SAFE-10,Vanguard Retail,655.63,Card,9,Cleared,,105.60.45.91,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0046,2026-05-01 02:23:47,ACT-SAFE-47,ACT-SAFE-43,FraudShield AI Bank,221.33,Card,10,Cleared,,70.66.20.183,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0668,2026-05-01 03:24:28,ACT-SAFE-09,ACT-SAFE-31,Zenith Global Trust,396.47,ACH,17,Cleared,,89.75.21.60,"Austin, US",Brave/Windows 10
+TXN-SAFE-0574,2026-05-01 03:53:42,ACT-SAFE-35,ACT-SAFE-44,Caribbean Cayman Bank,235.56,Card,7,Cleared,,112.71.43.1,"Seattle, US",Chrome/macOS
+TXN-FRAUD-0041,2026-05-01 04:04:48,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,44942.69,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",191.17.56.194,Russia (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0521,2026-05-01 05:11:33,ACT-SAFE-03,ACT-SAFE-14,Caribbean Cayman Bank,1016.62,Card,16,Cleared,,78.60.79.49,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0629,2026-05-01 05:26:35,ACT-SAFE-24,ACT-SAFE-37,NeoBank Tech,793.87,P2P,11,Cleared,,197.60.91.46,"Chicago, US",Chrome/macOS
+TXN-FRAUD-0166,2026-05-01 05:50:35,ACT-SAFE-40,ACT-SMURF-03-2,Sovereign Crypto Bank,1482.15,ACH,63,Under Review,Unusual High Value deposit,192.54.13.131,United Kingdom (via Proxy),Firefox/Linux
+TXN-SAFE-0123,2026-05-01 06:49:52,ACT-SAFE-43,ACT-SAFE-21,Apex Digital Bank,102.35,ACH,17,Cleared,,52.87.78.135,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0513,2026-05-01 08:55:17,ACT-SAFE-46,ACT-SAFE-33,First Offshore Corp,748.72,Card,15,Cleared,,116.30.57.235,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0066,2026-05-01 08:56:05,ACT-SAFE-48,ACT-SAFE-42,Vanguard Retail,1182.27,ACH,11,Cleared,,166.27.33.204,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0175,2026-05-01 09:51:09,ACT-SAFE-07,ACT-SAFE-11,NeoBank Tech,227.76,Card,6,Cleared,,200.43.69.9,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0612,2026-05-01 11:29:47,ACT-SAFE-32,ACT-SAFE-05,First Offshore Corp,1363.82,Card,14,Cleared,,158.86.21.252,"New York, US",Safari/macOS 14
+TXN-SAFE-0279,2026-05-01 11:52:01,ACT-SAFE-30,ACT-SAFE-03,First Offshore Corp,1065.19,P2P,6,Cleared,,132.81.23.124,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0160,2026-05-01 12:54:59,ACT-SAFE-06,ACT-SMURF-02-1,Offshore Finance,1630.07,ACH,62,Under Review,Unusual High Value deposit,72.67.10.141,United States (via Proxy),Firefox/Linux
+TXN-SAFE-0267,2026-05-01 13:32:54,ACT-SAFE-01,ACT-SAFE-48,Offshore Finance,1488.69,ACH,17,Cleared,,86.50.53.176,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0511,2026-05-01 15:38:59,ACT-SAFE-35,ACT-SAFE-45,Vanguard Retail,1089.95,ACH,12,Cleared,,137.87.18.240,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0057,2026-05-01 15:58:07,ACT-SMURF-08-1,ACT-HUB-08,Sovereign Crypto Bank,3287.31,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",37.97.56.19,United States (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0247,2026-05-01 17:02:51,ACT-SAFE-30,ACT-SAFE-42,Sovereign Crypto Bank,728.88,P2P,0,Cleared,,190.88.38.176,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0089,2026-05-01 17:31:04,ACT-SAFE-14,ACT-SAFE-37,NeoBank Tech,1368.74,P2P,10,Cleared,,192.36.94.175,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0110,2026-05-01 18:39:38,ACT-SMURF-07-2,ACT-HUB-07,Apex Digital Bank,4141.43,Wire,70,Flagged,"Structuring Threshold Mismatch,Layering Phase",177.42.52.188,Russia (via VPN),Chrome/macOS
+TXN-FRAUD-0089,2026-05-01 19:11:52,ACT-SMURF-08-2,ACT-HUB-08,Vanguard Retail,4001.21,Wire,84,Flagged,"Structuring Threshold Mismatch,Layering Phase",95.89.54.87,Germany (via VPN),Chrome/macOS
+TXN-SAFE-0739,2026-05-01 19:45:33,ACT-SAFE-09,ACT-SAFE-11,FraudShield AI Bank,169.0,P2P,6,Cleared,,38.17.41.14,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0147,2026-05-01 19:49:06,ACT-SMURF-04-1,ACT-HUB-04,Sovereign Crypto Bank,3236.56,Wire,86,Flagged,"Structuring Threshold Mismatch,Layering Phase",198.42.66.149,United States (via VPN),Chrome/macOS
+TXN-SAFE-0582,2026-05-01 20:02:37,ACT-SAFE-12,ACT-SAFE-15,Caribbean Cayman Bank,195.98,Card,5,Cleared,,107.26.49.86,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0655,2026-05-01 20:55:00,ACT-SAFE-49,ACT-SAFE-14,NeoBank Tech,140.96,ACH,6,Cleared,,35.89.97.29,"Austin, US",Chrome/Android 13
+TXN-FRAUD-0006,2026-05-01 21:11:45,ACT-SMURF-05-2,ACT-HUB-05,NeoBank Tech,3916.47,Wire,88,Flagged,"Structuring Threshold Mismatch,Layering Phase",168.15.66.103,Cyprus (via VPN),Safari/iOS 17
+TXN-SAFE-0647,2026-05-01 22:12:01,ACT-SAFE-23,ACT-SAFE-31,Apex Digital Bank,1103.11,ACH,15,Cleared,,28.71.84.159,"Chicago, US",Chrome/macOS
+TXN-SAFE-0761,2026-05-01 23:57:00,ACT-SAFE-35,ACT-SAFE-39,Apex Digital Bank,724.88,ACH,0,Cleared,,64.49.80.165,"New York, US",Chrome/macOS
+TXN-FRAUD-0024,2026-05-02 00:18:20,ACT-SAFE-40,ACT-SMURF-05-1,FraudShield AI Bank,2836.98,ACH,62,Under Review,Unusual High Value deposit,134.49.97.244,United Kingdom (via Proxy),Firefox/Linux
+TXN-SAFE-0593,2026-05-02 00:20:18,ACT-SAFE-16,ACT-SAFE-08,Offshore Finance,743.45,Card,10,Cleared,,92.54.44.151,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0610,2026-05-02 00:31:47,ACT-SAFE-08,ACT-SAFE-26,Caribbean Cayman Bank,749.28,P2P,9,Cleared,,160.72.24.112,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0204,2026-05-02 00:33:36,ACT-SAFE-46,ACT-SAFE-23,Zenith Global Trust,57.29,P2P,10,Cleared,,98.76.11.17,"Austin, US",Chrome/Android 13
+TXN-SAFE-0180,2026-05-02 04:18:14,ACT-SAFE-02,ACT-SAFE-30,NeoBank Tech,845.84,Card,1,Cleared,,64.42.92.57,"Austin, US",Safari/iOS 17
+TXN-SAFE-0255,2026-05-02 04:30:07,ACT-SAFE-35,ACT-SAFE-17,Sovereign Crypto Bank,151.2,Card,18,Cleared,,186.72.47.212,"Seattle, US",Firefox/Linux
+TXN-SAFE-0344,2026-05-02 04:58:48,ACT-SAFE-40,ACT-SAFE-18,Vanguard Retail,374.34,ACH,5,Cleared,,44.27.71.169,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0043,2026-05-02 06:50:00,ACT-SAFE-19,ACT-SAFE-40,Metro Credit Union,1425.96,P2P,7,Cleared,,48.21.43.205,"New York, US",Safari/macOS 14
+TXN-FRAUD-0183,2026-05-02 08:19:28,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,25027.79,Wire,91,Blocked,"Large Integration Outflow,High Risk Crypto Route",132.18.100.45,Singapore (via VPN),Safari/macOS 14
+TXN-SAFE-0336,2026-05-02 08:45:32,ACT-SAFE-01,ACT-SAFE-03,Zenith Global Trust,900.23,ACH,3,Cleared,,109.91.40.12,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0485,2026-05-02 08:46:53,ACT-SAFE-02,ACT-SAFE-46,Sovereign Crypto Bank,666.43,P2P,15,Cleared,,78.67.94.242,"Austin, US",Chrome/Android 13
+TXN-SAFE-0397,2026-05-02 08:52:52,ACT-SAFE-50,ACT-SAFE-08,Apex Digital Bank,968.29,P2P,19,Cleared,,161.10.80.124,"New York, US",Brave/Windows 10
+TXN-SAFE-0522,2026-05-02 09:40:16,ACT-SAFE-35,ACT-SAFE-05,Caribbean Cayman Bank,25.66,ACH,20,Cleared,,145.29.77.55,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0385,2026-05-02 10:02:10,ACT-SAFE-40,ACT-SAFE-21,Apex Digital Bank,1040.29,P2P,11,Cleared,,183.51.92.166,"New York, US",Safari/macOS 14
+TXN-SAFE-0386,2026-05-02 10:46:50,ACT-SAFE-37,ACT-SAFE-34,Sovereign Crypto Bank,704.72,Card,5,Cleared,,109.64.60.127,"New York, US",Chrome/Android 13
+TXN-SAFE-0239,2026-05-02 12:06:05,ACT-SAFE-42,ACT-SAFE-16,First Offshore Corp,929.52,P2P,20,Cleared,,174.54.69.51,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0001,2026-05-02 12:18:28,ACT-SAFE-06,ACT-SAFE-39,Zenith Global Trust,115.33,Card,3,Cleared,,183.81.30.222,"Seattle, US",Chrome/macOS
+TXN-SAFE-0571,2026-05-02 12:26:41,ACT-SAFE-40,ACT-SAFE-48,Metro Credit Union,1169.64,ACH,16,Cleared,,112.77.37.17,"New York, US",Brave/Windows 10
+TXN-SAFE-0137,2026-05-02 13:56:33,ACT-SAFE-20,ACT-SAFE-25,Caribbean Cayman Bank,1210.83,P2P,4,Cleared,,74.35.35.98,"Austin, US",Chrome/Android 13
+TXN-SAFE-0580,2026-05-02 14:49:30,ACT-SAFE-07,ACT-SAFE-31,FraudShield AI Bank,934.1,Card,9,Cleared,,27.75.71.34,"New York, US",Firefox/Linux
+TXN-SAFE-0335,2026-05-02 16:23:53,ACT-SAFE-07,ACT-SAFE-04,Zenith Global Trust,410.56,Card,1,Cleared,,172.53.78.66,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0370,2026-05-02 16:28:18,ACT-SAFE-01,ACT-SAFE-20,NeoBank Tech,1109.97,ACH,7,Cleared,,103.75.23.213,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0061,2026-05-02 16:49:54,ACT-SMURF-09-1,ACT-HUB-09,Apex Digital Bank,2504.15,Wire,85,Flagged,"Structuring Threshold Mismatch,Layering Phase",113.43.70.112,United Kingdom (via VPN),Safari/iOS 17
+TXN-SAFE-0218,2026-05-02 17:49:59,ACT-SAFE-03,ACT-SAFE-50,FraudShield AI Bank,217.09,P2P,2,Cleared,,49.53.60.55,"Austin, US",Safari/iOS 17
+TXN-FRAUD-0051,2026-05-02 18:00:27,ACT-SMURF-05-2,ACT-HUB-05,Offshore Finance,4869.89,Wire,82,Flagged,"Structuring Threshold Mismatch,Layering Phase",180.41.73.134,Germany (via VPN),Safari/iOS 17
+TXN-SAFE-0203,2026-05-02 22:18:20,ACT-SAFE-09,ACT-SAFE-17,Caribbean Cayman Bank,414.99,P2P,18,Cleared,,147.51.87.208,"Austin, US",Safari/macOS 14
+TXN-SAFE-0505,2026-05-02 23:23:52,ACT-SAFE-07,ACT-SAFE-06,Vanguard Retail,474.22,Card,4,Cleared,,160.14.70.181,"New York, US",Brave/Windows 10
+TXN-SAFE-0320,2026-05-02 23:35:23,ACT-SAFE-29,ACT-SAFE-03,NeoBank Tech,1116.92,Card,0,Cleared,,41.54.48.127,"New York, US",Chrome/macOS
+TXN-SAFE-0025,2026-05-02 23:45:00,ACT-SAFE-04,ACT-SAFE-29,FraudShield AI Bank,1021.19,Card,7,Cleared,,64.53.57.193,"New York, US",Firefox/Linux
+TXN-SAFE-0310,2026-05-03 00:06:20,ACT-SAFE-16,ACT-SAFE-14,Caribbean Cayman Bank,90.95,Card,16,Cleared,,25.83.54.11,"Chicago, US",Firefox/Linux
+TXN-SAFE-0424,2026-05-03 01:49:05,ACT-SAFE-41,ACT-SAFE-46,NeoBank Tech,653.08,Card,2,Cleared,,200.47.50.85,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0214,2026-05-03 03:11:45,ACT-SAFE-31,ACT-SAFE-19,Apex Digital Bank,971.84,ACH,13,Cleared,,91.79.65.14,"New York, US",Chrome/macOS
+TXN-SAFE-0691,2026-05-03 03:19:15,ACT-SAFE-04,ACT-SAFE-36,Metro Credit Union,82.76,ACH,6,Cleared,,103.11.92.28,"Austin, US",Chrome/Android 13
+TXN-SAFE-0242,2026-05-03 03:59:02,ACT-SAFE-48,ACT-SAFE-35,Caribbean Cayman Bank,1048.7,P2P,12,Cleared,,89.93.80.26,"Seattle, US",Chrome/macOS
+TXN-SAFE-0206,2026-05-03 05:06:31,ACT-SAFE-23,ACT-SAFE-43,Zenith Global Trust,54.91,ACH,11,Cleared,,103.54.95.173,"Austin, US",Firefox/Linux
+TXN-SAFE-0552,2026-05-03 05:58:18,ACT-SAFE-50,ACT-SAFE-49,Sovereign Crypto Bank,314.64,P2P,4,Cleared,,84.56.47.151,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0157,2026-05-03 06:08:06,ACT-SAFE-18,ACT-SAFE-17,NeoBank Tech,384.18,ACH,19,Cleared,,154.28.63.49,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0389,2026-05-03 06:41:15,ACT-SAFE-15,ACT-SAFE-30,Apex Digital Bank,908.24,ACH,12,Cleared,,38.29.58.73,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0432,2026-05-03 07:28:07,ACT-SAFE-44,ACT-SAFE-08,FraudShield AI Bank,907.86,P2P,12,Cleared,,77.91.85.180,"Seattle, US",Chrome/Android 13
+TXN-FRAUD-0193,2026-05-03 08:01:36,ACT-HUB-06,ACT-EXIT-06,Sovereign Crypto Bank,31289.89,Wire,92,Flagged,"Large Integration Outflow,High Risk Crypto Route",61.59.65.211,Singapore (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0328,2026-05-03 08:23:14,ACT-SAFE-32,ACT-SAFE-06,Offshore Finance,332.87,Card,5,Cleared,,40.94.69.168,"Chicago, US",Firefox/Linux
+TXN-SAFE-0723,2026-05-03 08:24:54,ACT-SAFE-30,ACT-SAFE-22,FraudShield AI Bank,1159.38,Card,4,Cleared,,126.87.19.68,"Chicago, US",Chrome/macOS
+TXN-SAFE-0685,2026-05-03 08:51:53,ACT-SAFE-24,ACT-SAFE-29,Zenith Global Trust,513.98,Card,18,Cleared,,77.58.59.121,"Austin, US",Safari/iOS 17
+TXN-SAFE-0060,2026-05-03 09:10:03,ACT-SAFE-41,ACT-SAFE-27,Zenith Global Trust,119.83,ACH,4,Cleared,,128.44.20.168,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0324,2026-05-03 09:31:51,ACT-SAFE-18,ACT-SAFE-14,Offshore Finance,247.17,Card,7,Cleared,,183.11.11.227,"Seattle, US",Chrome/macOS
+TXN-SAFE-0517,2026-05-03 10:36:38,ACT-SAFE-40,ACT-SAFE-35,Metro Credit Union,715.49,Card,0,Cleared,,68.15.77.87,"Seattle, US",Chrome/macOS
+TXN-SAFE-0293,2026-05-03 11:26:21,ACT-SAFE-47,ACT-SAFE-02,FraudShield AI Bank,1153.7,ACH,4,Cleared,,107.56.58.21,"Austin, US",Safari/iOS 17
+TXN-SAFE-0464,2026-05-03 12:18:12,ACT-SAFE-20,ACT-SAFE-17,Vanguard Retail,745.37,Card,6,Cleared,,80.46.100.220,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0253,2026-05-03 12:40:05,ACT-SAFE-09,ACT-SAFE-30,Apex Digital Bank,409.29,P2P,3,Cleared,,35.15.79.73,"New York, US",Firefox/Linux
+TXN-FRAUD-0030,2026-05-03 15:23:26,ACT-SMURF-03-2,ACT-HUB-03,Apex Digital Bank,3879.85,Wire,77,Flagged,"Structuring Threshold Mismatch,Layering Phase",91.78.47.204,Cyprus (via VPN),Chrome/macOS
+TXN-SAFE-0023,2026-05-03 16:02:05,ACT-SAFE-35,ACT-SAFE-34,Sovereign Crypto Bank,394.13,P2P,4,Cleared,,148.17.37.20,"Chicago, US",Firefox/Linux
+TXN-SAFE-0169,2026-05-03 16:30:17,ACT-SAFE-32,ACT-SAFE-10,Caribbean Cayman Bank,972.65,ACH,10,Cleared,,106.58.20.147,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0139,2026-05-03 17:13:59,ACT-SAFE-16,ACT-SAFE-32,Zenith Global Trust,774.34,Card,18,Cleared,,28.74.87.217,"Austin, US",Brave/Windows 10
+TXN-SAFE-0749,2026-05-03 18:28:03,ACT-SAFE-27,ACT-SAFE-10,Metro Credit Union,190.71,Card,13,Cleared,,160.93.89.178,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0544,2026-05-03 19:00:27,ACT-SAFE-01,ACT-SAFE-06,NeoBank Tech,874.67,Card,8,Cleared,,33.28.22.237,"Austin, US",Safari/iOS 17
+TXN-FRAUD-0149,2026-05-03 19:12:08,ACT-SAFE-32,ACT-SMURF-09-2,NeoBank Tech,3937.16,ACH,45,Cleared,Unusual High Value deposit,145.64.71.113,Cyprus (via Proxy),Brave/Windows 10
+TXN-SAFE-0008,2026-05-03 19:28:52,ACT-SAFE-26,ACT-SAFE-23,First Offshore Corp,481.87,ACH,12,Cleared,,130.34.91.50,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0136,2026-05-03 19:37:49,ACT-SAFE-29,ACT-SMURF-09-1,First Offshore Corp,4474.28,ACH,73,Under Review,Unusual High Value deposit,120.73.63.139,Russia (via Proxy),Brave/Windows 10
+TXN-SAFE-0101,2026-05-03 20:15:39,ACT-SAFE-44,ACT-SAFE-10,Offshore Finance,374.15,ACH,5,Cleared,,110.35.51.66,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0117,2026-05-03 20:36:17,ACT-SAFE-31,ACT-SMURF-07-1,FraudShield AI Bank,3605.5,ACH,59,Under Review,Unusual High Value deposit,120.50.94.81,Switzerland (via Proxy),Chrome/Android 13
+TXN-SAFE-0780,2026-05-03 20:40:58,ACT-SAFE-42,ACT-SAFE-26,NeoBank Tech,1426.06,P2P,10,Cleared,,135.74.22.102,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0143,2026-05-03 22:35:48,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,27057.73,Wire,97,Flagged,"Large Integration Outflow,High Risk Crypto Route",123.80.80.195,Germany (via VPN),Safari/macOS 14
+TXN-SAFE-0232,2026-05-04 00:27:10,ACT-SAFE-38,ACT-SAFE-21,Sovereign Crypto Bank,832.46,P2P,6,Cleared,,38.40.62.240,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0436,2026-05-04 00:49:01,ACT-SAFE-11,ACT-SAFE-08,Offshore Finance,847.02,ACH,6,Cleared,,91.30.14.44,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0382,2026-05-04 01:52:39,ACT-SAFE-26,ACT-SAFE-29,Sovereign Crypto Bank,1454.93,P2P,17,Cleared,,184.74.81.32,"New York, US",Firefox/Linux
+TXN-FRAUD-0116,2026-05-04 02:23:57,ACT-SMURF-09-1,ACT-HUB-09,Zenith Global Trust,3496.55,Wire,73,Flagged,"Structuring Threshold Mismatch,Layering Phase",171.35.100.165,Canada (via VPN),Safari/macOS 14
+TXN-FRAUD-0035,2026-05-04 03:43:25,ACT-SAFE-01,ACT-SMURF-08-2,Apex Digital Bank,2162.22,ACH,49,Cleared,Unusual High Value deposit,80.25.88.32,Iceland (via Proxy),Safari/iOS 17
+TXN-SAFE-0528,2026-05-04 04:03:39,ACT-SAFE-01,ACT-SAFE-15,Sovereign Crypto Bank,560.02,Card,8,Cleared,,28.23.17.95,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0359,2026-05-04 04:09:32,ACT-SAFE-48,ACT-SAFE-08,Vanguard Retail,926.92,Card,20,Cleared,,160.53.44.84,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0245,2026-05-04 05:25:49,ACT-SAFE-17,ACT-SAFE-23,FraudShield AI Bank,1233.15,ACH,17,Cleared,,36.26.91.130,"Austin, US",Chrome/Android 13
+TXN-FRAUD-0038,2026-05-04 05:56:01,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,36029.71,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",187.82.65.156,Cyprus (via VPN),Firefox/Linux
+TXN-SAFE-0769,2026-05-04 06:34:26,ACT-SAFE-33,ACT-SAFE-09,Sovereign Crypto Bank,1069.76,P2P,8,Cleared,,127.86.54.236,"New York, US",Chrome/Android 13
+TXN-SAFE-0177,2026-05-04 06:57:58,ACT-SAFE-16,ACT-SAFE-42,FraudShield AI Bank,955.32,P2P,3,Cleared,,127.100.20.174,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0599,2026-05-04 07:48:09,ACT-SAFE-39,ACT-SAFE-13,Apex Digital Bank,307.65,Card,17,Cleared,,73.41.50.125,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0329,2026-05-04 08:46:22,ACT-SAFE-02,ACT-SAFE-32,Zenith Global Trust,1046.7,P2P,4,Cleared,,46.38.26.41,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0173,2026-05-04 09:24:50,ACT-SAFE-38,ACT-SMURF-04-2,Metro Credit Union,3367.97,ACH,73,Under Review,Unusual High Value deposit,162.33.73.170,Germany (via Proxy),Safari/macOS 14
+TXN-SAFE-0291,2026-05-04 09:37:07,ACT-SAFE-49,ACT-SAFE-26,Vanguard Retail,720.9,Card,9,Cleared,,130.66.72.23,"Chicago, US",Firefox/Linux
+TXN-SAFE-0401,2026-05-04 14:11:11,ACT-SAFE-28,ACT-SAFE-34,FraudShield AI Bank,1037.66,ACH,14,Cleared,,90.36.67.66,"Austin, US",Safari/macOS 14
+TXN-SAFE-0774,2026-05-04 15:54:53,ACT-SAFE-16,ACT-SAFE-31,Sovereign Crypto Bank,548.61,P2P,9,Cleared,,83.36.25.85,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0113,2026-05-04 16:00:14,ACT-SMURF-03-1,ACT-HUB-03,Zenith Global Trust,4457.7,Wire,79,Flagged,"Structuring Threshold Mismatch,Layering Phase",89.38.22.180,Russia (via VPN),Chrome/Android 13
+TXN-SAFE-0018,2026-05-04 17:12:07,ACT-SAFE-49,ACT-SAFE-25,First Offshore Corp,108.05,ACH,2,Cleared,,39.80.51.120,"Seattle, US",Firefox/Linux
+TXN-SAFE-0577,2026-05-04 18:21:30,ACT-SAFE-21,ACT-SAFE-01,Apex Digital Bank,908.14,ACH,15,Cleared,,57.10.93.42,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0404,2026-05-04 18:24:18,ACT-SAFE-41,ACT-SAFE-28,Metro Credit Union,462.26,Card,5,Cleared,,76.19.27.246,"Austin, US",Safari/macOS 14
+TXN-SAFE-0561,2026-05-04 18:38:44,ACT-SAFE-33,ACT-SAFE-25,Vanguard Retail,1439.74,Card,0,Cleared,,175.56.48.166,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0619,2026-05-04 19:47:30,ACT-SAFE-36,ACT-SAFE-09,Offshore Finance,507.9,ACH,8,Cleared,,144.29.71.113,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0056,2026-05-04 21:04:46,ACT-SAFE-38,ACT-SAFE-50,Sovereign Crypto Bank,1431.03,Card,17,Cleared,,57.12.12.213,"New York, US",Chrome/Android 13
+TXN-FRAUD-0104,2026-05-04 21:53:22,ACT-SAFE-13,ACT-SMURF-07-1,FraudShield AI Bank,4400.4,ACH,59,Under Review,Unusual High Value deposit,99.30.64.90,Iceland (via Proxy),Chrome/macOS
+TXN-SAFE-0555,2026-05-04 23:38:06,ACT-SAFE-50,ACT-SAFE-32,Zenith Global Trust,115.92,P2P,19,Cleared,,161.23.91.177,"New York, US",Brave/Windows 10
+TXN-SAFE-0465,2026-05-04 23:44:16,ACT-SAFE-13,ACT-SAFE-39,NeoBank Tech,711.52,Card,20,Cleared,,133.97.87.163,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0039,2026-05-05 00:05:30,ACT-SAFE-08,ACT-SAFE-22,FraudShield AI Bank,1191.69,ACH,2,Cleared,,126.82.88.77,"New York, US",Chrome/Android 13
+TXN-SAFE-0791,2026-05-05 00:16:18,ACT-SAFE-34,ACT-SAFE-03,Caribbean Cayman Bank,837.57,P2P,5,Cleared,,75.28.47.110,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0449,2026-05-05 00:30:20,ACT-SAFE-12,ACT-SAFE-03,Zenith Global Trust,700.87,Card,15,Cleared,,97.10.87.81,"Chicago, US",Firefox/Linux
+TXN-SAFE-0541,2026-05-05 01:11:40,ACT-SAFE-30,ACT-SAFE-22,Zenith Global Trust,311.11,P2P,20,Cleared,,73.24.96.73,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0653,2026-05-05 02:58:25,ACT-SAFE-04,ACT-SAFE-11,First Offshore Corp,328.03,ACH,11,Cleared,,52.26.84.221,"New York, US",Chrome/macOS
+TXN-SAFE-0284,2026-05-05 04:20:42,ACT-SAFE-33,ACT-SAFE-18,Offshore Finance,595.32,Card,20,Cleared,,63.67.78.126,"New York, US",Safari/macOS 14
+TXN-SAFE-0289,2026-05-05 05:55:54,ACT-SAFE-27,ACT-SAFE-18,Metro Credit Union,1343.37,Card,7,Cleared,,142.42.53.217,"Austin, US",Safari/iOS 17
+TXN-SAFE-0603,2026-05-05 06:05:41,ACT-SAFE-19,ACT-SAFE-31,Sovereign Crypto Bank,1383.94,ACH,17,Cleared,,159.94.11.153,"Austin, US",Firefox/Linux
+TXN-SAFE-0467,2026-05-05 06:06:05,ACT-SAFE-21,ACT-SAFE-41,Metro Credit Union,702.27,ACH,18,Cleared,,97.61.46.233,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0296,2026-05-05 06:14:56,ACT-SAFE-40,ACT-SAFE-32,Offshore Finance,180.72,P2P,4,Cleared,,110.29.65.12,"Austin, US",Safari/iOS 17
+TXN-SAFE-0221,2026-05-05 07:46:33,ACT-SAFE-05,ACT-SAFE-11,FraudShield AI Bank,398.27,Card,4,Cleared,,178.93.21.56,"Austin, US",Chrome/macOS
+TXN-SAFE-0185,2026-05-05 08:05:36,ACT-SAFE-46,ACT-SAFE-10,Offshore Finance,380.38,ACH,16,Cleared,,96.82.34.112,"Austin, US",Firefox/Linux
+TXN-SAFE-0539,2026-05-05 08:12:40,ACT-SAFE-38,ACT-SAFE-47,FraudShield AI Bank,302.57,Card,8,Cleared,,142.73.43.184,"New York, US",Firefox/Linux
+TXN-SAFE-0627,2026-05-05 09:10:21,ACT-SAFE-10,ACT-SAFE-38,Caribbean Cayman Bank,320.18,ACH,8,Cleared,,115.68.83.243,"New York, US",Firefox/Linux
+TXN-FRAUD-0079,2026-05-05 09:29:50,ACT-SMURF-04-1,ACT-HUB-04,FraudShield AI Bank,3309.65,Wire,86,Flagged,"Structuring Threshold Mismatch,Layering Phase",105.48.82.59,United Kingdom (via VPN),Safari/iOS 17
+TXN-FRAUD-0068,2026-05-05 10:38:09,ACT-SMURF-08-2,ACT-HUB-08,Metro Credit Union,4326.86,Wire,85,Flagged,"Structuring Threshold Mismatch,Layering Phase",193.39.22.94,United Kingdom (via VPN),Chrome/macOS
+TXN-SAFE-0148,2026-05-05 11:26:37,ACT-SAFE-17,ACT-SAFE-22,Zenith Global Trust,1496.0,P2P,11,Cleared,,165.94.15.143,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0128,2026-05-05 11:45:15,ACT-SAFE-01,ACT-SMURF-04-2,Metro Credit Union,2073.85,ACH,46,Cleared,Unusual High Value deposit,92.21.14.85,Cayman Islands (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0009,2026-05-05 15:10:40,ACT-SAFE-37,ACT-SMURF-04-1,Vanguard Retail,2165.01,ACH,47,Cleared,Unusual High Value deposit,82.11.31.195,Singapore (via Proxy),Chrome/Android 13
+TXN-SAFE-0131,2026-05-05 15:17:17,ACT-SAFE-25,ACT-SAFE-34,First Offshore Corp,21.31,ACH,17,Cleared,,41.15.89.252,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0506,2026-05-05 18:19:42,ACT-SAFE-34,ACT-SAFE-21,Apex Digital Bank,404.18,ACH,19,Cleared,,69.28.99.202,"Chicago, US",Firefox/Linux
+TXN-SAFE-0702,2026-05-05 19:24:06,ACT-SAFE-38,ACT-SAFE-10,First Offshore Corp,926.54,P2P,18,Cleared,,61.13.97.53,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0275,2026-05-05 20:23:30,ACT-SAFE-16,ACT-SAFE-30,Vanguard Retail,1453.92,Card,15,Cleared,,68.74.42.167,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0484,2026-05-05 21:55:45,ACT-SAFE-48,ACT-SAFE-20,Metro Credit Union,286.42,P2P,18,Cleared,,100.21.66.228,"Austin, US",Safari/macOS 14
+TXN-SAFE-0216,2026-05-05 21:57:35,ACT-SAFE-06,ACT-SAFE-48,Sovereign Crypto Bank,274.67,P2P,17,Cleared,,72.48.38.129,"Austin, US",Safari/iOS 17
+TXN-SAFE-0373,2026-05-05 22:29:08,ACT-SAFE-04,ACT-SAFE-13,Apex Digital Bank,1303.42,P2P,6,Cleared,,38.71.90.59,"New York, US",Firefox/Linux
+TXN-SAFE-0526,2026-05-05 22:30:35,ACT-SAFE-42,ACT-SAFE-19,Caribbean Cayman Bank,165.39,Card,2,Cleared,,179.50.20.250,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0664,2026-05-06 00:16:13,ACT-SAFE-27,ACT-SAFE-22,Vanguard Retail,169.58,P2P,4,Cleared,,77.34.92.221,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0109,2026-05-06 00:32:38,ACT-SAFE-48,ACT-SAFE-02,Metro Credit Union,1174.89,ACH,16,Cleared,,129.77.69.191,"Austin, US",Brave/Windows 10
+TXN-SAFE-0479,2026-05-06 01:55:50,ACT-SAFE-37,ACT-SAFE-16,Apex Digital Bank,1038.63,Card,10,Cleared,,77.76.29.8,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0115,2026-05-06 02:10:52,ACT-SMURF-02-2,ACT-HUB-02,Sovereign Crypto Bank,3083.82,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",68.69.84.134,United States (via VPN),Firefox/Linux
+TXN-SAFE-0143,2026-05-06 02:13:01,ACT-SAFE-06,ACT-SAFE-04,NeoBank Tech,962.49,ACH,20,Cleared,,134.38.94.40,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0039,2026-05-06 02:59:03,ACT-SMURF-04-2,ACT-HUB-04,Vanguard Retail,3134.52,Wire,70,Flagged,"Structuring Threshold Mismatch,Layering Phase",199.99.51.14,Iceland (via VPN),Firefox/Linux
+TXN-SAFE-0184,2026-05-06 03:27:49,ACT-SAFE-37,ACT-SAFE-16,NeoBank Tech,291.45,ACH,10,Cleared,,154.30.21.214,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0657,2026-05-06 03:36:33,ACT-SAFE-35,ACT-SAFE-36,Zenith Global Trust,1257.59,P2P,8,Cleared,,99.40.83.141,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0667,2026-05-06 04:57:56,ACT-SAFE-13,ACT-SAFE-15,Offshore Finance,924.96,ACH,2,Cleared,,191.52.93.130,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0379,2026-05-06 08:02:02,ACT-SAFE-08,ACT-SAFE-10,Zenith Global Trust,322.23,Card,14,Cleared,,71.20.74.81,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0063,2026-05-06 10:54:10,ACT-SAFE-23,ACT-SAFE-44,Caribbean Cayman Bank,501.77,ACH,6,Cleared,,132.64.54.1,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0129,2026-05-06 11:30:21,ACT-SAFE-24,ACT-SMURF-02-1,First Offshore Corp,2901.92,ACH,69,Under Review,Unusual High Value deposit,82.35.74.188,Cayman Islands (via Proxy),Chrome/macOS
+TXN-SAFE-0354,2026-05-06 11:59:20,ACT-SAFE-48,ACT-SAFE-29,Zenith Global Trust,935.03,P2P,19,Cleared,,50.12.50.195,"New York, US",Chrome/Android 13
+TXN-FRAUD-0043,2026-05-06 13:34:58,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,15081.55,Wire,95,Flagged,"Large Integration Outflow,High Risk Crypto Route",173.99.52.48,Singapore (via VPN),Chrome/macOS
+TXN-FRAUD-0083,2026-05-06 14:13:08,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,37982.63,Wire,100,Flagged,"Large Integration Outflow,High Risk Crypto Route",84.25.99.123,United Kingdom (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0305,2026-05-06 15:33:01,ACT-SAFE-19,ACT-SAFE-37,NeoBank Tech,1374.64,ACH,2,Cleared,,107.15.38.235,"Austin, US",Chrome/macOS
+TXN-SAFE-0016,2026-05-06 18:00:07,ACT-SAFE-10,ACT-SAFE-23,Offshore Finance,1246.07,Card,16,Cleared,,71.40.10.70,"New York, US",Safari/iOS 17
+TXN-SAFE-0622,2026-05-06 18:40:37,ACT-SAFE-42,ACT-SAFE-46,Apex Digital Bank,748.7,Card,15,Cleared,,85.69.52.47,"Seattle, US",Chrome/macOS
+TXN-SAFE-0342,2026-05-06 19:37:07,ACT-SAFE-15,ACT-SAFE-20,Apex Digital Bank,371.0,P2P,17,Cleared,,102.69.31.175,"Austin, US",Firefox/Linux
+TXN-SAFE-0525,2026-05-06 19:53:18,ACT-SAFE-39,ACT-SAFE-49,First Offshore Corp,893.69,P2P,4,Cleared,,61.13.94.134,"Austin, US",Safari/iOS 17
+TXN-SAFE-0661,2026-05-06 20:08:00,ACT-SAFE-12,ACT-SAFE-41,Caribbean Cayman Bank,1007.28,ACH,17,Cleared,,48.40.27.30,"New York, US",Safari/macOS 14
+TXN-SAFE-0751,2026-05-06 21:04:27,ACT-SAFE-48,ACT-SAFE-36,FraudShield AI Bank,321.41,P2P,6,Cleared,,125.61.60.232,"New York, US",Firefox/Linux
+TXN-SAFE-0087,2026-05-06 21:21:30,ACT-SAFE-45,ACT-SAFE-49,Caribbean Cayman Bank,991.33,P2P,8,Cleared,,182.94.41.218,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0017,2026-05-06 22:07:45,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,24089.9,Wire,94,Blocked,"Large Integration Outflow,High Risk Crypto Route",36.70.66.72,Switzerland (via VPN),Chrome/Android 13
+TXN-SAFE-0632,2026-05-07 00:05:41,ACT-SAFE-26,ACT-SAFE-45,First Offshore Corp,491.27,Card,13,Cleared,,169.34.37.41,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0494,2026-05-07 01:14:39,ACT-SAFE-24,ACT-SAFE-35,Sovereign Crypto Bank,974.6,ACH,16,Cleared,,109.41.16.166,"Chicago, US",Chrome/macOS
+TXN-SAFE-0106,2026-05-07 02:54:21,ACT-SAFE-13,ACT-SAFE-15,First Offshore Corp,1182.5,ACH,8,Cleared,,141.75.18.227,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0638,2026-05-07 04:07:55,ACT-SAFE-02,ACT-SAFE-26,Metro Credit Union,346.43,Card,20,Cleared,,76.63.86.1,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0697,2026-05-07 04:48:33,ACT-SAFE-45,ACT-SAFE-16,NeoBank Tech,777.33,ACH,0,Cleared,,85.51.95.47,"New York, US",Firefox/Linux
+TXN-FRAUD-0170,2026-05-07 05:15:36,ACT-SAFE-35,ACT-SMURF-09-2,FraudShield AI Bank,3626.85,ACH,69,Under Review,Unusual High Value deposit,167.58.86.204,Russia (via Proxy),Brave/Windows 10
+TXN-SAFE-0578,2026-05-07 06:04:46,ACT-SAFE-03,ACT-SAFE-05,Vanguard Retail,1014.85,P2P,6,Cleared,,150.48.59.7,"Austin, US",Brave/Windows 10
+TXN-SAFE-0110,2026-05-07 07:03:04,ACT-SAFE-35,ACT-SAFE-49,Sovereign Crypto Bank,835.41,Card,17,Cleared,,105.80.20.177,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0119,2026-05-07 07:47:51,ACT-SAFE-22,ACT-SAFE-20,NeoBank Tech,564.22,ACH,20,Cleared,,68.61.10.68,"New York, US",Firefox/Linux
+TXN-SAFE-0457,2026-05-07 09:57:02,ACT-SAFE-33,ACT-SAFE-19,Apex Digital Bank,546.5,P2P,2,Cleared,,174.86.97.11,"New York, US",Safari/macOS 14
+TXN-SAFE-0772,2026-05-07 11:54:33,ACT-SAFE-03,ACT-SAFE-20,FraudShield AI Bank,1023.77,Card,6,Cleared,,72.26.58.99,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0082,2026-05-07 11:59:34,ACT-SMURF-09-1,ACT-HUB-09,NeoBank Tech,4599.32,Wire,80,Flagged,"Structuring Threshold Mismatch,Layering Phase",155.99.75.46,Cyprus (via VPN),Chrome/macOS
+TXN-SAFE-0478,2026-05-07 12:04:17,ACT-SAFE-17,ACT-SAFE-35,Offshore Finance,388.76,ACH,14,Cleared,,186.73.80.178,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0034,2026-05-07 14:07:43,ACT-SAFE-25,ACT-SAFE-35,Zenith Global Trust,1197.45,P2P,8,Cleared,,168.64.49.181,"New York, US",Chrome/Android 13
+TXN-FRAUD-0194,2026-05-07 15:10:45,ACT-SMURF-04-2,ACT-HUB-04,NeoBank Tech,4171.51,Wire,78,Flagged,"Structuring Threshold Mismatch,Layering Phase",192.77.33.76,Germany (via VPN),Safari/iOS 17
+TXN-FRAUD-0167,2026-05-07 15:46:10,ACT-SAFE-21,ACT-SMURF-01-2,FraudShield AI Bank,4334.86,ACH,65,Under Review,Unusual High Value deposit,87.20.92.192,Switzerland (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0388,2026-05-07 15:46:19,ACT-SAFE-32,ACT-SAFE-04,Caribbean Cayman Bank,1187.18,ACH,12,Cleared,,183.16.11.231,"Austin, US",Chrome/Android 13
+TXN-FRAUD-0033,2026-05-07 17:49:17,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,33187.51,Wire,96,Flagged,"Large Integration Outflow,High Risk Crypto Route",94.82.14.57,Cyprus (via VPN),Brave/Windows 10
+TXN-SAFE-0353,2026-05-07 18:15:01,ACT-SAFE-08,ACT-SAFE-47,First Offshore Corp,1408.34,ACH,20,Cleared,,110.32.91.163,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0142,2026-05-07 21:04:15,ACT-SAFE-35,ACT-SMURF-03-1,FraudShield AI Bank,1676.3,ACH,63,Under Review,Unusual High Value deposit,141.89.87.167,Singapore (via Proxy),Safari/iOS 17
+TXN-SAFE-0680,2026-05-07 21:18:55,ACT-SAFE-49,ACT-SAFE-01,First Offshore Corp,415.75,ACH,6,Cleared,,105.29.81.214,"New York, US",Brave/Windows 10
+TXN-SAFE-0276,2026-05-07 21:32:32,ACT-SAFE-17,ACT-SAFE-05,FraudShield AI Bank,596.6,P2P,2,Cleared,,136.78.18.17,"Seattle, US",Firefox/Linux
+TXN-SAFE-0170,2026-05-07 22:25:31,ACT-SAFE-28,ACT-SAFE-34,Zenith Global Trust,181.57,ACH,14,Cleared,,193.100.61.155,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0708,2026-05-07 22:39:53,ACT-SAFE-16,ACT-SAFE-20,FraudShield AI Bank,254.43,ACH,14,Cleared,,109.22.42.168,"New York, US",Safari/iOS 17
+TXN-SAFE-0408,2026-05-07 22:57:23,ACT-SAFE-20,ACT-SAFE-14,Caribbean Cayman Bank,1449.75,P2P,1,Cleared,,143.27.27.144,"Austin, US",Brave/Windows 10
+TXN-SAFE-0287,2026-05-08 00:25:25,ACT-SAFE-37,ACT-SAFE-46,Offshore Finance,1053.74,Card,0,Cleared,,142.58.15.51,"Austin, US",Chrome/Android 13
+TXN-SAFE-0718,2026-05-08 01:34:20,ACT-SAFE-46,ACT-SAFE-44,Caribbean Cayman Bank,23.43,Card,1,Cleared,,118.90.23.233,"Chicago, US",Firefox/Linux
+TXN-SAFE-0779,2026-05-08 05:41:53,ACT-SAFE-23,ACT-SAFE-05,Sovereign Crypto Bank,747.0,ACH,18,Cleared,,129.60.95.43,"Austin, US",Firefox/Linux
+TXN-FRAUD-0140,2026-05-08 05:43:58,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,38983.96,Wire,92,Blocked,"Large Integration Outflow,High Risk Crypto Route",170.35.59.84,Switzerland (via VPN),Chrome/Android 13
+TXN-SAFE-0274,2026-05-08 10:28:47,ACT-SAFE-23,ACT-SAFE-15,Sovereign Crypto Bank,69.1,ACH,18,Cleared,,53.73.85.61,"New York, US",Brave/Windows 10
+TXN-SAFE-0732,2026-05-08 10:39:08,ACT-SAFE-37,ACT-SAFE-47,Apex Digital Bank,1181.88,Card,0,Cleared,,95.31.28.146,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0532,2026-05-08 10:43:52,ACT-SAFE-02,ACT-SAFE-12,Metro Credit Union,36.27,Card,1,Cleared,,168.71.25.150,"New York, US",Firefox/Linux
+TXN-SAFE-0480,2026-05-08 11:14:15,ACT-SAFE-08,ACT-SAFE-02,Zenith Global Trust,864.54,P2P,2,Cleared,,164.48.83.233,"Austin, US",Chrome/Android 13
+TXN-SAFE-0278,2026-05-08 11:32:11,ACT-SAFE-06,ACT-SAFE-10,Zenith Global Trust,957.33,ACH,7,Cleared,,103.46.44.20,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0114,2026-05-08 13:46:21,ACT-SAFE-47,ACT-SAFE-11,Vanguard Retail,969.72,P2P,16,Cleared,,53.20.72.102,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0712,2026-05-08 14:58:44,ACT-SAFE-48,ACT-SAFE-29,NeoBank Tech,236.19,P2P,16,Cleared,,105.80.38.71,"New York, US",Firefox/Linux
+TXN-SAFE-0490,2026-05-08 17:54:53,ACT-SAFE-11,ACT-SAFE-08,Sovereign Crypto Bank,1084.96,ACH,3,Cleared,,109.81.70.88,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0064,2026-05-08 18:42:38,ACT-SAFE-02,ACT-SAFE-03,Apex Digital Bank,201.36,P2P,12,Cleared,,65.11.76.78,"New York, US",Brave/Windows 10
+TXN-SAFE-0461,2026-05-08 19:03:51,ACT-SAFE-12,ACT-SAFE-34,Metro Credit Union,643.26,ACH,9,Cleared,,107.83.30.168,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0019,2026-05-08 20:13:12,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,21565.44,Wire,98,Blocked,"Large Integration Outflow,High Risk Crypto Route",193.83.27.36,Switzerland (via VPN),Safari/macOS 14
+TXN-SAFE-0431,2026-05-08 20:36:51,ACT-SAFE-33,ACT-SAFE-31,NeoBank Tech,489.19,Card,7,Cleared,,74.33.44.82,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0026,2026-05-08 21:37:02,ACT-SAFE-26,ACT-SAFE-16,FraudShield AI Bank,682.72,P2P,4,Cleared,,160.83.100.252,"New York, US",Brave/Windows 10
+TXN-SAFE-0673,2026-05-08 22:41:41,ACT-SAFE-16,ACT-SAFE-36,Zenith Global Trust,1285.88,P2P,18,Cleared,,141.67.64.103,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0695,2026-05-08 23:17:06,ACT-SAFE-28,ACT-SAFE-48,Vanguard Retail,915.81,ACH,2,Cleared,,137.74.49.70,"Austin, US",Safari/iOS 17
+TXN-SAFE-0136,2026-05-09 01:27:36,ACT-SAFE-20,ACT-SAFE-34,Zenith Global Trust,1333.51,P2P,4,Cleared,,86.20.11.3,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0759,2026-05-09 02:29:03,ACT-SAFE-35,ACT-SAFE-49,Apex Digital Bank,50.39,ACH,5,Cleared,,135.55.81.85,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0034,2026-05-09 04:43:22,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,28536.71,Wire,98,Flagged,"Large Integration Outflow,High Risk Crypto Route",89.39.67.146,Russia (via VPN),Firefox/Linux
+TXN-SAFE-0371,2026-05-09 05:27:13,ACT-SAFE-01,ACT-SAFE-33,Apex Digital Bank,1222.58,Card,5,Cleared,,59.18.25.103,"New York, US",Brave/Windows 10
+TXN-SAFE-0124,2026-05-09 07:15:55,ACT-SAFE-35,ACT-SAFE-16,Caribbean Cayman Bank,379.83,P2P,6,Cleared,,101.66.12.182,"Chicago, US",Chrome/macOS
+TXN-SAFE-0281,2026-05-09 08:00:55,ACT-SAFE-04,ACT-SAFE-31,Zenith Global Trust,753.05,P2P,14,Cleared,,50.75.26.101,"New York, US",Safari/iOS 17
+TXN-SAFE-0044,2026-05-09 08:04:55,ACT-SAFE-44,ACT-SAFE-50,Vanguard Retail,163.98,Card,7,Cleared,,76.15.29.235,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0062,2026-05-09 08:09:28,ACT-SMURF-07-2,ACT-HUB-07,Apex Digital Bank,3511.42,Wire,85,Flagged,"Structuring Threshold Mismatch,Layering Phase",180.81.11.174,Germany (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0625,2026-05-09 09:37:25,ACT-SAFE-12,ACT-SAFE-45,Metro Credit Union,1372.4,Card,15,Cleared,,115.71.76.201,"New York, US",Brave/Windows 10
+TXN-SAFE-0077,2026-05-09 10:05:44,ACT-SAFE-26,ACT-SAFE-07,Zenith Global Trust,899.6,ACH,12,Cleared,,135.28.62.51,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0263,2026-05-09 10:17:53,ACT-SAFE-35,ACT-SAFE-17,Zenith Global Trust,356.52,P2P,5,Cleared,,43.42.43.87,"Chicago, US",Firefox/Linux
+TXN-FRAUD-0133,2026-05-09 12:25:13,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,33905.24,Wire,99,Blocked,"Large Integration Outflow,High Risk Crypto Route",37.88.80.248,United Kingdom (via VPN),Brave/Windows 10
+TXN-SAFE-0035,2026-05-09 12:58:03,ACT-SAFE-27,ACT-SAFE-05,Vanguard Retail,1344.6,ACH,5,Cleared,,69.16.59.8,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0463,2026-05-09 14:39:49,ACT-SAFE-10,ACT-SAFE-49,First Offshore Corp,646.71,P2P,0,Cleared,,64.13.62.31,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0637,2026-05-09 14:50:51,ACT-SAFE-50,ACT-SAFE-16,Apex Digital Bank,621.52,P2P,2,Cleared,,74.61.13.90,"New York, US",Chrome/Android 13
+TXN-SAFE-0234,2026-05-09 16:03:21,ACT-SAFE-16,ACT-SAFE-32,NeoBank Tech,941.18,ACH,4,Cleared,,101.78.54.176,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0081,2026-05-09 16:21:36,ACT-SMURF-05-2,ACT-HUB-05,Sovereign Crypto Bank,3063.5,Wire,79,Flagged,"Structuring Threshold Mismatch,Layering Phase",141.79.46.90,Germany (via VPN),Firefox/Linux
+TXN-SAFE-0159,2026-05-09 16:23:42,ACT-SAFE-32,ACT-SAFE-27,Offshore Finance,1044.09,P2P,2,Cleared,,41.65.48.25,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0132,2026-05-09 17:24:52,ACT-HUB-02,ACT-EXIT-02,Sovereign Crypto Bank,26478.84,Wire,98,Blocked,"Large Integration Outflow,High Risk Crypto Route",140.66.44.185,Russia (via VPN),Chrome/macOS
+TXN-SAFE-0415,2026-05-09 18:15:20,ACT-SAFE-16,ACT-SAFE-13,Caribbean Cayman Bank,941.54,P2P,6,Cleared,,127.100.63.36,"Seattle, US",Firefox/Linux
+TXN-SAFE-0173,2026-05-09 19:10:19,ACT-SAFE-18,ACT-SAFE-49,NeoBank Tech,1368.13,Card,16,Cleared,,37.99.88.159,"Austin, US",Brave/Windows 10
+TXN-SAFE-0055,2026-05-09 19:43:36,ACT-SAFE-19,ACT-SAFE-09,Zenith Global Trust,1305.29,ACH,14,Cleared,,157.62.52.89,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0075,2026-05-09 21:22:11,ACT-SAFE-43,ACT-SAFE-09,Apex Digital Bank,470.09,Card,20,Cleared,,83.98.48.222,"Austin, US",Safari/iOS 17
+TXN-SAFE-0314,2026-05-10 00:21:24,ACT-SAFE-07,ACT-SAFE-28,Apex Digital Bank,602.03,P2P,14,Cleared,,154.34.10.221,"New York, US",Firefox/Linux
+TXN-FRAUD-0148,2026-05-10 01:03:24,ACT-SMURF-07-1,ACT-HUB-07,Apex Digital Bank,3398.05,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",119.38.19.227,United States (via VPN),Chrome/Android 13
+TXN-SAFE-0307,2026-05-10 01:15:50,ACT-SAFE-31,ACT-SAFE-16,FraudShield AI Bank,319.53,Card,4,Cleared,,86.12.53.67,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0583,2026-05-10 02:54:40,ACT-SAFE-37,ACT-SAFE-18,Sovereign Crypto Bank,79.55,Card,0,Cleared,,115.82.94.42,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0393,2026-05-10 03:05:56,ACT-SAFE-19,ACT-SAFE-17,Offshore Finance,296.42,Card,6,Cleared,,129.75.26.53,"New York, US",Safari/macOS 14
+TXN-SAFE-0757,2026-05-10 03:45:50,ACT-SAFE-28,ACT-SAFE-08,Caribbean Cayman Bank,707.82,P2P,0,Cleared,,97.94.54.177,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0285,2026-05-10 04:01:30,ACT-SAFE-46,ACT-SAFE-38,NeoBank Tech,604.8,Card,12,Cleared,,149.73.99.135,"New York, US",Firefox/Linux
+TXN-SAFE-0579,2026-05-10 05:18:22,ACT-SAFE-33,ACT-SAFE-50,Zenith Global Trust,871.78,ACH,15,Cleared,,173.52.92.57,"New York, US",Firefox/Linux
+TXN-SAFE-0412,2026-05-10 05:32:45,ACT-SAFE-29,ACT-SAFE-02,Metro Credit Union,162.96,ACH,16,Cleared,,27.24.96.172,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0179,2026-05-10 06:50:09,ACT-SMURF-09-2,ACT-HUB-09,Vanguard Retail,3368.99,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",143.73.82.39,United States (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0033,2026-05-10 07:31:07,ACT-SAFE-12,ACT-SAFE-05,Apex Digital Bank,1244.07,P2P,9,Cleared,,156.89.23.47,"Seattle, US",Chrome/Android 13
+TXN-FRAUD-0066,2026-05-10 08:51:28,ACT-SAFE-17,ACT-SMURF-06-1,NeoBank Tech,1843.28,ACH,55,Under Review,Unusual High Value deposit,113.76.48.26,Switzerland (via Proxy),Safari/macOS 14
+TXN-SAFE-0782,2026-05-10 09:21:48,ACT-SAFE-27,ACT-SAFE-28,NeoBank Tech,75.59,Card,18,Cleared,,132.26.41.187,"Chicago, US",Chrome/macOS
+TXN-SAFE-0122,2026-05-10 09:49:20,ACT-SAFE-12,ACT-SAFE-05,NeoBank Tech,734.82,Card,19,Cleared,,57.98.52.99,"New York, US",Chrome/Android 13
+TXN-SAFE-0356,2026-05-10 09:56:41,ACT-SAFE-35,ACT-SAFE-38,Metro Credit Union,838.22,ACH,14,Cleared,,80.76.73.60,"Chicago, US",Chrome/macOS
+TXN-SAFE-0564,2026-05-10 10:48:54,ACT-SAFE-13,ACT-SAFE-40,First Offshore Corp,491.43,P2P,5,Cleared,,46.75.40.206,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0123,2026-05-10 11:42:21,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,29744.85,Wire,97,Flagged,"Large Integration Outflow,High Risk Crypto Route",69.42.60.146,Cayman Islands (via VPN),Chrome/macOS
+TXN-SAFE-0105,2026-05-10 11:58:06,ACT-SAFE-16,ACT-SAFE-31,Vanguard Retail,1403.47,Card,16,Cleared,,59.29.26.75,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0124,2026-05-10 13:14:05,ACT-SAFE-14,ACT-SMURF-09-2,Sovereign Crypto Bank,3290.54,ACH,65,Under Review,Unusual High Value deposit,43.80.31.147,United States (via Proxy),Safari/iOS 17
+TXN-SAFE-0678,2026-05-10 14:57:49,ACT-SAFE-36,ACT-SAFE-50,Zenith Global Trust,521.57,Card,11,Cleared,,53.59.19.6,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0435,2026-05-10 15:17:19,ACT-SAFE-44,ACT-SAFE-05,NeoBank Tech,1218.87,Card,19,Cleared,,136.64.63.229,"Seattle, US",Chrome/macOS
+TXN-SAFE-0230,2026-05-10 15:37:18,ACT-SAFE-25,ACT-SAFE-15,FraudShield AI Bank,878.58,P2P,17,Cleared,,134.97.23.32,"New York, US",Chrome/macOS
+TXN-SAFE-0351,2026-05-10 17:44:16,ACT-SAFE-30,ACT-SAFE-12,Vanguard Retail,1292.29,Card,9,Cleared,,113.71.54.87,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0108,2026-05-10 19:07:38,ACT-SAFE-22,ACT-SAFE-29,Sovereign Crypto Bank,1434.46,Card,19,Cleared,,172.75.73.117,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0730,2026-05-10 19:40:56,ACT-SAFE-47,ACT-SAFE-44,Vanguard Retail,953.56,Card,10,Cleared,,194.38.11.156,"New York, US",Chrome/macOS
+TXN-SAFE-0252,2026-05-10 19:43:00,ACT-SAFE-33,ACT-SAFE-48,Vanguard Retail,345.13,P2P,11,Cleared,,161.17.73.67,"Seattle, US",Firefox/Linux
+TXN-SAFE-0682,2026-05-10 20:23:10,ACT-SAFE-20,ACT-SAFE-03,Vanguard Retail,829.91,Card,8,Cleared,,65.64.17.163,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0357,2026-05-10 21:39:03,ACT-SAFE-44,ACT-SAFE-31,FraudShield AI Bank,13.82,ACH,14,Cleared,,124.99.80.210,"Austin, US",Firefox/Linux
+TXN-FRAUD-0174,2026-05-10 22:02:01,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,26656.83,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",158.45.59.200,Russia (via VPN),Chrome/macOS
+TXN-SAFE-0376,2026-05-10 22:04:37,ACT-SAFE-30,ACT-SAFE-40,Offshore Finance,1092.84,ACH,19,Cleared,,38.99.12.1,"Seattle, US",Chrome/macOS
+TXN-SAFE-0601,2026-05-10 22:30:03,ACT-SAFE-08,ACT-SAFE-02,Caribbean Cayman Bank,91.1,Card,14,Cleared,,148.52.14.45,"New York, US",Firefox/Linux
+TXN-FRAUD-0056,2026-05-10 22:53:31,ACT-SAFE-20,ACT-SMURF-07-2,Zenith Global Trust,2264.52,ACH,54,Under Review,Unusual High Value deposit,173.22.80.20,Iceland (via Proxy),Safari/macOS 14
+TXN-SAFE-0596,2026-05-11 00:40:59,ACT-SAFE-15,ACT-SAFE-44,NeoBank Tech,1319.08,Card,17,Cleared,,110.55.13.160,"New York, US",Brave/Windows 10
+TXN-SAFE-0589,2026-05-11 01:25:30,ACT-SAFE-47,ACT-SAFE-16,Apex Digital Bank,708.22,ACH,13,Cleared,,140.32.19.22,"Seattle, US",Firefox/Linux
+TXN-SAFE-0198,2026-05-11 01:53:30,ACT-SAFE-05,ACT-SAFE-04,Sovereign Crypto Bank,1071.98,P2P,16,Cleared,,36.80.88.3,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0131,2026-05-11 03:23:05,ACT-HUB-07,ACT-EXIT-07,Sovereign Crypto Bank,22540.5,Wire,91,Blocked,"Large Integration Outflow,High Risk Crypto Route",82.82.72.116,Iceland (via VPN),Firefox/Linux
+TXN-SAFE-0272,2026-05-11 03:56:16,ACT-SAFE-21,ACT-SAFE-43,Sovereign Crypto Bank,1207.84,ACH,12,Cleared,,139.58.28.176,"Austin, US",Firefox/Linux
+TXN-SAFE-0079,2026-05-11 05:38:32,ACT-SAFE-43,ACT-SAFE-37,First Offshore Corp,647.63,ACH,9,Cleared,,159.13.11.248,"Chicago, US",Firefox/Linux
+TXN-SAFE-0280,2026-05-11 06:49:09,ACT-SAFE-18,ACT-SAFE-21,FraudShield AI Bank,28.78,Card,20,Cleared,,54.10.34.190,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0502,2026-05-11 07:59:25,ACT-SAFE-41,ACT-SAFE-18,Sovereign Crypto Bank,506.86,ACH,15,Cleared,,172.83.71.66,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0209,2026-05-11 09:20:05,ACT-SAFE-21,ACT-SAFE-18,Vanguard Retail,880.09,Card,13,Cleared,,159.89.52.131,"Austin, US",Chrome/Android 13
+TXN-SAFE-0716,2026-05-11 14:19:47,ACT-SAFE-16,ACT-SAFE-06,Zenith Global Trust,1490.34,P2P,17,Cleared,,140.49.48.208,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0693,2026-05-11 15:19:09,ACT-SAFE-38,ACT-SAFE-30,Offshore Finance,370.82,P2P,10,Cleared,,198.22.38.155,"New York, US",Safari/iOS 17
+TXN-SAFE-0081,2026-05-11 16:21:34,ACT-SAFE-26,ACT-SAFE-42,FraudShield AI Bank,1449.76,ACH,18,Cleared,,171.61.15.178,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0671,2026-05-11 16:36:40,ACT-SAFE-26,ACT-SAFE-15,Offshore Finance,110.2,Card,6,Cleared,,141.32.90.114,"Austin, US",Chrome/Android 13
+TXN-SAFE-0054,2026-05-11 17:27:05,ACT-SAFE-10,ACT-SAFE-20,Apex Digital Bank,1079.87,ACH,10,Cleared,,198.58.68.133,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0447,2026-05-11 18:22:22,ACT-SAFE-42,ACT-SAFE-13,Sovereign Crypto Bank,430.88,P2P,7,Cleared,,45.51.22.212,"New York, US",Chrome/Android 13
+TXN-SAFE-0118,2026-05-11 19:46:04,ACT-SAFE-20,ACT-SAFE-26,Metro Credit Union,74.96,Card,1,Cleared,,195.46.54.10,"Chicago, US",Chrome/macOS
+TXN-SAFE-0418,2026-05-11 20:47:32,ACT-SAFE-42,ACT-SAFE-10,FraudShield AI Bank,1073.59,Card,0,Cleared,,88.30.85.17,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0004,2026-05-11 21:18:38,ACT-SAFE-18,ACT-SAFE-39,Apex Digital Bank,780.73,ACH,10,Cleared,,86.100.36.169,"Chicago, US",Safari/iOS 17
+TXN-FRAUD-0053,2026-05-11 21:43:11,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,39959.68,Wire,94,Blocked,"Large Integration Outflow,High Risk Crypto Route",36.81.36.20,Canada (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0015,2026-05-11 22:02:25,ACT-SAFE-22,ACT-SAFE-02,Sovereign Crypto Bank,447.34,ACH,17,Cleared,,152.42.97.248,"Seattle, US",Chrome/macOS
+TXN-FRAUD-0091,2026-05-11 22:09:21,ACT-SMURF-02-1,ACT-HUB-02,FraudShield AI Bank,4376.79,Wire,84,Flagged,"Structuring Threshold Mismatch,Layering Phase",92.21.71.154,United States (via VPN),Chrome/Android 13
+TXN-SAFE-0229,2026-05-11 22:11:00,ACT-SAFE-50,ACT-SAFE-04,Offshore Finance,732.72,ACH,13,Cleared,,139.71.98.127,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0103,2026-05-11 22:42:54,ACT-SAFE-31,ACT-SAFE-16,Apex Digital Bank,495.15,P2P,9,Cleared,,140.31.10.146,"Austin, US",Chrome/Android 13
+TXN-SAFE-0403,2026-05-11 23:39:55,ACT-SAFE-26,ACT-SAFE-06,NeoBank Tech,971.98,Card,0,Cleared,,69.87.89.6,"Seattle, US",Chrome/macOS
+TXN-FRAUD-0184,2026-05-12 00:12:57,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,37837.59,Wire,91,Flagged,"Large Integration Outflow,High Risk Crypto Route",44.22.21.6,Cyprus (via VPN),Chrome/macOS
+TXN-SAFE-0421,2026-05-12 00:18:39,ACT-SAFE-48,ACT-SAFE-13,FraudShield AI Bank,1227.37,ACH,11,Cleared,,170.29.38.5,"New York, US",Chrome/macOS
+TXN-SAFE-0642,2026-05-12 01:22:48,ACT-SAFE-44,ACT-SAFE-22,First Offshore Corp,1424.5,Card,3,Cleared,,184.77.16.228,"Austin, US",Chrome/Android 13
+TXN-SAFE-0508,2026-05-12 01:53:07,ACT-SAFE-21,ACT-SAFE-29,Offshore Finance,780.2,ACH,15,Cleared,,189.32.99.27,"Austin, US",Firefox/Linux
+TXN-SAFE-0167,2026-05-12 02:04:31,ACT-SAFE-03,ACT-SAFE-20,FraudShield AI Bank,1259.13,P2P,0,Cleared,,146.64.60.160,"Austin, US",Chrome/Android 13
+TXN-SAFE-0493,2026-05-12 03:40:37,ACT-SAFE-27,ACT-SAFE-17,Vanguard Retail,1197.07,Card,4,Cleared,,65.71.75.121,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0025,2026-05-12 05:47:10,ACT-SMURF-03-2,ACT-HUB-03,Vanguard Retail,2531.66,Wire,87,Flagged,"Structuring Threshold Mismatch,Layering Phase",125.55.44.111,Cayman Islands (via VPN),Safari/macOS 14
+TXN-FRAUD-0096,2026-05-12 07:13:20,ACT-SMURF-07-2,ACT-HUB-07,Vanguard Retail,4737.66,Wire,72,Flagged,"Structuring Threshold Mismatch,Layering Phase",185.37.82.76,United Kingdom (via VPN),Firefox/Linux
+TXN-SAFE-0443,2026-05-12 07:25:47,ACT-SAFE-24,ACT-SAFE-26,FraudShield AI Bank,814.82,P2P,9,Cleared,,99.87.16.208,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0598,2026-05-12 08:35:32,ACT-SAFE-14,ACT-SAFE-19,FraudShield AI Bank,1042.55,Card,2,Cleared,,47.31.62.242,"Chicago, US",Chrome/macOS
+TXN-FRAUD-0003,2026-05-12 09:46:44,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,21354.12,Wire,96,Blocked,"Large Integration Outflow,High Risk Crypto Route",72.78.82.236,Cyprus (via VPN),Safari/iOS 17
+TXN-SAFE-0677,2026-05-12 10:27:07,ACT-SAFE-31,ACT-SAFE-19,FraudShield AI Bank,415.27,Card,19,Cleared,,31.91.100.178,"Austin, US",Safari/macOS 14
+TXN-SAFE-0338,2026-05-12 11:05:06,ACT-SAFE-10,ACT-SAFE-13,NeoBank Tech,1044.54,P2P,15,Cleared,,108.79.85.117,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0018,2026-05-12 12:29:17,ACT-SMURF-02-2,ACT-HUB-02,FraudShield AI Bank,3473.76,Wire,88,Flagged,"Structuring Threshold Mismatch,Layering Phase",196.48.77.24,Canada (via VPN),Chrome/macOS
+TXN-FRAUD-0007,2026-05-12 12:36:47,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,40901.77,Wire,93,Blocked,"Large Integration Outflow,High Risk Crypto Route",81.97.67.122,Germany (via VPN),Safari/iOS 17
+TXN-SAFE-0227,2026-05-12 13:17:58,ACT-SAFE-21,ACT-SAFE-35,Caribbean Cayman Bank,1329.08,P2P,7,Cleared,,95.31.40.104,"Austin, US",Safari/macOS 14
+TXN-SAFE-0605,2026-05-12 13:46:10,ACT-SAFE-28,ACT-SAFE-22,NeoBank Tech,57.46,Card,17,Cleared,,135.47.40.177,"New York, US",Chrome/macOS
+TXN-SAFE-0222,2026-05-12 13:55:48,ACT-SAFE-35,ACT-SAFE-02,Apex Digital Bank,372.55,ACH,5,Cleared,,137.47.15.100,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0369,2026-05-12 14:46:38,ACT-SAFE-21,ACT-SAFE-11,Apex Digital Bank,1322.78,Card,15,Cleared,,47.22.69.156,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0161,2026-05-12 15:12:38,ACT-SMURF-06-1,ACT-HUB-06,Caribbean Cayman Bank,4123.47,Wire,73,Flagged,"Structuring Threshold Mismatch,Layering Phase",106.91.93.129,Russia (via VPN),Safari/iOS 17
+TXN-SAFE-0569,2026-05-12 15:22:52,ACT-SAFE-08,ACT-SAFE-31,Sovereign Crypto Bank,300.86,Card,9,Cleared,,34.90.25.35,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0360,2026-05-12 15:28:50,ACT-SAFE-01,ACT-SAFE-42,FraudShield AI Bank,1047.74,Card,18,Cleared,,63.84.59.90,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0731,2026-05-12 15:49:43,ACT-SAFE-12,ACT-SAFE-20,Sovereign Crypto Bank,92.74,P2P,13,Cleared,,191.21.70.200,"New York, US",Safari/macOS 14
+TXN-FRAUD-0114,2026-05-12 16:24:20,ACT-SMURF-05-2,ACT-HUB-05,FraudShield AI Bank,2517.36,Wire,87,Flagged,"Structuring Threshold Mismatch,Layering Phase",109.22.70.185,Iceland (via VPN),Chrome/Android 13
+TXN-SAFE-0422,2026-05-12 16:32:41,ACT-SAFE-07,ACT-SAFE-30,Zenith Global Trust,1292.33,Card,10,Cleared,,84.67.63.146,"New York, US",Safari/macOS 14
+TXN-SAFE-0554,2026-05-12 18:18:26,ACT-SAFE-47,ACT-SAFE-17,Sovereign Crypto Bank,1272.4,P2P,8,Cleared,,111.73.91.85,"Seattle, US",Chrome/macOS
+TXN-SAFE-0688,2026-05-12 19:18:34,ACT-SAFE-24,ACT-SAFE-10,Caribbean Cayman Bank,1293.13,P2P,1,Cleared,,48.92.37.92,"New York, US",Chrome/macOS
+TXN-SAFE-0440,2026-05-12 20:19:18,ACT-SAFE-10,ACT-SAFE-27,Sovereign Crypto Bank,1273.75,Card,11,Cleared,,109.38.48.240,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0150,2026-05-12 20:24:31,ACT-SAFE-11,ACT-SMURF-05-1,FraudShield AI Bank,4397.03,ACH,59,Under Review,Unusual High Value deposit,187.77.84.227,Iceland (via Proxy),Chrome/macOS
+TXN-FRAUD-0075,2026-05-12 20:27:35,ACT-SAFE-22,ACT-SMURF-07-2,Zenith Global Trust,4406.3,ACH,56,Under Review,Unusual High Value deposit,118.42.66.60,United Kingdom (via Proxy),Safari/macOS 14
+TXN-SAFE-0503,2026-05-12 20:35:29,ACT-SAFE-46,ACT-SAFE-04,Apex Digital Bank,1338.44,Card,11,Cleared,,151.16.60.32,"Chicago, US",Chrome/macOS
+TXN-SAFE-0011,2026-05-12 20:57:29,ACT-SAFE-07,ACT-SAFE-08,Apex Digital Bank,978.8,Card,6,Cleared,,120.75.40.14,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0315,2026-05-12 22:47:08,ACT-SAFE-34,ACT-SAFE-30,Metro Credit Union,232.62,Card,7,Cleared,,34.89.36.146,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0591,2026-05-12 23:53:03,ACT-SAFE-33,ACT-SAFE-40,Metro Credit Union,651.89,P2P,10,Cleared,,154.46.18.156,"New York, US",Chrome/Android 13
+TXN-SAFE-0547,2026-05-12 23:58:53,ACT-SAFE-27,ACT-SAFE-29,FraudShield AI Bank,465.75,ACH,11,Cleared,,101.53.66.121,"Austin, US",Chrome/macOS
+TXN-SAFE-0699,2026-05-13 00:32:46,ACT-SAFE-14,ACT-SAFE-03,Sovereign Crypto Bank,1368.92,Card,13,Cleared,,158.33.44.20,"New York, US",Brave/Windows 10
+TXN-SAFE-0758,2026-05-13 01:47:35,ACT-SAFE-39,ACT-SAFE-22,Zenith Global Trust,1303.83,P2P,14,Cleared,,128.98.49.71,"New York, US",Safari/macOS 14
+TXN-SAFE-0045,2026-05-13 02:14:32,ACT-SAFE-13,ACT-SAFE-25,Offshore Finance,1431.04,Card,5,Cleared,,165.10.43.85,"Austin, US",Firefox/Linux
+TXN-SAFE-0233,2026-05-13 02:25:34,ACT-SAFE-15,ACT-SAFE-38,Caribbean Cayman Bank,1361.7,Card,18,Cleared,,174.64.20.137,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0327,2026-05-13 02:35:10,ACT-SAFE-37,ACT-SAFE-29,FraudShield AI Bank,462.3,ACH,3,Cleared,,173.59.20.126,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0530,2026-05-13 02:36:36,ACT-SAFE-35,ACT-SAFE-24,NeoBank Tech,227.77,Card,13,Cleared,,154.91.45.133,"New York, US",Chrome/Android 13
+TXN-SAFE-0041,2026-05-13 04:57:45,ACT-SAFE-27,ACT-SAFE-23,Caribbean Cayman Bank,906.12,Card,10,Cleared,,159.53.72.86,"Austin, US",Chrome/macOS
+TXN-SAFE-0178,2026-05-13 06:06:56,ACT-SAFE-35,ACT-SAFE-07,Vanguard Retail,1138.13,P2P,0,Cleared,,70.92.50.78,"New York, US",Safari/iOS 17
+TXN-SAFE-0563,2026-05-13 06:18:05,ACT-SAFE-04,ACT-SAFE-41,Metro Credit Union,158.19,ACH,4,Cleared,,86.15.51.75,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0257,2026-05-13 06:50:38,ACT-SAFE-28,ACT-SAFE-23,Zenith Global Trust,1436.88,Card,0,Cleared,,177.82.59.66,"New York, US",Safari/macOS 14
+TXN-SAFE-0519,2026-05-13 06:54:23,ACT-SAFE-36,ACT-SAFE-02,Apex Digital Bank,312.49,Card,19,Cleared,,121.74.56.99,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0141,2026-05-13 08:30:31,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,21091.22,Wire,92,Blocked,"Large Integration Outflow,High Risk Crypto Route",94.15.71.104,Russia (via VPN),Safari/macOS 14
+TXN-FRAUD-0144,2026-05-13 09:02:44,ACT-SAFE-12,ACT-SMURF-08-1,Offshore Finance,3148.67,ACH,45,Cleared,Unusual High Value deposit,144.85.26.76,Cyprus (via Proxy),Safari/macOS 14
+TXN-FRAUD-0130,2026-05-13 10:58:52,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,43313.77,Wire,91,Blocked,"Large Integration Outflow,High Risk Crypto Route",99.94.34.134,United States (via VPN),Chrome/macOS
+TXN-SAFE-0311,2026-05-13 11:06:35,ACT-SAFE-36,ACT-SAFE-07,Offshore Finance,639.53,ACH,17,Cleared,,30.88.10.63,"Austin, US",Brave/Windows 10
+TXN-SAFE-0040,2026-05-13 11:57:27,ACT-SAFE-17,ACT-SAFE-14,Offshore Finance,453.18,ACH,5,Cleared,,176.97.69.63,"New York, US",Chrome/Android 13
+TXN-SAFE-0721,2026-05-13 12:14:04,ACT-SAFE-35,ACT-SAFE-43,Offshore Finance,393.47,Card,8,Cleared,,45.54.75.101,"Austin, US",Safari/iOS 17
+TXN-FRAUD-0087,2026-05-13 13:37:43,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,23646.09,Wire,90,Blocked,"Large Integration Outflow,High Risk Crypto Route",91.27.26.117,Cayman Islands (via VPN),Chrome/macOS
+TXN-SAFE-0644,2026-05-13 13:45:35,ACT-SAFE-50,ACT-SAFE-22,NeoBank Tech,1008.24,Card,20,Cleared,,122.28.79.30,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0726,2026-05-13 14:30:29,ACT-SAFE-43,ACT-SAFE-41,Offshore Finance,1299.09,ACH,10,Cleared,,186.42.80.188,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0634,2026-05-13 14:49:42,ACT-SAFE-36,ACT-SAFE-19,Vanguard Retail,1462.8,P2P,7,Cleared,,170.84.88.145,"Austin, US",Safari/iOS 17
+TXN-SAFE-0156,2026-05-13 16:52:54,ACT-SAFE-37,ACT-SAFE-34,NeoBank Tech,803.26,P2P,7,Cleared,,149.12.86.52,"Austin, US",Chrome/macOS
+TXN-SAFE-0030,2026-05-13 18:09:23,ACT-SAFE-15,ACT-SAFE-50,Offshore Finance,883.08,P2P,1,Cleared,,45.12.26.184,"New York, US",Brave/Windows 10
+TXN-SAFE-0704,2026-05-13 18:53:22,ACT-SAFE-01,ACT-SAFE-03,Metro Credit Union,1420.5,P2P,6,Cleared,,69.56.12.13,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0483,2026-05-13 19:56:41,ACT-SAFE-26,ACT-SAFE-40,Vanguard Retail,1174.46,ACH,8,Cleared,,140.94.22.130,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0318,2026-05-13 20:55:48,ACT-SAFE-20,ACT-SAFE-21,FraudShield AI Bank,139.15,Card,7,Cleared,,107.59.30.107,"New York, US",Chrome/macOS
+TXN-FRAUD-0182,2026-05-13 21:39:16,ACT-SMURF-04-2,ACT-HUB-04,Offshore Finance,3989.72,Wire,75,Flagged,"Structuring Threshold Mismatch,Layering Phase",161.83.35.121,Cayman Islands (via VPN),Safari/macOS 14
+TXN-SAFE-0590,2026-05-13 22:18:27,ACT-SAFE-27,ACT-SAFE-01,FraudShield AI Bank,1270.59,Card,1,Cleared,,27.81.46.34,"New York, US",Firefox/Linux
+TXN-SAFE-0692,2026-05-14 01:18:24,ACT-SAFE-22,ACT-SAFE-37,Sovereign Crypto Bank,423.63,P2P,20,Cleared,,88.96.42.172,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0537,2026-05-14 01:31:05,ACT-SAFE-41,ACT-SAFE-08,Sovereign Crypto Bank,768.5,ACH,5,Cleared,,43.23.24.91,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0076,2026-05-14 01:50:07,ACT-SAFE-07,ACT-SAFE-40,Caribbean Cayman Bank,487.14,P2P,3,Cleared,,88.38.50.22,"Austin, US",Safari/iOS 17
+TXN-SAFE-0572,2026-05-14 02:38:01,ACT-SAFE-07,ACT-SAFE-38,Vanguard Retail,1185.03,Card,13,Cleared,,27.71.91.56,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0507,2026-05-14 03:58:52,ACT-SAFE-17,ACT-SAFE-26,Vanguard Retail,1160.95,Card,4,Cleared,,163.72.77.116,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0771,2026-05-14 04:55:45,ACT-SAFE-09,ACT-SAFE-15,Caribbean Cayman Bank,557.49,Card,9,Cleared,,128.85.19.160,"New York, US",Chrome/macOS
+TXN-SAFE-0542,2026-05-14 05:29:12,ACT-SAFE-20,ACT-SAFE-35,NeoBank Tech,17.22,P2P,14,Cleared,,41.82.25.199,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0228,2026-05-14 06:01:31,ACT-SAFE-24,ACT-SAFE-50,First Offshore Corp,651.25,P2P,14,Cleared,,126.24.40.190,"Austin, US",Safari/macOS 14
+TXN-SAFE-0115,2026-05-14 06:20:27,ACT-SAFE-33,ACT-SAFE-11,Zenith Global Trust,288.05,Card,20,Cleared,,133.63.16.43,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0268,2026-05-14 07:50:56,ACT-SAFE-31,ACT-SAFE-07,Vanguard Retail,1129.53,P2P,3,Cleared,,138.16.51.14,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0652,2026-05-14 08:53:54,ACT-SAFE-07,ACT-SAFE-20,First Offshore Corp,1359.84,ACH,4,Cleared,,196.23.30.91,"Seattle, US",Chrome/macOS
+TXN-SAFE-0098,2026-05-14 10:06:39,ACT-SAFE-24,ACT-SAFE-06,FraudShield AI Bank,157.17,P2P,2,Cleared,,89.70.56.67,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0168,2026-05-14 10:40:42,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,20270.05,Wire,90,Flagged,"Large Integration Outflow,High Risk Crypto Route",170.44.55.211,Russia (via VPN),Brave/Windows 10
+TXN-SAFE-0297,2026-05-14 12:04:40,ACT-SAFE-49,ACT-SAFE-05,NeoBank Tech,587.93,Card,12,Cleared,,112.17.69.36,"Chicago, US",Firefox/Linux
+TXN-FRAUD-0154,2026-05-14 12:51:34,ACT-HUB-06,ACT-EXIT-06,Sovereign Crypto Bank,17762.89,Wire,97,Flagged,"Large Integration Outflow,High Risk Crypto Route",67.49.22.1,Cayman Islands (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0211,2026-05-14 13:40:16,ACT-SAFE-27,ACT-SAFE-08,Apex Digital Bank,947.54,P2P,16,Cleared,,68.70.10.43,"New York, US",Chrome/Android 13
+TXN-SAFE-0683,2026-05-14 15:08:41,ACT-SAFE-41,ACT-SAFE-46,Sovereign Crypto Bank,475.13,Card,20,Cleared,,165.100.25.187,"Austin, US",Chrome/macOS
+TXN-SAFE-0316,2026-05-14 15:32:38,ACT-SAFE-49,ACT-SAFE-45,First Offshore Corp,78.5,Card,16,Cleared,,165.20.25.75,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0084,2026-05-14 16:07:58,ACT-HUB-02,ACT-EXIT-02,Sovereign Crypto Bank,22972.51,Wire,96,Flagged,"Large Integration Outflow,High Risk Crypto Route",47.44.54.225,Iceland (via VPN),Safari/iOS 17
+TXN-SAFE-0304,2026-05-14 16:51:19,ACT-SAFE-34,ACT-SAFE-08,Zenith Global Trust,606.57,Card,20,Cleared,,39.85.45.98,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0675,2026-05-14 17:50:16,ACT-SAFE-10,ACT-SAFE-42,FraudShield AI Bank,198.1,P2P,6,Cleared,,197.37.48.118,"Austin, US",Safari/macOS 14
+TXN-SAFE-0606,2026-05-14 18:44:43,ACT-SAFE-43,ACT-SAFE-28,NeoBank Tech,699.1,Card,0,Cleared,,46.83.59.147,"Chicago, US",Chrome/macOS
+TXN-SAFE-0085,2026-05-14 19:42:01,ACT-SAFE-38,ACT-SAFE-44,FraudShield AI Bank,191.3,ACH,6,Cleared,,162.46.44.116,"Seattle, US",Firefox/Linux
+TXN-SAFE-0473,2026-05-14 20:01:08,ACT-SAFE-40,ACT-SAFE-34,Sovereign Crypto Bank,896.44,P2P,14,Cleared,,122.24.46.182,"New York, US",Chrome/macOS
+TXN-SAFE-0163,2026-05-14 20:10:31,ACT-SAFE-14,ACT-SAFE-26,FraudShield AI Bank,1407.78,P2P,18,Cleared,,143.29.43.184,"New York, US",Firefox/Linux
+TXN-SAFE-0326,2026-05-14 20:15:06,ACT-SAFE-24,ACT-SAFE-45,First Offshore Corp,1351.3,P2P,1,Cleared,,113.52.100.71,"Austin, US",Safari/macOS 14
+TXN-SAFE-0391,2026-05-14 20:50:10,ACT-SAFE-26,ACT-SAFE-12,Metro Credit Union,1309.15,ACH,6,Cleared,,134.55.99.1,"New York, US",Safari/iOS 17
+TXN-SAFE-0378,2026-05-14 21:40:05,ACT-SAFE-48,ACT-SAFE-44,Offshore Finance,1435.14,Card,10,Cleared,,88.80.23.156,"New York, US",Firefox/Linux
+TXN-SAFE-0246,2026-05-14 22:17:55,ACT-SAFE-03,ACT-SAFE-49,Caribbean Cayman Bank,1115.21,Card,10,Cleared,,180.51.59.151,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0558,2026-05-14 22:20:25,ACT-SAFE-18,ACT-SAFE-26,Vanguard Retail,1008.72,Card,1,Cleared,,104.33.90.188,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0608,2026-05-14 23:28:32,ACT-SAFE-27,ACT-SAFE-45,Sovereign Crypto Bank,1471.44,ACH,15,Cleared,,109.95.55.163,"Austin, US",Brave/Windows 10
+TXN-SAFE-0093,2026-05-14 23:34:46,ACT-SAFE-35,ACT-SAFE-05,Zenith Global Trust,636.66,P2P,17,Cleared,,114.44.39.31,"New York, US",Brave/Windows 10
+TXN-SAFE-0027,2026-05-14 23:54:52,ACT-SAFE-23,ACT-SAFE-24,FraudShield AI Bank,1493.66,Card,13,Cleared,,102.29.59.17,"Austin, US",Brave/Windows 10
+TXN-SAFE-0428,2026-05-14 23:57:28,ACT-SAFE-27,ACT-SAFE-05,FraudShield AI Bank,111.43,ACH,6,Cleared,,68.81.89.15,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0151,2026-05-15 00:52:59,ACT-HUB-02,ACT-EXIT-02,Sovereign Crypto Bank,31978.94,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",157.88.87.129,United Kingdom (via VPN),Chrome/Android 13
+TXN-SAFE-0269,2026-05-15 01:22:49,ACT-SAFE-06,ACT-SAFE-28,Metro Credit Union,1279.88,ACH,7,Cleared,,138.88.26.17,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0766,2026-05-15 01:36:49,ACT-SAFE-49,ACT-SAFE-18,Sovereign Crypto Bank,410.37,Card,18,Cleared,,188.30.35.181,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0169,2026-05-15 01:58:28,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,43005.28,Wire,94,Blocked,"Large Integration Outflow,High Risk Crypto Route",147.13.75.39,United States (via VPN),Brave/Windows 10
+TXN-SAFE-0585,2026-05-15 02:40:09,ACT-SAFE-02,ACT-SAFE-48,First Offshore Corp,1363.94,ACH,6,Cleared,,42.85.94.12,"Austin, US",Chrome/macOS
+TXN-SAFE-0586,2026-05-15 05:23:22,ACT-SAFE-34,ACT-SAFE-02,Caribbean Cayman Bank,378.32,Card,14,Cleared,,42.60.100.136,"Chicago, US",Firefox/Linux
+TXN-SAFE-0474,2026-05-15 05:55:27,ACT-SAFE-04,ACT-SAFE-43,Sovereign Crypto Bank,1303.21,P2P,5,Cleared,,135.94.94.148,"New York, US",Brave/Windows 10
+TXN-FRAUD-0027,2026-05-15 06:10:53,ACT-SMURF-07-2,ACT-HUB-07,NeoBank Tech,3174.14,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",84.89.75.147,Canada (via VPN),Chrome/Android 13
+TXN-FRAUD-0001,2026-05-15 07:03:07,ACT-SMURF-09-2,ACT-HUB-09,FraudShield AI Bank,4113.57,Wire,72,Flagged,"Structuring Threshold Mismatch,Layering Phase",84.63.27.10,United Kingdom (via VPN),Brave/Windows 10
+TXN-SAFE-0264,2026-05-15 07:44:54,ACT-SAFE-37,ACT-SAFE-42,Offshore Finance,617.14,P2P,11,Cleared,,147.27.17.206,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0689,2026-05-15 10:09:37,ACT-SAFE-03,ACT-SAFE-09,Caribbean Cayman Bank,1028.33,Card,17,Cleared,,121.24.93.89,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0073,2026-05-15 10:38:24,ACT-SAFE-46,ACT-SAFE-23,Offshore Finance,988.35,Card,4,Cleared,,31.22.82.126,"New York, US",Safari/iOS 17
+TXN-SAFE-0104,2026-05-15 11:38:10,ACT-SAFE-35,ACT-SAFE-22,First Offshore Corp,1492.05,ACH,3,Cleared,,192.36.39.51,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0122,2026-05-15 11:48:50,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,36769.21,Wire,90,Flagged,"Large Integration Outflow,High Risk Crypto Route",170.100.92.250,Singapore (via VPN),Chrome/Android 13
+TXN-SAFE-0529,2026-05-15 14:49:25,ACT-SAFE-03,ACT-SAFE-45,FraudShield AI Bank,550.43,P2P,0,Cleared,,134.50.48.33,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0302,2026-05-15 15:17:54,ACT-SAFE-40,ACT-SAFE-49,Apex Digital Bank,510.39,P2P,13,Cleared,,162.63.95.31,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0032,2026-05-15 16:35:51,ACT-SAFE-29,ACT-SAFE-47,Metro Credit Union,249.14,ACH,1,Cleared,,113.59.80.143,"Austin, US",Brave/Windows 10
+TXN-SAFE-0495,2026-05-15 17:30:39,ACT-SAFE-22,ACT-SAFE-05,NeoBank Tech,541.45,ACH,3,Cleared,,57.60.23.61,"New York, US",Brave/Windows 10
+TXN-SAFE-0626,2026-05-15 17:45:04,ACT-SAFE-31,ACT-SAFE-35,NeoBank Tech,1138.82,P2P,0,Cleared,,185.60.90.8,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0026,2026-05-15 18:59:43,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,39362.46,Wire,94,Flagged,"Large Integration Outflow,High Risk Crypto Route",169.38.92.164,Cayman Islands (via VPN),Firefox/Linux
+TXN-FRAUD-0049,2026-05-15 19:16:58,ACT-SAFE-35,ACT-SMURF-01-2,FraudShield AI Bank,4120.89,ACH,60,Under Review,Unusual High Value deposit,167.34.64.1,Germany (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0725,2026-05-15 19:49:21,ACT-SAFE-29,ACT-SAFE-30,Offshore Finance,60.08,Card,19,Cleared,,56.50.47.61,"Austin, US",Firefox/Linux
+TXN-SAFE-0088,2026-05-15 21:40:22,ACT-SAFE-01,ACT-SAFE-40,Caribbean Cayman Bank,847.4,Card,1,Cleared,,199.89.48.31,"New York, US",Firefox/Linux
+TXN-SAFE-0643,2026-05-15 22:19:32,ACT-SAFE-38,ACT-SAFE-14,FraudShield AI Bank,123.39,P2P,13,Cleared,,171.47.41.164,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0254,2026-05-15 22:53:18,ACT-SAFE-47,ACT-SAFE-26,Vanguard Retail,769.85,ACH,11,Cleared,,64.77.55.204,"New York, US",Firefox/Linux
+TXN-SAFE-0609,2026-05-16 00:00:53,ACT-SAFE-38,ACT-SAFE-33,Offshore Finance,54.51,ACH,3,Cleared,,37.36.70.110,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0070,2026-05-16 00:09:47,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,23438.32,Wire,93,Blocked,"Large Integration Outflow,High Risk Crypto Route",112.56.78.114,Canada (via VPN),Safari/macOS 14
+TXN-SAFE-0551,2026-05-16 00:26:58,ACT-SAFE-31,ACT-SAFE-50,Caribbean Cayman Bank,699.22,ACH,2,Cleared,,188.25.58.188,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0125,2026-05-16 00:32:24,ACT-SAFE-14,ACT-SAFE-36,Offshore Finance,1490.12,ACH,2,Cleared,,179.58.53.217,"Austin, US",Chrome/Android 13
+TXN-SAFE-0387,2026-05-16 00:49:22,ACT-SAFE-47,ACT-SAFE-28,Metro Credit Union,1475.37,Card,7,Cleared,,57.49.85.57,"Austin, US",Firefox/Linux
+TXN-FRAUD-0072,2026-05-16 02:01:27,ACT-SMURF-03-1,ACT-HUB-03,Metro Credit Union,4940.24,Wire,88,Flagged,"Structuring Threshold Mismatch,Layering Phase",24.86.17.46,Cayman Islands (via VPN),Chrome/macOS
+TXN-SAFE-0188,2026-05-16 02:57:59,ACT-SAFE-39,ACT-SAFE-14,Caribbean Cayman Bank,930.57,P2P,5,Cleared,,80.81.85.252,"New York, US",Firefox/Linux
+TXN-SAFE-0674,2026-05-16 03:31:58,ACT-SAFE-27,ACT-SAFE-48,FraudShield AI Bank,209.03,P2P,13,Cleared,,66.70.38.130,"New York, US",Chrome/Android 13
+TXN-SAFE-0072,2026-05-16 04:01:42,ACT-SAFE-49,ACT-SAFE-19,Offshore Finance,293.34,Card,16,Cleared,,36.48.34.201,"Austin, US",Brave/Windows 10
+TXN-SAFE-0100,2026-05-16 04:42:08,ACT-SAFE-35,ACT-SAFE-07,FraudShield AI Bank,626.53,P2P,12,Cleared,,151.90.18.219,"New York, US",Chrome/macOS
+TXN-SAFE-0567,2026-05-16 04:44:35,ACT-SAFE-46,ACT-SAFE-44,Sovereign Crypto Bank,357.14,Card,11,Cleared,,137.35.32.131,"Seattle, US",Chrome/macOS
+TXN-FRAUD-0188,2026-05-16 05:37:53,ACT-SMURF-04-1,ACT-HUB-04,Sovereign Crypto Bank,3284.31,Wire,78,Flagged,"Structuring Threshold Mismatch,Layering Phase",37.63.43.173,Cayman Islands (via VPN),Firefox/Linux
+TXN-SAFE-0406,2026-05-16 05:59:00,ACT-SAFE-01,ACT-SAFE-16,Sovereign Crypto Bank,851.33,ACH,9,Cleared,,62.88.84.20,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0441,2026-05-16 06:14:53,ACT-SAFE-07,ACT-SAFE-09,FraudShield AI Bank,349.25,P2P,0,Cleared,,134.74.83.59,"New York, US",Chrome/Android 13
+TXN-SAFE-0010,2026-05-16 06:38:51,ACT-SAFE-39,ACT-SAFE-12,Caribbean Cayman Bank,48.85,ACH,5,Cleared,,157.84.36.33,"New York, US",Chrome/macOS
+TXN-SAFE-0781,2026-05-16 06:51:32,ACT-SAFE-45,ACT-SAFE-24,Apex Digital Bank,852.35,ACH,20,Cleared,,77.56.21.225,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0741,2026-05-16 06:58:57,ACT-SAFE-07,ACT-SAFE-23,Caribbean Cayman Bank,1219.85,P2P,6,Cleared,,131.28.13.242,"Austin, US",Safari/macOS 14
+TXN-FRAUD-0157,2026-05-16 07:34:25,ACT-SMURF-06-2,ACT-HUB-06,First Offshore Corp,4352.72,Wire,76,Flagged,"Structuring Threshold Mismatch,Layering Phase",26.50.99.34,Cayman Islands (via VPN),Safari/macOS 14
+TXN-SAFE-0630,2026-05-16 09:01:40,ACT-SAFE-44,ACT-SAFE-31,First Offshore Corp,223.86,ACH,9,Cleared,,75.48.67.245,"Chicago, US",Chrome/macOS
+TXN-SAFE-0062,2026-05-16 09:06:04,ACT-SAFE-48,ACT-SAFE-30,FraudShield AI Bank,165.9,Card,3,Cleared,,39.35.59.203,"Austin, US",Safari/iOS 17
+TXN-SAFE-0323,2026-05-16 10:37:54,ACT-SAFE-50,ACT-SAFE-08,Apex Digital Bank,741.79,Card,2,Cleared,,114.31.72.1,"New York, US",Brave/Windows 10
+TXN-SAFE-0096,2026-05-16 10:38:15,ACT-SAFE-10,ACT-SAFE-25,Sovereign Crypto Bank,1055.47,P2P,17,Cleared,,101.52.89.51,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0091,2026-05-16 11:12:52,ACT-SAFE-21,ACT-SAFE-27,Metro Credit Union,1284.06,ACH,12,Cleared,,138.35.26.47,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0747,2026-05-16 11:23:47,ACT-SAFE-26,ACT-SAFE-43,Vanguard Retail,1362.24,P2P,7,Cleared,,178.88.82.7,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0054,2026-05-16 11:43:06,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,16547.85,Wire,99,Blocked,"Large Integration Outflow,High Risk Crypto Route",192.91.46.220,Singapore (via VPN),Brave/Windows 10
+TXN-SAFE-0212,2026-05-16 12:09:02,ACT-SAFE-11,ACT-SAFE-27,Apex Digital Bank,193.74,ACH,10,Cleared,,157.96.87.200,"Chicago, US",Chrome/macOS
+TXN-SAFE-0249,2026-05-16 13:30:21,ACT-SAFE-32,ACT-SAFE-18,Apex Digital Bank,1257.26,Card,17,Cleared,,99.58.82.206,"Austin, US",Safari/macOS 14
+TXN-SAFE-0012,2026-05-16 14:04:21,ACT-SAFE-46,ACT-SAFE-34,Caribbean Cayman Bank,375.22,P2P,11,Cleared,,154.33.39.165,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0300,2026-05-16 14:13:21,ACT-SAFE-49,ACT-SAFE-50,Sovereign Crypto Bank,210.63,ACH,9,Cleared,,145.74.39.184,"Austin, US",Safari/iOS 17
+TXN-SAFE-0690,2026-05-16 14:59:36,ACT-SAFE-22,ACT-SAFE-40,Sovereign Crypto Bank,840.67,ACH,6,Cleared,,159.42.62.61,"New York, US",Safari/macOS 14
+TXN-FRAUD-0158,2026-05-16 15:21:43,ACT-SAFE-30,ACT-SMURF-05-2,NeoBank Tech,3970.95,ACH,56,Under Review,Unusual High Value deposit,150.64.57.162,Switzerland (via Proxy),Brave/Windows 10
+TXN-SAFE-0381,2026-05-16 17:38:26,ACT-SAFE-41,ACT-SAFE-45,First Offshore Corp,636.58,ACH,20,Cleared,,154.70.25.68,"Austin, US",Chrome/macOS
+TXN-SAFE-0562,2026-05-16 18:55:16,ACT-SAFE-25,ACT-SAFE-41,First Offshore Corp,425.44,Card,20,Cleared,,38.12.61.184,"New York, US",Brave/Windows 10
+TXN-SAFE-0390,2026-05-16 19:22:52,ACT-SAFE-30,ACT-SAFE-02,NeoBank Tech,574.77,P2P,14,Cleared,,94.84.31.174,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0538,2026-05-16 20:32:03,ACT-SAFE-08,ACT-SAFE-01,Vanguard Retail,1121.89,Card,2,Cleared,,193.34.26.66,"Chicago, US",Firefox/Linux
+TXN-SAFE-0313,2026-05-16 20:58:27,ACT-SAFE-20,ACT-SAFE-49,First Offshore Corp,1101.16,P2P,11,Cleared,,92.61.76.113,"Seattle, US",Chrome/macOS
+TXN-SAFE-0639,2026-05-16 21:00:57,ACT-SAFE-43,ACT-SAFE-23,Sovereign Crypto Bank,89.18,Card,16,Cleared,,108.75.56.96,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0038,2026-05-16 21:10:29,ACT-SAFE-36,ACT-SAFE-27,FraudShield AI Bank,735.99,P2P,19,Cleared,,157.64.90.190,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0787,2026-05-16 21:24:05,ACT-SAFE-43,ACT-SAFE-17,Caribbean Cayman Bank,1423.7,P2P,2,Cleared,,144.73.32.66,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0049,2026-05-16 22:02:00,ACT-SAFE-14,ACT-SAFE-01,Zenith Global Trust,1350.33,ACH,8,Cleared,,60.18.46.60,"Austin, US",Chrome/Android 13
+TXN-SAFE-0350,2026-05-16 22:49:32,ACT-SAFE-13,ACT-SAFE-21,Apex Digital Bank,959.79,ACH,13,Cleared,,68.78.65.155,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0161,2026-05-17 02:37:24,ACT-SAFE-46,ACT-SAFE-35,Offshore Finance,875.47,ACH,4,Cleared,,24.99.90.208,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0071,2026-05-17 05:10:11,ACT-SAFE-47,ACT-SAFE-37,Caribbean Cayman Bank,512.68,ACH,1,Cleared,,139.83.18.207,"New York, US",Chrome/macOS
+TXN-SAFE-0497,2026-05-17 07:36:15,ACT-SAFE-45,ACT-SAFE-39,First Offshore Corp,136.95,Card,6,Cleared,,136.99.41.131,"New York, US",Firefox/Linux
+TXN-SAFE-0273,2026-05-17 08:43:33,ACT-SAFE-22,ACT-SAFE-49,Caribbean Cayman Bank,680.51,Card,14,Cleared,,80.24.33.70,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0286,2026-05-17 09:33:15,ACT-SAFE-43,ACT-SAFE-12,Metro Credit Union,600.58,P2P,8,Cleared,,42.45.83.194,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0553,2026-05-17 10:05:04,ACT-SAFE-44,ACT-SAFE-21,Apex Digital Bank,14.09,P2P,1,Cleared,,94.57.53.7,"Austin, US",Chrome/Android 13
+TXN-SAFE-0141,2026-05-17 10:16:03,ACT-SAFE-23,ACT-SAFE-02,Sovereign Crypto Bank,436.54,Card,6,Cleared,,91.95.99.200,"New York, US",Chrome/macOS
+TXN-SAFE-0676,2026-05-17 11:44:06,ACT-SAFE-04,ACT-SAFE-21,Caribbean Cayman Bank,1344.84,P2P,8,Cleared,,152.67.25.68,"New York, US",Safari/iOS 17
+TXN-SAFE-0587,2026-05-17 13:26:59,ACT-SAFE-04,ACT-SAFE-19,Metro Credit Union,862.36,P2P,17,Cleared,,82.57.32.107,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0491,2026-05-17 14:08:57,ACT-SAFE-41,ACT-SAFE-46,NeoBank Tech,943.59,ACH,12,Cleared,,107.96.70.64,"New York, US",Brave/Windows 10
+TXN-SAFE-0183,2026-05-17 14:14:39,ACT-SAFE-38,ACT-SAFE-19,Apex Digital Bank,702.79,ACH,6,Cleared,,146.47.83.90,"Austin, US",Firefox/Linux
+TXN-FRAUD-0055,2026-05-17 14:53:19,ACT-SAFE-09,ACT-SMURF-05-1,NeoBank Tech,1512.64,ACH,48,Cleared,Unusual High Value deposit,39.65.99.106,Cayman Islands (via Proxy),Chrome/Android 13
+TXN-FRAUD-0200,2026-05-17 15:51:10,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,43365.74,Wire,98,Flagged,"Large Integration Outflow,High Risk Crypto Route",164.78.16.216,Cyprus (via VPN),Chrome/Android 13
+TXN-SAFE-0394,2026-05-17 16:38:47,ACT-SAFE-40,ACT-SAFE-27,Metro Credit Union,1269.1,P2P,1,Cleared,,76.46.63.67,"Chicago, US",Firefox/Linux
+TXN-SAFE-0433,2026-05-17 17:02:27,ACT-SAFE-06,ACT-SAFE-22,Metro Credit Union,434.76,Card,3,Cleared,,84.49.73.91,"Seattle, US",Firefox/Linux
+TXN-SAFE-0182,2026-05-17 18:22:16,ACT-SAFE-18,ACT-SAFE-34,Vanguard Retail,294.96,P2P,20,Cleared,,48.40.32.253,"New York, US",Firefox/Linux
+TXN-SAFE-0048,2026-05-17 18:55:16,ACT-SAFE-29,ACT-SAFE-43,Offshore Finance,1022.25,P2P,14,Cleared,,182.12.51.91,"Austin, US",Firefox/Linux
+TXN-FRAUD-0105,2026-05-17 22:33:05,ACT-SAFE-15,ACT-SMURF-08-2,Metro Credit Union,3711.18,ACH,54,Under Review,Unusual High Value deposit,41.99.45.103,Iceland (via Proxy),Chrome/Android 13
+TXN-SAFE-0482,2026-05-18 02:19:39,ACT-SAFE-31,ACT-SAFE-02,Zenith Global Trust,480.63,ACH,20,Cleared,,187.55.16.252,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0029,2026-05-18 02:23:46,ACT-SAFE-22,ACT-SAFE-50,Caribbean Cayman Bank,984.26,P2P,15,Cleared,,72.58.76.62,"Austin, US",Firefox/Linux
+TXN-SAFE-0080,2026-05-18 03:01:22,ACT-SAFE-45,ACT-SAFE-31,Sovereign Crypto Bank,254.36,ACH,9,Cleared,,125.80.66.16,"Austin, US",Safari/iOS 17
+TXN-FRAUD-0032,2026-05-18 03:52:21,ACT-SAFE-43,ACT-SMURF-01-2,Metro Credit Union,3078.58,ACH,58,Under Review,Unusual High Value deposit,141.93.33.17,Iceland (via Proxy),Brave/Windows 10
+TXN-SAFE-0068,2026-05-18 04:45:16,ACT-SAFE-24,ACT-SAFE-19,Metro Credit Union,326.86,Card,13,Cleared,,45.12.83.101,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0162,2026-05-18 04:59:46,ACT-SAFE-48,ACT-SAFE-04,NeoBank Tech,526.95,P2P,4,Cleared,,135.35.79.13,"New York, US",Safari/macOS 14
+TXN-SAFE-0454,2026-05-18 05:31:56,ACT-SAFE-50,ACT-SAFE-02,Vanguard Retail,429.41,P2P,2,Cleared,,195.46.11.168,"Austin, US",Brave/Windows 10
+TXN-SAFE-0756,2026-05-18 06:27:44,ACT-SAFE-14,ACT-SAFE-46,Vanguard Retail,1416.88,ACH,19,Cleared,,147.48.20.103,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0649,2026-05-18 07:19:00,ACT-SAFE-49,ACT-SAFE-30,NeoBank Tech,1222.36,Card,12,Cleared,,168.69.20.126,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0481,2026-05-18 07:34:44,ACT-SAFE-11,ACT-SAFE-04,NeoBank Tech,1262.22,ACH,17,Cleared,,78.71.22.108,"New York, US",Firefox/Linux
+TXN-SAFE-0595,2026-05-18 07:56:01,ACT-SAFE-42,ACT-SAFE-32,NeoBank Tech,1380.74,Card,3,Cleared,,90.47.95.49,"Austin, US",Brave/Windows 10
+TXN-FRAUD-0044,2026-05-18 08:53:46,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,23761.1,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",159.37.17.136,United States (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0180,2026-05-18 09:57:21,ACT-SAFE-24,ACT-SMURF-06-2,Apex Digital Bank,1975.27,ACH,65,Under Review,Unusual High Value deposit,185.71.11.234,Cyprus (via Proxy),Brave/Windows 10
+TXN-SAFE-0134,2026-05-18 11:05:56,ACT-SAFE-30,ACT-SAFE-48,Offshore Finance,679.21,ACH,17,Cleared,,107.77.70.99,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0516,2026-05-18 12:20:48,ACT-SAFE-10,ACT-SAFE-38,Offshore Finance,1010.47,Card,1,Cleared,,177.44.88.14,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0127,2026-05-18 12:25:02,ACT-SAFE-07,ACT-SAFE-10,NeoBank Tech,1409.63,ACH,3,Cleared,,26.99.99.151,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0343,2026-05-18 13:40:17,ACT-SAFE-40,ACT-SAFE-47,Vanguard Retail,1351.06,Card,19,Cleared,,128.27.86.31,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0402,2026-05-18 16:38:25,ACT-SAFE-01,ACT-SAFE-21,Caribbean Cayman Bank,1014.69,ACH,5,Cleared,,166.59.11.230,"Austin, US",Safari/iOS 17
+TXN-SAFE-0452,2026-05-18 18:01:53,ACT-SAFE-26,ACT-SAFE-39,Sovereign Crypto Bank,882.48,Card,12,Cleared,,83.44.61.162,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0199,2026-05-18 18:45:07,ACT-SAFE-15,ACT-SMURF-10-2,Sovereign Crypto Bank,4466.49,ACH,72,Under Review,Unusual High Value deposit,79.67.39.154,Iceland (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0648,2026-05-18 19:01:37,ACT-SAFE-40,ACT-SAFE-50,FraudShield AI Bank,248.89,ACH,17,Cleared,,143.87.86.75,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0663,2026-05-18 19:24:23,ACT-SAFE-03,ACT-SAFE-05,Sovereign Crypto Bank,171.15,P2P,12,Cleared,,26.74.74.141,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0312,2026-05-18 21:15:51,ACT-SAFE-30,ACT-SAFE-03,Offshore Finance,869.41,ACH,10,Cleared,,195.78.69.207,"New York, US",Firefox/Linux
+TXN-SAFE-0348,2026-05-18 22:43:11,ACT-SAFE-21,ACT-SAFE-34,FraudShield AI Bank,465.16,Card,15,Cleared,,160.47.60.125,"Austin, US",Brave/Windows 10
+TXN-SAFE-0752,2026-05-18 22:49:40,ACT-SAFE-18,ACT-SAFE-43,FraudShield AI Bank,94.94,ACH,2,Cleared,,55.13.96.109,"Austin, US",Safari/macOS 14
+TXN-SAFE-0135,2026-05-18 23:20:53,ACT-SAFE-15,ACT-SAFE-35,First Offshore Corp,1377.37,ACH,5,Cleared,,122.94.27.172,"New York, US",Firefox/Linux
+TXN-SAFE-0337,2026-05-18 23:28:46,ACT-SAFE-45,ACT-SAFE-31,Caribbean Cayman Bank,942.13,ACH,18,Cleared,,51.88.10.160,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0040,2026-05-19 00:28:43,ACT-SMURF-04-1,ACT-HUB-04,FraudShield AI Bank,2933.13,Wire,86,Flagged,"Structuring Threshold Mismatch,Layering Phase",97.91.61.196,Germany (via VPN),Firefox/Linux
+TXN-SAFE-0067,2026-05-19 01:51:58,ACT-SAFE-23,ACT-SAFE-05,Metro Credit Union,1079.56,ACH,7,Cleared,,195.65.91.131,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0460,2026-05-19 03:42:18,ACT-SAFE-30,ACT-SAFE-20,Vanguard Retail,219.73,ACH,15,Cleared,,54.83.37.194,"Austin, US",Firefox/Linux
+TXN-SAFE-0773,2026-05-19 04:56:18,ACT-SAFE-50,ACT-SAFE-01,Metro Credit Union,1219.13,P2P,0,Cleared,,77.29.34.178,"New York, US",Chrome/Android 13
+TXN-FRAUD-0164,2026-05-19 05:18:10,ACT-SAFE-29,ACT-SMURF-10-2,NeoBank Tech,3222.96,ACH,74,Under Review,Unusual High Value deposit,132.16.62.80,United States (via Proxy),Chrome/Android 13
+TXN-SAFE-0618,2026-05-19 05:18:56,ACT-SAFE-12,ACT-SAFE-34,Apex Digital Bank,867.65,P2P,13,Cleared,,74.78.31.231,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0400,2026-05-19 05:28:19,ACT-SAFE-34,ACT-SAFE-32,FraudShield AI Bank,990.26,Card,5,Cleared,,32.23.30.49,"New York, US",Safari/iOS 17
+TXN-SAFE-0020,2026-05-19 06:05:32,ACT-SAFE-16,ACT-SAFE-35,Zenith Global Trust,735.46,Card,3,Cleared,,44.34.93.43,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0496,2026-05-19 06:14:37,ACT-SAFE-15,ACT-SAFE-45,Vanguard Retail,215.84,Card,6,Cleared,,46.13.49.125,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0047,2026-05-19 06:31:52,ACT-HUB-06,ACT-EXIT-06,Sovereign Crypto Bank,22943.24,Wire,96,Flagged,"Large Integration Outflow,High Risk Crypto Route",146.12.47.173,Switzerland (via VPN),Brave/Windows 10
+TXN-FRAUD-0031,2026-05-19 06:56:49,ACT-SMURF-08-2,ACT-HUB-08,Zenith Global Trust,4646.5,Wire,82,Flagged,"Structuring Threshold Mismatch,Layering Phase",179.62.56.6,Iceland (via VPN),Chrome/Android 13
+TXN-SAFE-0288,2026-05-19 07:34:56,ACT-SAFE-49,ACT-SAFE-11,Sovereign Crypto Bank,13.04,P2P,6,Cleared,,69.78.19.12,"New York, US",Firefox/Linux
+TXN-SAFE-0235,2026-05-19 07:47:11,ACT-SAFE-24,ACT-SAFE-14,Zenith Global Trust,311.2,P2P,12,Cleared,,147.34.17.51,"Chicago, US",Firefox/Linux
+TXN-SAFE-0520,2026-05-19 08:29:50,ACT-SAFE-49,ACT-SAFE-32,Caribbean Cayman Bank,309.7,ACH,5,Cleared,,84.62.85.210,"Chicago, US",Firefox/Linux
+TXN-FRAUD-0052,2026-05-19 10:03:07,ACT-SAFE-26,ACT-SMURF-02-2,First Offshore Corp,1407.62,ACH,65,Under Review,Unusual High Value deposit,134.11.55.51,Germany (via Proxy),Chrome/macOS
+TXN-SAFE-0734,2026-05-19 10:06:46,ACT-SAFE-16,ACT-SAFE-41,Zenith Global Trust,481.68,ACH,5,Cleared,,72.15.34.136,"Chicago, US",Chrome/macOS
+TXN-SAFE-0534,2026-05-19 11:25:09,ACT-SAFE-43,ACT-SAFE-16,Apex Digital Bank,35.14,ACH,2,Cleared,,97.76.24.20,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0341,2026-05-19 11:53:18,ACT-SAFE-04,ACT-SAFE-05,Sovereign Crypto Bank,633.98,P2P,1,Cleared,,67.14.92.95,"Austin, US",Firefox/Linux
+TXN-SAFE-0654,2026-05-19 14:21:22,ACT-SAFE-17,ACT-SAFE-48,First Offshore Corp,760.37,Card,16,Cleared,,189.54.20.119,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0168,2026-05-19 14:45:46,ACT-SAFE-37,ACT-SAFE-43,Metro Credit Union,266.98,P2P,19,Cleared,,198.22.90.232,"New York, US",Safari/macOS 14
+TXN-FRAUD-0071,2026-05-19 15:27:29,ACT-SMURF-02-2,ACT-HUB-02,Metro Credit Union,3779.41,Wire,85,Flagged,"Structuring Threshold Mismatch,Layering Phase",109.46.43.5,Cayman Islands (via VPN),Brave/Windows 10
+TXN-SAFE-0743,2026-05-19 16:49:04,ACT-SAFE-23,ACT-SAFE-30,FraudShield AI Bank,1490.27,P2P,17,Cleared,,65.32.24.15,"Seattle, US",Chrome/Android 13
+TXN-FRAUD-0011,2026-05-19 17:29:49,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,44673.4,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",135.66.16.82,United States (via VPN),Safari/macOS 14
+TXN-SAFE-0785,2026-05-19 17:49:09,ACT-SAFE-29,ACT-SAFE-39,Caribbean Cayman Bank,1416.09,Card,7,Cleared,,145.26.42.122,"New York, US",Chrome/macOS
+TXN-SAFE-0469,2026-05-19 18:12:32,ACT-SAFE-35,ACT-SAFE-24,NeoBank Tech,1166.08,P2P,5,Cleared,,76.42.43.206,"Chicago, US",Firefox/Linux
+TXN-FRAUD-0139,2026-05-19 18:15:06,ACT-SMURF-02-2,ACT-HUB-02,Sovereign Crypto Bank,4365.33,Wire,87,Flagged,"Structuring Threshold Mismatch,Layering Phase",53.78.79.133,United States (via VPN),Safari/iOS 17
+TXN-SAFE-0050,2026-05-19 18:45:24,ACT-SAFE-01,ACT-SAFE-50,Apex Digital Bank,1135.45,ACH,16,Cleared,,192.66.60.106,"Chicago, US",Chrome/macOS
+TXN-SAFE-0486,2026-05-19 19:35:48,ACT-SAFE-30,ACT-SAFE-44,Vanguard Retail,802.82,P2P,10,Cleared,,87.46.98.98,"New York, US",Firefox/Linux
+TXN-SAFE-0684,2026-05-19 19:46:22,ACT-SAFE-09,ACT-SAFE-16,Zenith Global Trust,1254.05,P2P,0,Cleared,,187.87.12.156,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0346,2026-05-19 19:58:09,ACT-SAFE-45,ACT-SAFE-07,Sovereign Crypto Bank,253.05,Card,17,Cleared,,75.17.18.200,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0107,2026-05-19 21:07:03,ACT-SAFE-08,ACT-SMURF-09-2,Caribbean Cayman Bank,3604.65,ACH,74,Under Review,Unusual High Value deposit,198.52.46.18,Germany (via Proxy),Chrome/Android 13
+TXN-SAFE-0750,2026-05-19 21:10:00,ACT-SAFE-38,ACT-SAFE-22,Sovereign Crypto Bank,384.42,ACH,10,Cleared,,137.30.25.97,"New York, US",Brave/Windows 10
+TXN-SAFE-0266,2026-05-19 21:35:02,ACT-SAFE-10,ACT-SAFE-03,FraudShield AI Bank,382.55,Card,2,Cleared,,145.65.60.148,"New York, US",Safari/macOS 14
+TXN-SAFE-0158,2026-05-19 21:53:49,ACT-SAFE-46,ACT-SAFE-19,Vanguard Retail,879.13,Card,10,Cleared,,166.99.32.91,"New York, US",Chrome/Android 13
+TXN-FRAUD-0189,2026-05-19 23:06:00,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,19008.4,Wire,94,Blocked,"Large Integration Outflow,High Risk Crypto Route",56.83.28.24,Iceland (via VPN),Safari/macOS 14
+TXN-SAFE-0201,2026-05-19 23:07:22,ACT-SAFE-46,ACT-SAFE-18,Vanguard Retail,64.83,Card,8,Cleared,,192.23.63.159,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0042,2026-05-20 00:01:32,ACT-SAFE-15,ACT-SAFE-25,Apex Digital Bank,1309.41,ACH,11,Cleared,,52.58.47.191,"New York, US",Safari/iOS 17
+TXN-FRAUD-0014,2026-05-20 01:02:27,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,21370.07,Wire,92,Flagged,"Large Integration Outflow,High Risk Crypto Route",109.87.43.27,Cayman Islands (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0322,2026-05-20 01:34:51,ACT-SAFE-09,ACT-SAFE-30,Zenith Global Trust,1403.9,P2P,0,Cleared,,131.94.55.101,"New York, US",Brave/Windows 10
+TXN-SAFE-0176,2026-05-20 01:52:44,ACT-SAFE-24,ACT-SAFE-04,Metro Credit Union,339.68,Card,10,Cleared,,46.15.24.135,"New York, US",Chrome/macOS
+TXN-SAFE-0309,2026-05-20 02:06:42,ACT-SAFE-20,ACT-SAFE-42,First Offshore Corp,767.65,P2P,19,Cleared,,74.21.73.76,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0153,2026-05-20 03:01:18,ACT-SAFE-32,ACT-SAFE-30,Metro Credit Union,617.05,ACH,18,Cleared,,197.34.68.22,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0142,2026-05-20 03:04:29,ACT-SAFE-20,ACT-SAFE-28,Sovereign Crypto Bank,530.9,Card,16,Cleared,,69.20.80.117,"New York, US",Brave/Windows 10
+TXN-FRAUD-0163,2026-05-20 07:01:45,ACT-SAFE-23,ACT-SMURF-03-1,FraudShield AI Bank,1110.3,ACH,65,Under Review,Unusual High Value deposit,141.86.66.103,Germany (via Proxy),Brave/Windows 10
+TXN-SAFE-0556,2026-05-20 07:18:01,ACT-SAFE-19,ACT-SAFE-38,NeoBank Tech,604.94,Card,5,Cleared,,141.77.82.26,"Austin, US",Brave/Windows 10
+TXN-FRAUD-0080,2026-05-20 07:28:43,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,20848.31,Wire,94,Flagged,"Large Integration Outflow,High Risk Crypto Route",32.37.67.189,United States (via VPN),Safari/macOS 14
+TXN-SAFE-0662,2026-05-20 08:36:21,ACT-SAFE-23,ACT-SAFE-09,Sovereign Crypto Bank,1115.3,ACH,4,Cleared,,61.45.54.133,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0237,2026-05-20 09:10:58,ACT-SAFE-08,ACT-SAFE-28,Caribbean Cayman Bank,310.72,P2P,17,Cleared,,151.45.100.185,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0117,2026-05-20 09:22:01,ACT-SAFE-05,ACT-SAFE-03,FraudShield AI Bank,612.2,Card,11,Cleared,,186.81.29.94,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0742,2026-05-20 11:03:58,ACT-SAFE-48,ACT-SAFE-09,Zenith Global Trust,1237.76,ACH,0,Cleared,,149.38.26.135,"New York, US",Firefox/Linux
+TXN-SAFE-0775,2026-05-20 12:11:56,ACT-SAFE-43,ACT-SAFE-44,First Offshore Corp,467.27,ACH,17,Cleared,,100.15.11.96,"Austin, US",Brave/Windows 10
+TXN-SAFE-0797,2026-05-20 12:29:11,ACT-SAFE-20,ACT-SAFE-42,NeoBank Tech,999.86,ACH,14,Cleared,,177.76.19.116,"Chicago, US",Safari/iOS 17
+TXN-FRAUD-0037,2026-05-20 12:38:28,ACT-SAFE-28,ACT-SMURF-10-1,NeoBank Tech,3241.94,ACH,50,Under Review,Unusual High Value deposit,123.80.83.21,Canada (via Proxy),Firefox/Linux
+TXN-SAFE-0179,2026-05-20 13:37:40,ACT-SAFE-37,ACT-SAFE-43,Zenith Global Trust,1281.27,P2P,6,Cleared,,193.44.24.137,"New York, US",Safari/iOS 17
+TXN-SAFE-0615,2026-05-20 13:56:21,ACT-SAFE-03,ACT-SAFE-45,Metro Credit Union,1423.25,Card,5,Cleared,,119.88.16.77,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0045,2026-05-20 16:41:26,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,44818.6,Wire,95,Flagged,"Large Integration Outflow,High Risk Crypto Route",164.14.11.61,Iceland (via VPN),Safari/macOS 14
+TXN-SAFE-0694,2026-05-20 17:57:28,ACT-SAFE-27,ACT-SAFE-07,Offshore Finance,619.05,ACH,9,Cleared,,42.98.80.108,"Austin, US",Brave/Windows 10
+TXN-SAFE-0425,2026-05-20 18:55:21,ACT-SAFE-06,ACT-SAFE-49,Vanguard Retail,714.61,P2P,3,Cleared,,145.74.92.203,"Austin, US",Chrome/Android 13
+TXN-SAFE-0686,2026-05-20 18:55:38,ACT-SAFE-50,ACT-SAFE-37,Apex Digital Bank,257.6,P2P,7,Cleared,,160.13.61.213,"Seattle, US",Chrome/macOS
+TXN-SAFE-0195,2026-05-20 19:29:53,ACT-SAFE-08,ACT-SAFE-42,Metro Credit Union,1252.7,P2P,19,Cleared,,139.40.61.31,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0125,2026-05-20 19:33:40,ACT-SAFE-26,ACT-SMURF-05-2,FraudShield AI Bank,3857.62,ACH,51,Under Review,Unusual High Value deposit,58.53.66.161,Cayman Islands (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0121,2026-05-20 20:25:49,ACT-SAFE-46,ACT-SMURF-06-2,Offshore Finance,1592.03,ACH,73,Under Review,Unusual High Value deposit,34.47.44.193,Canada (via Proxy),Safari/iOS 17
+TXN-SAFE-0405,2026-05-20 21:07:13,ACT-SAFE-05,ACT-SAFE-25,Metro Credit Union,81.5,P2P,8,Cleared,,104.26.55.254,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0744,2026-05-20 21:58:40,ACT-SAFE-31,ACT-SAFE-21,Caribbean Cayman Bank,1290.09,Card,8,Cleared,,34.20.50.225,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0036,2026-05-20 22:04:18,ACT-SAFE-22,ACT-SAFE-37,Vanguard Retail,1465.77,ACH,18,Cleared,,98.38.92.239,"Chicago, US",Firefox/Linux
+TXN-SAFE-0613,2026-05-20 22:27:14,ACT-SAFE-08,ACT-SAFE-44,Zenith Global Trust,1197.18,ACH,6,Cleared,,73.57.25.92,"Austin, US",Safari/macOS 14
+TXN-SAFE-0790,2026-05-20 23:59:00,ACT-SAFE-29,ACT-SAFE-07,Apex Digital Bank,163.59,ACH,10,Cleared,,93.87.18.53,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0298,2026-05-21 00:17:14,ACT-SAFE-17,ACT-SAFE-18,Sovereign Crypto Bank,767.51,ACH,19,Cleared,,105.55.39.57,"New York, US",Safari/macOS 14
+TXN-SAFE-0022,2026-05-21 01:39:58,ACT-SAFE-36,ACT-SAFE-40,Sovereign Crypto Bank,208.65,ACH,20,Cleared,,48.24.77.121,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0410,2026-05-21 02:02:42,ACT-SAFE-13,ACT-SAFE-01,First Offshore Corp,792.92,ACH,11,Cleared,,39.31.45.112,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0196,2026-05-21 03:29:23,ACT-SAFE-18,ACT-SAFE-45,Sovereign Crypto Bank,226.94,Card,12,Cleared,,67.26.58.229,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0576,2026-05-21 04:46:55,ACT-SAFE-49,ACT-SAFE-20,First Offshore Corp,967.46,Card,18,Cleared,,71.79.16.40,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0524,2026-05-21 05:53:46,ACT-SAFE-22,ACT-SAFE-10,Metro Credit Union,1074.61,P2P,7,Cleared,,28.12.80.9,"New York, US",Safari/macOS 14
+TXN-SAFE-0498,2026-05-21 05:58:57,ACT-SAFE-17,ACT-SAFE-39,Caribbean Cayman Bank,921.83,ACH,12,Cleared,,46.51.60.238,"Chicago, US",Chrome/macOS
+TXN-SAFE-0007,2026-05-21 06:02:52,ACT-SAFE-15,ACT-SAFE-21,First Offshore Corp,380.46,P2P,14,Cleared,,158.43.48.41,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0113,2026-05-21 06:28:11,ACT-SAFE-18,ACT-SAFE-44,First Offshore Corp,23.18,P2P,18,Cleared,,156.66.72.58,"New York, US",Firefox/Linux
+TXN-FRAUD-0097,2026-05-21 09:03:13,ACT-SMURF-08-2,ACT-HUB-08,First Offshore Corp,3309.95,Wire,80,Flagged,"Structuring Threshold Mismatch,Layering Phase",199.28.45.4,Canada (via VPN),Chrome/macOS
+TXN-FRAUD-0134,2026-05-21 09:17:50,ACT-SMURF-05-2,ACT-HUB-05,Caribbean Cayman Bank,2660.41,Wire,80,Flagged,"Structuring Threshold Mismatch,Layering Phase",67.24.62.206,Canada (via VPN),Chrome/macOS
+TXN-SAFE-0453,2026-05-21 09:28:54,ACT-SAFE-39,ACT-SAFE-20,Vanguard Retail,296.62,ACH,11,Cleared,,24.79.23.112,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0008,2026-05-21 09:31:37,ACT-SMURF-09-2,ACT-HUB-09,First Offshore Corp,4780.07,Wire,70,Flagged,"Structuring Threshold Mismatch,Layering Phase",197.77.79.112,Switzerland (via VPN),Firefox/Linux
+TXN-SAFE-0270,2026-05-21 10:06:26,ACT-SAFE-27,ACT-SAFE-50,First Offshore Corp,1142.89,P2P,19,Cleared,,123.70.100.145,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0584,2026-05-21 11:49:37,ACT-SAFE-17,ACT-SAFE-26,First Offshore Corp,416.08,P2P,13,Cleared,,120.45.26.198,"Austin, US",Brave/Windows 10
+TXN-FRAUD-0106,2026-05-21 13:44:32,ACT-SMURF-09-1,ACT-HUB-09,Offshore Finance,3069.73,Wire,76,Flagged,"Structuring Threshold Mismatch,Layering Phase",105.70.68.156,United States (via VPN),Brave/Windows 10
+TXN-FRAUD-0078,2026-05-21 14:37:46,ACT-SAFE-33,ACT-SMURF-06-1,Sovereign Crypto Bank,1994.22,ACH,68,Under Review,Unusual High Value deposit,52.25.88.37,United States (via Proxy),Safari/macOS 14
+TXN-SAFE-0086,2026-05-21 14:59:56,ACT-SAFE-11,ACT-SAFE-31,Sovereign Crypto Bank,797.19,ACH,6,Cleared,,46.20.70.75,"Seattle, US",Chrome/macOS
+TXN-FRAUD-0063,2026-05-21 15:36:30,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,44993.52,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",27.48.89.109,Canada (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0155,2026-05-21 16:18:13,ACT-SAFE-26,ACT-SAFE-16,Apex Digital Bank,1375.78,P2P,18,Cleared,,176.47.36.96,"New York, US",Safari/macOS 14
+TXN-SAFE-0777,2026-05-21 16:47:47,ACT-SAFE-06,ACT-SAFE-42,FraudShield AI Bank,47.98,ACH,17,Cleared,,34.99.48.192,"Austin, US",Chrome/Android 13
+TXN-SAFE-0711,2026-05-21 17:01:47,ACT-SAFE-05,ACT-SAFE-44,Apex Digital Bank,990.19,ACH,3,Cleared,,161.81.55.115,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0196,2026-05-21 17:50:30,ACT-SMURF-07-1,ACT-HUB-07,FraudShield AI Bank,2861.31,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",184.91.30.45,Cayman Islands (via VPN),Chrome/macOS
+TXN-SAFE-0290,2026-05-21 19:45:31,ACT-SAFE-45,ACT-SAFE-36,NeoBank Tech,362.42,P2P,15,Cleared,,40.84.41.116,"Chicago, US",Chrome/macOS
+TXN-SAFE-0735,2026-05-21 20:35:15,ACT-SAFE-28,ACT-SAFE-39,Offshore Finance,1312.89,P2P,15,Cleared,,147.54.47.101,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0082,2026-05-21 21:24:36,ACT-SAFE-30,ACT-SAFE-10,Zenith Global Trust,523.99,Card,0,Cleared,,28.47.13.205,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0392,2026-05-21 21:39:22,ACT-SAFE-32,ACT-SAFE-30,Sovereign Crypto Bank,1003.59,ACH,19,Cleared,,63.88.66.236,"Chicago, US",Firefox/Linux
+TXN-SAFE-0628,2026-05-21 22:03:39,ACT-SAFE-32,ACT-SAFE-33,Caribbean Cayman Bank,650.91,Card,7,Cleared,,198.37.95.162,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0078,2026-05-21 22:08:39,ACT-SAFE-32,ACT-SAFE-34,First Offshore Corp,333.42,ACH,20,Cleared,,120.79.94.125,"Austin, US",Chrome/macOS
+TXN-SAFE-0144,2026-05-21 23:18:44,ACT-SAFE-24,ACT-SAFE-40,Vanguard Retail,812.45,ACH,11,Cleared,,34.15.59.189,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0120,2026-05-21 23:45:03,ACT-SAFE-11,ACT-SAFE-50,Apex Digital Bank,1125.82,P2P,13,Cleared,,155.69.27.125,"New York, US",Brave/Windows 10
+TXN-SAFE-0292,2026-05-22 00:14:05,ACT-SAFE-36,ACT-SAFE-10,First Offshore Corp,1029.03,Card,13,Cleared,,175.54.62.98,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0607,2026-05-22 01:29:00,ACT-SAFE-24,ACT-SAFE-05,Apex Digital Bank,426.88,ACH,4,Cleared,,40.84.62.118,"Austin, US",Chrome/Android 13
+TXN-SAFE-0145,2026-05-22 01:30:17,ACT-SAFE-14,ACT-SAFE-44,Metro Credit Union,635.01,P2P,14,Cleared,,104.22.56.221,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0565,2026-05-22 01:49:15,ACT-SAFE-21,ACT-SAFE-34,Apex Digital Bank,572.7,Card,20,Cleared,,91.50.88.84,"Austin, US",Safari/macOS 14
+TXN-FRAUD-0036,2026-05-22 02:47:02,ACT-SAFE-05,ACT-SMURF-10-1,Caribbean Cayman Bank,2777.26,ACH,72,Under Review,Unusual High Value deposit,188.35.55.235,Cyprus (via Proxy),Firefox/Linux
+TXN-SAFE-0215,2026-05-22 03:04:45,ACT-SAFE-07,ACT-SAFE-36,Metro Credit Union,504.74,P2P,15,Cleared,,121.15.36.182,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0624,2026-05-22 05:26:18,ACT-SAFE-42,ACT-SAFE-06,Offshore Finance,1061.54,Card,8,Cleared,,151.91.67.134,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0760,2026-05-22 05:47:44,ACT-SAFE-01,ACT-SAFE-16,FraudShield AI Bank,1276.54,P2P,16,Cleared,,85.50.73.22,"Chicago, US",Chrome/macOS
+TXN-SAFE-0710,2026-05-22 06:59:16,ACT-SAFE-14,ACT-SAFE-20,Sovereign Crypto Bank,1222.44,Card,13,Cleared,,59.53.52.73,"New York, US",Brave/Windows 10
+TXN-SAFE-0205,2026-05-22 07:36:30,ACT-SAFE-34,ACT-SAFE-08,Offshore Finance,137.37,Card,7,Cleared,,198.97.25.15,"New York, US",Safari/macOS 14
+TXN-SAFE-0364,2026-05-22 08:19:04,ACT-SAFE-20,ACT-SAFE-40,Apex Digital Bank,472.08,P2P,5,Cleared,,151.77.19.45,"Seattle, US",Chrome/macOS
+TXN-SAFE-0623,2026-05-22 08:24:31,ACT-SAFE-42,ACT-SAFE-36,First Offshore Corp,942.05,ACH,12,Cleared,,184.68.82.177,"Austin, US",Firefox/Linux
+TXN-SAFE-0426,2026-05-22 09:11:09,ACT-SAFE-23,ACT-SAFE-11,Apex Digital Bank,311.58,Card,5,Cleared,,156.28.92.136,"Seattle, US",Chrome/macOS
+TXN-SAFE-0559,2026-05-22 09:44:35,ACT-SAFE-42,ACT-SAFE-38,Offshore Finance,115.2,P2P,1,Cleared,,116.24.86.169,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0002,2026-05-22 10:21:42,ACT-SMURF-08-2,ACT-HUB-08,NeoBank Tech,2609.52,Wire,85,Flagged,"Structuring Threshold Mismatch,Layering Phase",28.57.90.38,Switzerland (via VPN),Safari/macOS 14
+TXN-FRAUD-0065,2026-05-22 10:22:42,ACT-SMURF-02-1,ACT-HUB-02,Offshore Finance,3447.88,Wire,70,Flagged,"Structuring Threshold Mismatch,Layering Phase",196.70.93.116,United States (via VPN),Brave/Windows 10
+TXN-FRAUD-0088,2026-05-22 12:36:55,ACT-SMURF-06-1,ACT-HUB-06,NeoBank Tech,2891.43,Wire,82,Flagged,"Structuring Threshold Mismatch,Layering Phase",64.64.32.159,Canada (via VPN),Chrome/macOS
+TXN-FRAUD-0059,2026-05-22 14:04:27,ACT-SMURF-04-1,ACT-HUB-04,FraudShield AI Bank,3307.67,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",49.45.26.250,United Kingdom (via VPN),Safari/iOS 17
+TXN-SAFE-0784,2026-05-22 16:10:25,ACT-SAFE-33,ACT-SAFE-18,First Offshore Corp,1327.28,Card,1,Cleared,,120.71.56.228,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0700,2026-05-22 17:33:30,ACT-SAFE-11,ACT-SAFE-32,Sovereign Crypto Bank,275.22,P2P,20,Cleared,,80.58.92.216,"New York, US",Chrome/Android 13
+TXN-SAFE-0786,2026-05-22 18:41:32,ACT-SAFE-12,ACT-SAFE-01,NeoBank Tech,1165.61,ACH,9,Cleared,,160.39.52.80,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0046,2026-05-22 20:34:19,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,26898.2,Wire,96,Blocked,"Large Integration Outflow,High Risk Crypto Route",79.43.15.236,Canada (via VPN),Safari/macOS 14
+TXN-SAFE-0231,2026-05-22 21:23:58,ACT-SAFE-15,ACT-SAFE-49,NeoBank Tech,544.05,ACH,6,Cleared,,104.27.36.112,"Austin, US",Chrome/Android 13
+TXN-SAFE-0069,2026-05-22 21:30:39,ACT-SAFE-18,ACT-SAFE-47,NeoBank Tech,199.23,Card,10,Cleared,,88.32.60.103,"New York, US",Chrome/Android 13
+TXN-FRAUD-0073,2026-05-22 21:41:23,ACT-SAFE-12,ACT-SMURF-01-1,Caribbean Cayman Bank,4378.55,ACH,67,Under Review,Unusual High Value deposit,188.51.94.227,Cyprus (via Proxy),Safari/macOS 14
+TXN-SAFE-0614,2026-05-22 23:10:28,ACT-SAFE-08,ACT-SAFE-26,Vanguard Retail,963.02,Card,12,Cleared,,158.90.73.244,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0094,2026-05-23 01:04:29,ACT-SMURF-01-2,ACT-HUB-01,Zenith Global Trust,3734.92,Wire,78,Flagged,"Structuring Threshold Mismatch,Layering Phase",36.38.27.87,Switzerland (via VPN),Safari/iOS 17
+TXN-SAFE-0367,2026-05-23 03:15:03,ACT-SAFE-25,ACT-SAFE-32,Sovereign Crypto Bank,24.15,P2P,4,Cleared,,105.66.39.17,"Austin, US",Brave/Windows 10
+TXN-SAFE-0753,2026-05-23 04:27:35,ACT-SAFE-21,ACT-SAFE-43,FraudShield AI Bank,608.23,P2P,2,Cleared,,151.14.73.155,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0727,2026-05-23 04:58:11,ACT-SAFE-41,ACT-SAFE-21,FraudShield AI Bank,891.91,ACH,5,Cleared,,149.23.73.195,"Austin, US",Firefox/Linux
+TXN-SAFE-0052,2026-05-23 08:20:02,ACT-SAFE-46,ACT-SAFE-30,First Offshore Corp,186.07,P2P,8,Cleared,,185.82.65.12,"Chicago, US",Firefox/Linux
+TXN-SAFE-0261,2026-05-23 08:31:27,ACT-SAFE-43,ACT-SAFE-13,FraudShield AI Bank,1325.78,P2P,20,Cleared,,43.19.78.34,"Seattle, US",Firefox/Linux
+TXN-SAFE-0681,2026-05-23 08:46:59,ACT-SAFE-35,ACT-SAFE-32,Metro Credit Union,709.07,Card,0,Cleared,,74.71.88.181,"Seattle, US",Firefox/Linux
+TXN-SAFE-0611,2026-05-23 11:27:44,ACT-SAFE-15,ACT-SAFE-03,Apex Digital Bank,544.13,P2P,9,Cleared,,42.44.72.210,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0138,2026-05-23 11:47:03,ACT-SAFE-46,ACT-SMURF-09-2,First Offshore Corp,4493.35,ACH,51,Under Review,Unusual High Value deposit,87.59.24.151,Germany (via Proxy),Chrome/Android 13
+TXN-FRAUD-0178,2026-05-23 12:06:44,ACT-SMURF-07-1,ACT-HUB-07,Offshore Finance,4251.03,Wire,73,Flagged,"Structuring Threshold Mismatch,Layering Phase",161.94.44.44,Iceland (via VPN),Safari/iOS 17
+TXN-SAFE-0207,2026-05-23 13:00:14,ACT-SAFE-47,ACT-SAFE-46,Zenith Global Trust,1126.48,ACH,14,Cleared,,128.25.54.68,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0798,2026-05-23 13:02:40,ACT-SAFE-12,ACT-SAFE-02,FraudShield AI Bank,346.17,ACH,13,Cleared,,134.89.47.200,"Austin, US",Safari/macOS 14
+TXN-SAFE-0665,2026-05-23 14:38:37,ACT-SAFE-43,ACT-SAFE-06,Metro Credit Union,918.88,P2P,16,Cleared,,104.76.63.79,"New York, US",Brave/Windows 10
+TXN-SAFE-0719,2026-05-23 15:38:19,ACT-SAFE-48,ACT-SAFE-45,Sovereign Crypto Bank,729.71,Card,13,Cleared,,105.82.20.6,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0500,2026-05-23 15:46:20,ACT-SAFE-18,ACT-SAFE-07,Metro Credit Union,359.98,Card,13,Cleared,,34.52.82.77,"New York, US",Safari/iOS 17
+TXN-SAFE-0244,2026-05-23 15:49:01,ACT-SAFE-35,ACT-SAFE-42,Apex Digital Bank,963.07,P2P,17,Cleared,,198.62.40.246,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0375,2026-05-23 16:03:59,ACT-SAFE-33,ACT-SAFE-11,Vanguard Retail,550.24,ACH,5,Cleared,,43.32.90.31,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0191,2026-05-23 16:11:27,ACT-SAFE-31,ACT-SAFE-27,Caribbean Cayman Bank,348.64,ACH,10,Cleared,,40.12.51.227,"Austin, US",Chrome/Android 13
+TXN-SAFE-0147,2026-05-23 16:26:48,ACT-SAFE-20,ACT-SAFE-19,Zenith Global Trust,366.51,ACH,12,Cleared,,130.88.25.6,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0345,2026-05-23 17:02:42,ACT-SAFE-24,ACT-SAFE-35,Metro Credit Union,533.74,Card,3,Cleared,,129.96.46.66,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0248,2026-05-23 19:56:59,ACT-SAFE-41,ACT-SAFE-25,Zenith Global Trust,361.98,P2P,3,Cleared,,174.100.25.212,"New York, US",Safari/macOS 14
+TXN-SAFE-0112,2026-05-23 21:15:53,ACT-SAFE-06,ACT-SAFE-08,Caribbean Cayman Bank,455.16,ACH,7,Cleared,,50.83.66.28,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0715,2026-05-23 21:50:43,ACT-SAFE-50,ACT-SAFE-10,Sovereign Crypto Bank,229.51,ACH,19,Cleared,,153.35.65.51,"Austin, US",Safari/iOS 17
+TXN-SAFE-0660,2026-05-23 21:53:20,ACT-SAFE-25,ACT-SAFE-12,Offshore Finance,1330.59,Card,12,Cleared,,31.95.59.210,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0165,2026-05-23 22:20:50,ACT-SAFE-47,ACT-SAFE-41,Vanguard Retail,1230.94,ACH,14,Cleared,,78.91.29.167,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0535,2026-05-23 22:21:17,ACT-SAFE-23,ACT-SAFE-42,First Offshore Corp,1359.81,P2P,2,Cleared,,58.61.53.25,"Austin, US",Safari/iOS 17
+TXN-SAFE-0650,2026-05-24 00:39:32,ACT-SAFE-28,ACT-SAFE-15,Metro Credit Union,1114.19,Card,6,Cleared,,139.21.45.112,"New York, US",Brave/Windows 10
+TXN-SAFE-0434,2026-05-24 01:21:48,ACT-SAFE-20,ACT-SAFE-38,First Offshore Corp,719.0,Card,8,Cleared,,116.95.54.35,"Austin, US",Brave/Windows 10
+TXN-SAFE-0282,2026-05-24 03:51:57,ACT-SAFE-20,ACT-SAFE-37,First Offshore Corp,1268.28,P2P,13,Cleared,,103.15.39.193,"New York, US",Brave/Windows 10
+TXN-SAFE-0717,2026-05-24 04:15:22,ACT-SAFE-23,ACT-SAFE-29,FraudShield AI Bank,606.08,P2P,12,Cleared,,195.84.29.95,"Austin, US",Safari/macOS 14
+TXN-SAFE-0476,2026-05-24 06:05:52,ACT-SAFE-15,ACT-SAFE-49,Metro Credit Union,1256.56,P2P,3,Cleared,,80.54.17.126,"Austin, US",Safari/iOS 17
+TXN-SAFE-0527,2026-05-24 06:06:37,ACT-SAFE-17,ACT-SAFE-39,Zenith Global Trust,492.76,P2P,4,Cleared,,162.10.79.65,"Austin, US",Safari/iOS 17
+TXN-SAFE-0146,2026-05-24 07:11:20,ACT-SAFE-19,ACT-SAFE-27,FraudShield AI Bank,1418.48,Card,10,Cleared,,51.13.63.201,"New York, US",Chrome/macOS
+TXN-FRAUD-0159,2026-05-24 08:20:58,ACT-SAFE-02,ACT-SMURF-05-1,Apex Digital Bank,4222.47,ACH,57,Under Review,Unusual High Value deposit,85.25.23.69,Germany (via Proxy),Brave/Windows 10
+TXN-SAFE-0271,2026-05-24 09:02:43,ACT-SAFE-07,ACT-SAFE-08,FraudShield AI Bank,1032.88,Card,0,Cleared,,140.17.23.231,"Austin, US",Brave/Windows 10
+TXN-SAFE-0740,2026-05-24 09:59:28,ACT-SAFE-19,ACT-SAFE-22,FraudShield AI Bank,1226.9,Card,5,Cleared,,41.24.27.124,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0152,2026-05-24 11:27:23,ACT-SAFE-24,ACT-SAFE-13,Vanguard Retail,1326.05,P2P,11,Cleared,,173.85.53.175,"New York, US",Chrome/Android 13
+TXN-SAFE-0796,2026-05-24 12:09:57,ACT-SAFE-35,ACT-SAFE-31,Zenith Global Trust,811.1,ACH,11,Cleared,,164.49.75.134,"New York, US",Firefox/Linux
+TXN-SAFE-0186,2026-05-24 15:36:11,ACT-SAFE-37,ACT-SAFE-24,Apex Digital Bank,1095.92,ACH,13,Cleared,,161.59.24.65,"Chicago, US",Chrome/macOS
+TXN-SAFE-0411,2026-05-24 15:53:03,ACT-SAFE-46,ACT-SAFE-50,NeoBank Tech,155.47,ACH,4,Cleared,,38.36.98.108,"Chicago, US",Firefox/Linux
+TXN-SAFE-0713,2026-05-24 15:55:53,ACT-SAFE-21,ACT-SAFE-13,FraudShield AI Bank,244.84,ACH,11,Cleared,,59.90.53.50,"Seattle, US",Chrome/macOS
+TXN-SAFE-0636,2026-05-24 17:36:30,ACT-SAFE-19,ACT-SAFE-07,Vanguard Retail,937.87,ACH,10,Cleared,,29.83.27.3,"Chicago, US",Chrome/Android 13
+TXN-FRAUD-0145,2026-05-24 17:39:34,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,36591.59,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",29.75.31.151,Cayman Islands (via VPN),Chrome/Android 13
+TXN-FRAUD-0012,2026-05-24 18:05:29,ACT-SMURF-01-1,ACT-HUB-01,Zenith Global Trust,2607.03,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",190.63.13.110,Russia (via VPN),Safari/iOS 17
+TXN-FRAUD-0177,2026-05-24 18:14:22,ACT-SMURF-06-1,ACT-HUB-06,Vanguard Retail,4458.42,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",199.52.38.65,United States (via VPN),Chrome/macOS
+TXN-SAFE-0793,2026-05-24 20:51:54,ACT-SAFE-31,ACT-SAFE-34,Vanguard Retail,1279.22,Card,10,Cleared,,181.13.49.229,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0195,2026-05-24 20:59:28,ACT-HUB-07,ACT-EXIT-07,Sovereign Crypto Bank,43342.33,Wire,92,Flagged,"Large Integration Outflow,High Risk Crypto Route",36.76.13.62,Singapore (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0099,2026-05-24 21:09:50,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,23127.96,Wire,97,Flagged,"Large Integration Outflow,High Risk Crypto Route",156.62.61.18,Germany (via VPN),Brave/Windows 10
+TXN-SAFE-0294,2026-05-24 21:11:28,ACT-SAFE-44,ACT-SAFE-18,Offshore Finance,1263.84,P2P,18,Cleared,,24.10.33.17,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0048,2026-05-24 23:25:22,ACT-SMURF-05-1,ACT-HUB-05,Caribbean Cayman Bank,3396.93,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",51.97.13.52,Cayman Islands (via VPN),Chrome/Android 13
+TXN-SAFE-0225,2026-05-25 00:44:58,ACT-SAFE-43,ACT-SAFE-13,Vanguard Retail,68.4,P2P,1,Cleared,,106.64.77.226,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0090,2026-05-25 02:11:47,ACT-SAFE-44,ACT-SAFE-30,Vanguard Retail,959.05,ACH,7,Cleared,,112.91.72.138,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0456,2026-05-25 02:34:28,ACT-SAFE-01,ACT-SAFE-17,Sovereign Crypto Bank,46.95,P2P,10,Cleared,,182.28.73.234,"Austin, US",Safari/iOS 17
+TXN-SAFE-0398,2026-05-25 02:35:42,ACT-SAFE-49,ACT-SAFE-33,Apex Digital Bank,503.64,P2P,8,Cleared,,196.23.99.14,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0197,2026-05-25 04:46:08,ACT-SMURF-08-2,ACT-HUB-08,First Offshore Corp,4099.08,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",50.91.57.126,Singapore (via VPN),Chrome/Android 13
+TXN-SAFE-0097,2026-05-25 09:29:06,ACT-SAFE-22,ACT-SAFE-16,Metro Credit Union,739.02,ACH,7,Cleared,,138.46.27.16,"Austin, US",Chrome/macOS
+TXN-FRAUD-0137,2026-05-25 10:25:31,ACT-SMURF-08-2,ACT-HUB-08,First Offshore Corp,4621.19,Wire,82,Flagged,"Structuring Threshold Mismatch,Layering Phase",105.32.16.57,Canada (via VPN),Safari/macOS 14
+TXN-SAFE-0492,2026-05-25 10:32:13,ACT-SAFE-24,ACT-SAFE-03,Sovereign Crypto Bank,638.48,ACH,16,Cleared,,62.85.31.141,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0090,2026-05-25 10:51:00,ACT-SAFE-27,ACT-SMURF-04-2,Zenith Global Trust,2367.48,ACH,45,Cleared,Unusual High Value deposit,127.74.29.104,United States (via Proxy),Brave/Windows 10
+TXN-FRAUD-0020,2026-05-25 10:53:54,ACT-SMURF-08-1,ACT-HUB-08,Metro Credit Union,3079.32,Wire,81,Flagged,"Structuring Threshold Mismatch,Layering Phase",162.45.32.151,Canada (via VPN),Brave/Windows 10
+TXN-SAFE-0617,2026-05-25 11:35:45,ACT-SAFE-21,ACT-SAFE-34,Zenith Global Trust,1081.46,P2P,8,Cleared,,91.68.29.206,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0092,2026-05-25 12:21:50,ACT-SAFE-21,ACT-SMURF-09-1,Caribbean Cayman Bank,2718.55,ACH,63,Under Review,Unusual High Value deposit,34.27.30.75,Russia (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0197,2026-05-25 13:14:13,ACT-SAFE-09,ACT-SAFE-08,Sovereign Crypto Bank,1124.36,ACH,6,Cleared,,152.78.83.170,"Austin, US",Firefox/Linux
+TXN-SAFE-0002,2026-05-25 17:30:48,ACT-SAFE-25,ACT-SAFE-16,Offshore Finance,709.2,P2P,0,Cleared,,78.77.26.88,"New York, US",Safari/iOS 17
+TXN-SAFE-0462,2026-05-25 17:46:49,ACT-SAFE-25,ACT-SAFE-08,Apex Digital Bank,423.97,Card,12,Cleared,,100.39.15.245,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0340,2026-05-25 17:52:08,ACT-SAFE-03,ACT-SAFE-23,Apex Digital Bank,243.35,Card,3,Cleared,,139.84.92.189,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0024,2026-05-25 18:25:06,ACT-SAFE-31,ACT-SAFE-35,Zenith Global Trust,752.08,P2P,0,Cleared,,176.78.29.69,"Austin, US",Chrome/macOS
+TXN-SAFE-0407,2026-05-25 20:35:23,ACT-SAFE-33,ACT-SAFE-31,NeoBank Tech,408.29,Card,3,Cleared,,184.79.61.163,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0076,2026-05-25 23:08:47,ACT-HUB-06,ACT-EXIT-06,Sovereign Crypto Bank,40353.02,Wire,100,Blocked,"Large Integration Outflow,High Risk Crypto Route",59.78.30.127,Germany (via VPN),Chrome/Android 13
+TXN-SAFE-0659,2026-05-25 23:17:29,ACT-SAFE-34,ACT-SAFE-01,Metro Credit Union,1170.96,ACH,6,Cleared,,111.39.44.142,"New York, US",Chrome/Android 13
+TXN-SAFE-0181,2026-05-26 00:26:55,ACT-SAFE-31,ACT-SAFE-07,Zenith Global Trust,1011.55,P2P,15,Cleared,,79.14.70.157,"Austin, US",Safari/macOS 14
+TXN-SAFE-0166,2026-05-26 03:21:01,ACT-SAFE-35,ACT-SAFE-13,FraudShield AI Bank,1216.03,Card,17,Cleared,,147.47.91.73,"Seattle, US",Chrome/macOS
+TXN-SAFE-0573,2026-05-26 03:35:18,ACT-SAFE-16,ACT-SAFE-33,NeoBank Tech,338.12,P2P,18,Cleared,,91.99.98.145,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0477,2026-05-26 04:52:17,ACT-SAFE-22,ACT-SAFE-15,NeoBank Tech,246.68,ACH,13,Cleared,,57.80.10.208,"Chicago, US",Chrome/macOS
+TXN-SAFE-0468,2026-05-26 04:59:28,ACT-SAFE-35,ACT-SAFE-06,Vanguard Retail,1121.46,ACH,0,Cleared,,40.51.89.78,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0151,2026-05-26 05:19:44,ACT-SAFE-44,ACT-SAFE-24,FraudShield AI Bank,360.32,P2P,3,Cleared,,58.93.38.124,"Austin, US",Firefox/Linux
+TXN-SAFE-0696,2026-05-26 06:02:24,ACT-SAFE-47,ACT-SAFE-22,NeoBank Tech,785.79,P2P,0,Cleared,,160.47.82.92,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0487,2026-05-26 06:31:04,ACT-SAFE-04,ACT-SAFE-30,First Offshore Corp,1163.85,Card,15,Cleared,,145.43.70.33,"Austin, US",Safari/iOS 17
+TXN-SAFE-0308,2026-05-26 07:04:06,ACT-SAFE-12,ACT-SAFE-37,First Offshore Corp,828.75,P2P,20,Cleared,,97.64.32.223,"Austin, US",Firefox/Linux
+TXN-FRAUD-0185,2026-05-26 07:04:54,ACT-SAFE-28,ACT-SMURF-02-1,Offshore Finance,1235.95,ACH,75,Under Review,Unusual High Value deposit,39.84.29.186,Singapore (via Proxy),Safari/macOS 14
+TXN-SAFE-0028,2026-05-26 09:10:52,ACT-SAFE-32,ACT-SAFE-31,Caribbean Cayman Bank,183.47,ACH,4,Cleared,,59.50.65.179,"Austin, US",Chrome/Android 13
+TXN-FRAUD-0119,2026-05-26 10:29:58,ACT-HUB-02,ACT-EXIT-02,Sovereign Crypto Bank,43638.52,Wire,94,Blocked,"Large Integration Outflow,High Risk Crypto Route",36.92.22.61,Iceland (via VPN),Chrome/Android 13
+TXN-SAFE-0243,2026-05-26 10:58:58,ACT-SAFE-29,ACT-SAFE-21,First Offshore Corp,246.67,P2P,12,Cleared,,146.27.82.156,"Chicago, US",Firefox/Linux
+TXN-SAFE-0788,2026-05-26 11:37:57,ACT-SAFE-26,ACT-SAFE-32,Caribbean Cayman Bank,1036.04,P2P,1,Cleared,,54.37.96.137,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0331,2026-05-26 11:45:36,ACT-SAFE-07,ACT-SAFE-44,Offshore Finance,1375.59,Card,16,Cleared,,76.63.37.101,"Seattle, US",Chrome/macOS
+TXN-SAFE-0581,2026-05-26 11:56:00,ACT-SAFE-12,ACT-SAFE-24,Sovereign Crypto Bank,1405.94,ACH,14,Cleared,,105.39.85.121,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0396,2026-05-26 14:12:08,ACT-SAFE-46,ACT-SAFE-12,Zenith Global Trust,207.74,Card,4,Cleared,,37.37.58.16,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0058,2026-05-26 15:02:45,ACT-SAFE-49,ACT-SAFE-28,Apex Digital Bank,1029.48,Card,13,Cleared,,75.16.70.81,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0536,2026-05-26 15:13:29,ACT-SAFE-29,ACT-SAFE-03,Vanguard Retail,205.81,Card,4,Cleared,,32.26.63.174,"Chicago, US",Safari/iOS 17
+TXN-FRAUD-0175,2026-05-26 15:46:04,ACT-SAFE-03,ACT-SMURF-07-1,Offshore Finance,1657.32,ACH,70,Under Review,Unusual High Value deposit,87.62.77.89,Cayman Islands (via Proxy),Firefox/Linux
+TXN-SAFE-0339,2026-05-26 15:55:13,ACT-SAFE-01,ACT-SAFE-07,Apex Digital Bank,1106.56,ACH,6,Cleared,,197.72.40.6,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0220,2026-05-26 17:20:48,ACT-SAFE-14,ACT-SAFE-34,Metro Credit Union,368.36,ACH,11,Cleared,,185.91.59.169,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0058,2026-05-26 18:25:06,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,30087.89,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",89.93.63.225,United Kingdom (via VPN),Firefox/Linux
+TXN-SAFE-0262,2026-05-26 19:45:01,ACT-SAFE-24,ACT-SAFE-10,Apex Digital Bank,717.42,Card,13,Cleared,,168.20.80.233,"New York, US",Safari/iOS 17
+TXN-SAFE-0194,2026-05-26 19:52:08,ACT-SAFE-33,ACT-SAFE-10,Sovereign Crypto Bank,1029.29,ACH,1,Cleared,,172.43.60.122,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0132,2026-05-26 20:08:30,ACT-SAFE-33,ACT-SAFE-44,Offshore Finance,281.2,P2P,15,Cleared,,75.87.66.222,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0358,2026-05-26 20:22:11,ACT-SAFE-16,ACT-SAFE-26,Zenith Global Trust,576.14,Card,16,Cleared,,130.14.95.101,"Austin, US",Firefox/Linux
+TXN-SAFE-0150,2026-05-26 21:46:57,ACT-SAFE-41,ACT-SAFE-32,Apex Digital Bank,44.16,P2P,11,Cleared,,39.49.33.252,"New York, US",Firefox/Linux
+TXN-FRAUD-0176,2026-05-26 23:56:35,ACT-SAFE-20,ACT-SMURF-07-2,Offshore Finance,1339.17,ACH,60,Under Review,Unusual High Value deposit,192.33.66.167,Iceland (via Proxy),Brave/Windows 10
+TXN-SAFE-0355,2026-05-27 02:12:18,ACT-SAFE-50,ACT-SAFE-36,Caribbean Cayman Bank,1337.08,Card,18,Cleared,,131.37.62.124,"New York, US",Firefox/Linux
+TXN-FRAUD-0023,2026-05-27 02:47:15,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,40831.6,Wire,99,Flagged,"Large Integration Outflow,High Risk Crypto Route",163.26.77.78,Cyprus (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0154,2026-05-27 06:50:45,ACT-SAFE-40,ACT-SAFE-05,First Offshore Corp,1172.52,ACH,19,Cleared,,92.94.30.228,"New York, US",Brave/Windows 10
+TXN-FRAUD-0192,2026-05-27 07:48:51,ACT-SMURF-10-2,ACT-HUB-10,FraudShield AI Bank,3549.48,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",57.29.15.87,United Kingdom (via VPN),Brave/Windows 10
+TXN-SAFE-0679,2026-05-27 08:39:15,ACT-SAFE-25,ACT-SAFE-35,Caribbean Cayman Bank,949.52,P2P,18,Cleared,,153.95.86.206,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0709,2026-05-27 09:16:47,ACT-SAFE-03,ACT-SAFE-18,Vanguard Retail,1243.79,ACH,10,Cleared,,33.34.68.82,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0380,2026-05-27 12:48:41,ACT-SAFE-09,ACT-SAFE-34,Caribbean Cayman Bank,692.92,P2P,5,Cleared,,53.58.95.98,"New York, US",Firefox/Linux
+TXN-SAFE-0470,2026-05-27 13:05:01,ACT-SAFE-12,ACT-SAFE-35,NeoBank Tech,395.74,Card,12,Cleared,,76.82.70.166,"Seattle, US",Firefox/Linux
+TXN-SAFE-0199,2026-05-27 13:07:07,ACT-SAFE-44,ACT-SAFE-41,NeoBank Tech,1392.52,ACH,5,Cleared,,104.36.95.185,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0107,2026-05-27 13:48:16,ACT-SAFE-44,ACT-SAFE-12,NeoBank Tech,1236.29,Card,0,Cleared,,177.58.92.34,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0099,2026-05-27 13:59:42,ACT-SAFE-24,ACT-SAFE-43,Apex Digital Bank,682.14,Card,18,Cleared,,183.81.66.187,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0152,2026-05-27 15:28:02,ACT-SAFE-23,ACT-SMURF-03-1,FraudShield AI Bank,3680.99,ACH,66,Under Review,Unusual High Value deposit,140.82.81.54,Singapore (via Proxy),Chrome/Android 13
+TXN-FRAUD-0112,2026-05-27 15:41:50,ACT-SAFE-01,ACT-SMURF-05-2,Zenith Global Trust,1468.93,ACH,49,Cleared,Unusual High Value deposit,29.29.53.168,Canada (via Proxy),Chrome/macOS
+TXN-SAFE-0374,2026-05-27 15:55:26,ACT-SAFE-30,ACT-SAFE-25,NeoBank Tech,554.43,ACH,13,Cleared,,121.21.95.96,"Austin, US",Chrome/macOS
+TXN-SAFE-0009,2026-05-27 16:53:19,ACT-SAFE-28,ACT-SAFE-35,Offshore Finance,122.37,Card,10,Cleared,,165.86.49.113,"Austin, US",Brave/Windows 10
+TXN-SAFE-0065,2026-05-27 18:01:41,ACT-SAFE-49,ACT-SAFE-08,Sovereign Crypto Bank,632.11,ACH,3,Cleared,,44.65.73.59,"New York, US",Brave/Windows 10
+TXN-SAFE-0031,2026-05-27 18:08:48,ACT-SAFE-35,ACT-SAFE-26,Caribbean Cayman Bank,1190.79,ACH,0,Cleared,,74.65.72.81,"Seattle, US",Chrome/macOS
+TXN-SAFE-0427,2026-05-27 19:02:42,ACT-SAFE-46,ACT-SAFE-43,Vanguard Retail,711.94,Card,18,Cleared,,119.47.75.138,"New York, US",Brave/Windows 10
+TXN-FRAUD-0093,2026-05-27 20:03:25,ACT-SMURF-10-2,ACT-HUB-10,Metro Credit Union,4689.63,Wire,88,Flagged,"Structuring Threshold Mismatch,Layering Phase",177.69.41.121,Germany (via VPN),Brave/Windows 10
+TXN-FRAUD-0067,2026-05-27 20:05:28,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,41572.0,Wire,93,Flagged,"Large Integration Outflow,High Risk Crypto Route",108.50.79.131,Iceland (via VPN),Brave/Windows 10
+TXN-SAFE-0174,2026-05-27 21:42:36,ACT-SAFE-19,ACT-SAFE-06,NeoBank Tech,446.12,ACH,7,Cleared,,136.96.75.48,"New York, US",Firefox/Linux
+TXN-SAFE-0557,2026-05-27 22:02:03,ACT-SAFE-08,ACT-SAFE-25,Zenith Global Trust,883.87,Card,13,Cleared,,140.43.97.119,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0645,2026-05-27 22:05:59,ACT-SAFE-30,ACT-SAFE-19,Metro Credit Union,314.52,P2P,9,Cleared,,130.42.17.27,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0061,2026-05-27 22:25:31,ACT-SAFE-16,ACT-SAFE-13,Caribbean Cayman Bank,183.22,ACH,20,Cleared,,135.77.93.231,"New York, US",Safari/macOS 14
+TXN-SAFE-0319,2026-05-28 01:36:57,ACT-SAFE-47,ACT-SAFE-02,Sovereign Crypto Bank,1185.27,P2P,17,Cleared,,35.80.34.57,"Austin, US",Safari/macOS 14
+TXN-SAFE-0303,2026-05-28 01:43:29,ACT-SAFE-16,ACT-SAFE-46,Caribbean Cayman Bank,600.78,P2P,17,Cleared,,173.58.51.50,"Austin, US",Safari/macOS 14
+TXN-SAFE-0423,2026-05-28 01:47:18,ACT-SAFE-19,ACT-SAFE-02,Vanguard Retail,719.71,Card,4,Cleared,,79.91.94.81,"Austin, US",Firefox/Linux
+TXN-SAFE-0792,2026-05-28 04:12:15,ACT-SAFE-36,ACT-SAFE-32,Sovereign Crypto Bank,176.13,P2P,11,Cleared,,124.75.27.210,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0103,2026-05-28 05:42:26,ACT-HUB-05,ACT-EXIT-05,Sovereign Crypto Bank,38153.92,Wire,91,Flagged,"Large Integration Outflow,High Risk Crypto Route",164.68.37.9,Switzerland (via VPN),Firefox/Linux
+TXN-SAFE-0325,2026-05-28 05:58:46,ACT-SAFE-40,ACT-SAFE-30,Offshore Finance,1363.98,P2P,5,Cleared,,126.75.33.162,"Chicago, US",Chrome/macOS
+TXN-SAFE-0770,2026-05-28 08:08:27,ACT-SAFE-36,ACT-SAFE-25,Vanguard Retail,984.66,Card,9,Cleared,,74.70.82.234,"Chicago, US",Chrome/macOS
+TXN-SAFE-0768,2026-05-28 08:33:02,ACT-SAFE-20,ACT-SAFE-12,Vanguard Retail,395.78,P2P,17,Cleared,,169.61.23.116,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0135,2026-05-28 08:36:37,ACT-SMURF-08-2,ACT-HUB-08,Zenith Global Trust,3585.35,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",118.35.25.16,Canada (via VPN),Brave/Windows 10
+TXN-SAFE-0111,2026-05-28 10:17:20,ACT-SAFE-24,ACT-SAFE-27,Apex Digital Bank,551.85,Card,20,Cleared,,149.62.45.37,"New York, US",Firefox/Linux
+TXN-SAFE-0651,2026-05-28 10:59:08,ACT-SAFE-36,ACT-SAFE-07,First Offshore Corp,308.94,P2P,4,Cleared,,80.43.19.124,"New York, US",Brave/Windows 10
+TXN-FRAUD-0098,2026-05-28 14:04:25,ACT-SAFE-24,ACT-SMURF-07-2,Zenith Global Trust,4011.33,ACH,45,Cleared,Unusual High Value deposit,39.49.45.153,Iceland (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0783,2026-05-28 14:51:47,ACT-SAFE-14,ACT-SAFE-23,FraudShield AI Bank,557.9,Card,6,Cleared,,142.67.52.5,"Austin, US",Firefox/Linux
+TXN-SAFE-0102,2026-05-28 15:05:13,ACT-SAFE-37,ACT-SAFE-18,Metro Credit Union,222.02,ACH,0,Cleared,,122.59.32.201,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0004,2026-05-28 16:23:21,ACT-SAFE-39,ACT-SMURF-09-1,Metro Credit Union,3501.67,ACH,48,Cleared,Unusual High Value deposit,149.84.74.89,United Kingdom (via Proxy),Safari/macOS 14
+TXN-SAFE-0518,2026-05-28 17:53:36,ACT-SAFE-18,ACT-SAFE-29,Sovereign Crypto Bank,873.13,ACH,6,Cleared,,179.42.91.67,"Austin, US",Chrome/macOS
+TXN-FRAUD-0015,2026-05-28 18:04:23,ACT-SAFE-28,ACT-SMURF-06-2,Zenith Global Trust,1524.87,ACH,71,Under Review,Unusual High Value deposit,94.41.82.125,Singapore (via Proxy),Chrome/Android 13
+TXN-SAFE-0414,2026-05-28 19:06:11,ACT-SAFE-43,ACT-SAFE-08,Caribbean Cayman Bank,232.11,ACH,2,Cleared,,108.96.89.191,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0064,2026-05-28 19:27:40,ACT-SMURF-04-1,ACT-HUB-04,Offshore Finance,3399.3,Wire,72,Flagged,"Structuring Threshold Mismatch,Layering Phase",180.68.17.253,Singapore (via VPN),Safari/iOS 17
+TXN-SAFE-0635,2026-05-28 21:24:55,ACT-SAFE-06,ACT-SAFE-30,FraudShield AI Bank,55.37,Card,1,Cleared,,114.58.16.226,"Seattle, US",Chrome/Android 13
+TXN-FRAUD-0013,2026-05-28 21:28:06,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,24974.96,Wire,91,Flagged,"Large Integration Outflow,High Risk Crypto Route",92.16.62.83,Singapore (via VPN),Brave/Windows 10
+TXN-SAFE-0362,2026-05-28 23:00:59,ACT-SAFE-20,ACT-SAFE-41,Vanguard Retail,766.89,Card,13,Cleared,,66.65.43.250,"New York, US",Chrome/Android 13
+TXN-SAFE-0193,2026-05-28 23:11:18,ACT-SAFE-13,ACT-SAFE-07,Caribbean Cayman Bank,1143.6,ACH,2,Cleared,,184.87.94.213,"Chicago, US",Brave/Windows 10
+TXN-FRAUD-0010,2026-05-29 02:34:58,ACT-SMURF-02-2,ACT-HUB-02,Apex Digital Bank,3998.18,Wire,86,Flagged,"Structuring Threshold Mismatch,Layering Phase",164.37.14.181,Canada (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0512,2026-05-29 03:48:38,ACT-SAFE-34,ACT-SAFE-47,Caribbean Cayman Bank,617.29,P2P,2,Cleared,,33.60.12.217,"New York, US",Safari/iOS 17
+TXN-FRAUD-0050,2026-05-29 04:11:56,ACT-SAFE-01,ACT-SMURF-05-2,Zenith Global Trust,3313.59,ACH,68,Under Review,Unusual High Value deposit,153.81.47.229,Iceland (via Proxy),Brave/Windows 10
+TXN-SAFE-0383,2026-05-29 04:16:57,ACT-SAFE-26,ACT-SAFE-21,NeoBank Tech,843.62,Card,15,Cleared,,143.88.18.198,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0003,2026-05-29 05:35:37,ACT-SAFE-06,ACT-SAFE-46,Zenith Global Trust,1053.69,ACH,16,Cleared,,75.12.86.148,"Seattle, US",Firefox/Linux
+TXN-SAFE-0439,2026-05-29 06:49:50,ACT-SAFE-06,ACT-SAFE-34,NeoBank Tech,1269.38,P2P,3,Cleared,,43.99.26.77,"Chicago, US",Chrome/macOS
+TXN-SAFE-0241,2026-05-29 07:57:15,ACT-SAFE-29,ACT-SAFE-47,Zenith Global Trust,661.81,Card,14,Cleared,,60.40.100.34,"New York, US",Safari/iOS 17
+TXN-FRAUD-0074,2026-05-29 08:24:06,ACT-SMURF-10-1,ACT-HUB-10,Offshore Finance,3737.27,Wire,71,Flagged,"Structuring Threshold Mismatch,Layering Phase",53.28.82.34,Cyprus (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0102,2026-05-29 08:52:22,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,37998.35,Wire,90,Flagged,"Large Integration Outflow,High Risk Crypto Route",124.56.50.130,Germany (via VPN),Safari/iOS 17
+TXN-SAFE-0192,2026-05-29 11:30:46,ACT-SAFE-05,ACT-SAFE-17,Offshore Finance,731.64,Card,6,Cleared,,122.70.46.28,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0250,2026-05-29 11:56:21,ACT-SAFE-43,ACT-SAFE-46,Apex Digital Bank,562.25,P2P,11,Cleared,,111.89.14.116,"Austin, US",Firefox/Linux
+TXN-FRAUD-0190,2026-05-29 12:47:01,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,44081.91,Wire,96,Blocked,"Large Integration Outflow,High Risk Crypto Route",195.51.14.110,Canada (via VPN),Safari/macOS 14
+TXN-SAFE-0187,2026-05-29 14:03:12,ACT-SAFE-50,ACT-SAFE-04,First Offshore Corp,1226.71,Card,4,Cleared,,196.87.94.186,"New York, US",Chrome/Android 13
+TXN-SAFE-0670,2026-05-29 14:26:39,ACT-SAFE-16,ACT-SAFE-49,FraudShield AI Bank,1469.65,P2P,6,Cleared,,151.66.46.154,"New York, US",Chrome/Android 13
+TXN-SAFE-0116,2026-05-29 14:42:47,ACT-SAFE-25,ACT-SAFE-09,NeoBank Tech,658.29,P2P,2,Cleared,,132.45.81.88,"Austin, US",Chrome/Android 13
+TXN-SAFE-0707,2026-05-29 15:17:22,ACT-SAFE-40,ACT-SAFE-37,Offshore Finance,907.98,ACH,14,Cleared,,120.40.22.183,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0488,2026-05-29 15:33:00,ACT-SAFE-33,ACT-SAFE-20,Caribbean Cayman Bank,1101.21,P2P,18,Cleared,,162.23.31.178,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0604,2026-05-29 15:38:56,ACT-SAFE-18,ACT-SAFE-31,Offshore Finance,1187.29,ACH,4,Cleared,,26.27.48.93,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0108,2026-05-29 16:27:35,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,18795.45,Wire,93,Blocked,"Large Integration Outflow,High Risk Crypto Route",165.18.98.79,United Kingdom (via VPN),Chrome/Android 13
+TXN-SAFE-0372,2026-05-29 16:50:53,ACT-SAFE-30,ACT-SAFE-50,NeoBank Tech,668.98,ACH,15,Cleared,,175.43.19.188,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0416,2026-05-29 17:20:26,ACT-SAFE-38,ACT-SAFE-22,Zenith Global Trust,378.67,P2P,9,Cleared,,39.66.68.120,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0399,2026-05-29 17:34:03,ACT-SAFE-40,ACT-SAFE-25,Zenith Global Trust,1098.53,ACH,3,Cleared,,122.65.31.40,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0295,2026-05-29 18:11:19,ACT-SAFE-16,ACT-SAFE-44,Caribbean Cayman Bank,1470.54,P2P,0,Cleared,,168.31.69.36,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0187,2026-05-29 18:22:21,ACT-SAFE-17,ACT-SMURF-05-1,FraudShield AI Bank,4104.88,ACH,70,Under Review,Unusual High Value deposit,40.44.61.210,Canada (via Proxy),Chrome/Android 13
+TXN-SAFE-0631,2026-05-29 20:33:27,ACT-SAFE-04,ACT-SAFE-42,NeoBank Tech,1050.59,P2P,13,Cleared,,131.71.11.166,"New York, US",Chrome/macOS
+TXN-SAFE-0332,2026-05-29 21:48:06,ACT-SAFE-22,ACT-SAFE-41,Sovereign Crypto Bank,1287.3,P2P,17,Cleared,,150.82.63.71,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0789,2026-05-29 22:45:41,ACT-SAFE-29,ACT-SAFE-02,Caribbean Cayman Bank,203.78,ACH,16,Cleared,,152.59.88.74,"Seattle, US",Firefox/Linux
+TXN-SAFE-0051,2026-05-29 22:47:50,ACT-SAFE-36,ACT-SAFE-40,Sovereign Crypto Bank,256.85,Card,16,Cleared,,56.59.45.104,"Chicago, US",Firefox/Linux
+TXN-SAFE-0409,2026-05-30 00:09:38,ACT-SAFE-37,ACT-SAFE-31,Caribbean Cayman Bank,126.65,ACH,5,Cleared,,159.76.55.88,"Austin, US",Safari/iOS 17
+TXN-SAFE-0776,2026-05-30 00:21:52,ACT-SAFE-02,ACT-SAFE-42,First Offshore Corp,424.44,P2P,15,Cleared,,131.13.33.68,"Austin, US",Chrome/Android 13
+TXN-SAFE-0720,2026-05-30 02:24:05,ACT-SAFE-39,ACT-SAFE-03,Metro Credit Union,415.44,P2P,14,Cleared,,96.17.24.109,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0746,2026-05-30 02:29:57,ACT-SAFE-45,ACT-SAFE-08,Vanguard Retail,1355.87,ACH,2,Cleared,,87.17.67.147,"New York, US",Chrome/macOS
+TXN-SAFE-0550,2026-05-30 02:38:23,ACT-SAFE-01,ACT-SAFE-40,Apex Digital Bank,1087.19,Card,1,Cleared,,198.92.79.232,"Austin, US",Chrome/macOS
+TXN-SAFE-0259,2026-05-30 03:33:26,ACT-SAFE-19,ACT-SAFE-50,Vanguard Retail,809.25,P2P,9,Cleared,,174.93.84.168,"Seattle, US",Firefox/Linux
+TXN-FRAUD-0109,2026-05-30 03:37:25,ACT-SAFE-38,ACT-SMURF-05-1,FraudShield AI Bank,4403.23,ACH,63,Under Review,Unusual High Value deposit,63.24.64.3,Switzerland (via Proxy),Safari/macOS 14
+TXN-FRAUD-0060,2026-05-30 03:56:11,ACT-SAFE-30,ACT-SMURF-02-2,Caribbean Cayman Bank,2167.66,ACH,48,Cleared,Unusual High Value deposit,195.89.78.88,Iceland (via Proxy),Safari/macOS 14
+TXN-FRAUD-0198,2026-05-30 04:02:13,ACT-SAFE-09,ACT-SMURF-04-2,NeoBank Tech,1225.76,ACH,62,Under Review,Unusual High Value deposit,157.58.97.162,Singapore (via Proxy),Chrome/Android 13
+TXN-SAFE-0588,2026-05-30 05:58:28,ACT-SAFE-18,ACT-SAFE-23,Caribbean Cayman Bank,1012.42,Card,14,Cleared,,26.79.71.71,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0017,2026-05-30 06:22:50,ACT-SAFE-49,ACT-SAFE-32,First Offshore Corp,626.08,P2P,7,Cleared,,143.64.58.61,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0352,2026-05-30 07:47:57,ACT-SAFE-14,ACT-SAFE-33,Zenith Global Trust,781.59,Card,0,Cleared,,114.19.33.252,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0733,2026-05-30 07:55:30,ACT-SAFE-02,ACT-SAFE-08,Offshore Finance,986.19,ACH,13,Cleared,,118.40.23.239,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0014,2026-05-30 08:08:59,ACT-SAFE-15,ACT-SAFE-18,Sovereign Crypto Bank,1055.99,P2P,17,Cleared,,136.89.61.96,"New York, US",Firefox/Linux
+TXN-SAFE-0334,2026-05-30 13:01:02,ACT-SAFE-08,ACT-SAFE-14,Apex Digital Bank,758.61,ACH,19,Cleared,,100.56.38.19,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0013,2026-05-30 13:04:14,ACT-SAFE-50,ACT-SAFE-47,Vanguard Retail,365.87,Card,1,Cleared,,151.29.36.165,"Chicago, US",Chrome/macOS
+TXN-SAFE-0384,2026-05-30 14:33:55,ACT-SAFE-39,ACT-SAFE-32,Apex Digital Bank,1022.75,Card,1,Cleared,,57.100.22.138,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0092,2026-05-30 14:41:07,ACT-SAFE-49,ACT-SAFE-41,Offshore Finance,554.14,Card,8,Cleared,,114.82.33.239,"New York, US",Firefox/Linux
+TXN-SAFE-0133,2026-05-30 14:57:35,ACT-SAFE-02,ACT-SAFE-37,Caribbean Cayman Bank,719.29,P2P,15,Cleared,,134.74.90.164,"Austin, US",Brave/Windows 10
+TXN-SAFE-0445,2026-05-30 15:14:31,ACT-SAFE-10,ACT-SAFE-46,FraudShield AI Bank,542.85,Card,9,Cleared,,167.66.34.122,"New York, US",Safari/iOS 17
+TXN-SAFE-0755,2026-05-30 15:17:30,ACT-SAFE-02,ACT-SAFE-14,FraudShield AI Bank,364.85,P2P,1,Cleared,,200.37.73.13,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0419,2026-05-30 17:16:13,ACT-SAFE-01,ACT-SAFE-16,Zenith Global Trust,1008.38,ACH,13,Cleared,,132.65.14.229,"Seattle, US",Safari/macOS 14
+TXN-FRAUD-0171,2026-05-30 18:28:24,ACT-SAFE-31,ACT-SMURF-07-1,Zenith Global Trust,3866.48,ACH,58,Under Review,Unusual High Value deposit,141.83.52.53,Switzerland (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0347,2026-05-30 18:37:39,ACT-SAFE-40,ACT-SAFE-12,FraudShield AI Bank,1213.04,ACH,18,Cleared,,120.30.75.122,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0489,2026-05-30 18:41:17,ACT-SAFE-29,ACT-SAFE-24,NeoBank Tech,358.78,Card,18,Cleared,,28.24.15.175,"Seattle, US",Firefox/Linux
+TXN-SAFE-0438,2026-05-30 19:22:55,ACT-SAFE-28,ACT-SAFE-33,Metro Credit Union,579.68,P2P,3,Cleared,,82.44.36.236,"New York, US",Firefox/Linux
+TXN-SAFE-0745,2026-05-30 19:54:33,ACT-SAFE-41,ACT-SAFE-28,Vanguard Retail,1403.45,Card,11,Cleared,,138.56.11.198,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0705,2026-05-30 20:23:37,ACT-SAFE-27,ACT-SAFE-36,NeoBank Tech,1338.48,P2P,4,Cleared,,64.75.33.190,"Austin, US",Brave/Windows 10
+TXN-SAFE-0471,2026-05-30 20:32:25,ACT-SAFE-27,ACT-SAFE-49,Caribbean Cayman Bank,866.64,Card,9,Cleared,,178.71.36.249,"New York, US",Safari/iOS 17
+TXN-SAFE-0737,2026-05-30 21:19:42,ACT-SAFE-47,ACT-SAFE-40,NeoBank Tech,918.85,P2P,18,Cleared,,156.10.94.131,"Austin, US",Safari/macOS 14
+TXN-SAFE-0130,2026-05-30 22:01:41,ACT-SAFE-48,ACT-SAFE-05,Apex Digital Bank,963.64,ACH,8,Cleared,,112.69.34.236,"Austin, US",Firefox/Linux
+TXN-SAFE-0395,2026-05-30 22:11:33,ACT-SAFE-11,ACT-SAFE-23,Vanguard Retail,1264.04,Card,13,Cleared,,41.93.61.180,"Austin, US",Safari/iOS 17
+TXN-FRAUD-0126,2026-05-30 22:35:32,ACT-SAFE-44,ACT-SMURF-09-1,Zenith Global Trust,2858.47,ACH,68,Under Review,Unusual High Value deposit,179.20.26.147,Switzerland (via Proxy),Brave/Windows 10
+TXN-FRAUD-0118,2026-05-30 23:34:59,ACT-SMURF-07-2,ACT-HUB-07,Vanguard Retail,3922.37,Wire,80,Flagged,"Structuring Threshold Mismatch,Layering Phase",108.84.81.115,Cyprus (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0016,2026-05-31 00:11:52,ACT-SMURF-10-2,ACT-HUB-10,Vanguard Retail,2973.12,Wire,73,Flagged,"Structuring Threshold Mismatch,Layering Phase",191.34.67.131,Cayman Islands (via VPN),Chrome/macOS
+TXN-SAFE-0568,2026-05-31 05:15:56,ACT-SAFE-02,ACT-SAFE-39,NeoBank Tech,295.89,Card,12,Cleared,,113.69.67.25,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0299,2026-05-31 06:12:45,ACT-SAFE-01,ACT-SAFE-37,Caribbean Cayman Bank,406.69,P2P,20,Cleared,,103.23.40.190,"New York, US",Safari/macOS 14
+TXN-SAFE-0053,2026-05-31 08:44:45,ACT-SAFE-35,ACT-SAFE-37,Offshore Finance,832.14,ACH,17,Cleared,,39.29.28.187,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0656,2026-05-31 09:35:41,ACT-SAFE-12,ACT-SAFE-16,First Offshore Corp,442.38,Card,4,Cleared,,192.36.11.37,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0499,2026-05-31 10:57:09,ACT-SAFE-14,ACT-SAFE-32,Sovereign Crypto Bank,1006.47,Card,17,Cleared,,91.44.63.175,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0210,2026-05-31 11:24:55,ACT-SAFE-48,ACT-SAFE-22,Offshore Finance,950.35,Card,13,Cleared,,73.27.29.243,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0005,2026-05-31 12:00:00,ACT-SAFE-37,ACT-SAFE-23,Caribbean Cayman Bank,1288.3,ACH,3,Cleared,,114.45.12.94,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0501,2026-05-31 12:29:01,ACT-SAFE-48,ACT-SAFE-01,Sovereign Crypto Bank,958.72,ACH,0,Cleared,,162.19.100.199,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0190,2026-05-31 13:36:46,ACT-SAFE-01,ACT-SAFE-28,Apex Digital Bank,1022.77,ACH,2,Cleared,,34.69.42.50,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0748,2026-05-31 14:00:45,ACT-SAFE-04,ACT-SAFE-17,Metro Credit Union,208.01,Card,16,Cleared,,157.49.32.6,"Chicago, US",Chrome/macOS
+TXN-SAFE-0515,2026-05-31 15:18:40,ACT-SAFE-33,ACT-SAFE-48,NeoBank Tech,283.54,Card,7,Cleared,,58.14.92.63,"New York, US",Safari/macOS 14
+TXN-SAFE-0349,2026-05-31 15:38:59,ACT-SAFE-26,ACT-SAFE-14,Caribbean Cayman Bank,272.77,Card,6,Cleared,,130.63.65.198,"New York, US",Safari/macOS 14
+TXN-SAFE-0084,2026-05-31 15:39:50,ACT-SAFE-14,ACT-SAFE-08,Metro Credit Union,249.04,P2P,15,Cleared,,146.54.24.104,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0437,2026-05-31 15:55:53,ACT-SAFE-50,ACT-SAFE-39,FraudShield AI Bank,77.78,Card,4,Cleared,,140.53.50.145,"New York, US",Brave/Windows 10
+TXN-FRAUD-0077,2026-05-31 17:41:19,ACT-SAFE-22,ACT-SMURF-07-2,Apex Digital Bank,3666.18,ACH,50,Under Review,Unusual High Value deposit,49.15.75.143,Canada (via Proxy),Safari/macOS 14
+TXN-SAFE-0472,2026-05-31 18:34:16,ACT-SAFE-20,ACT-SAFE-27,Vanguard Retail,523.88,ACH,3,Cleared,,170.43.28.220,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0800,2026-05-31 19:38:58,ACT-SAFE-37,ACT-SAFE-40,Zenith Global Trust,1223.62,Card,16,Cleared,,175.64.18.171,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0047,2026-05-31 20:45:00,ACT-SAFE-20,ACT-SAFE-05,First Offshore Corp,1260.64,ACH,3,Cleared,,30.60.59.59,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0321,2026-05-31 21:45:28,ACT-SAFE-49,ACT-SAFE-21,Vanguard Retail,359.6,ACH,0,Cleared,,106.41.95.161,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0728,2026-05-31 22:54:13,ACT-SAFE-31,ACT-SAFE-25,Apex Digital Bank,654.27,ACH,11,Cleared,,40.16.72.157,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0446,2026-06-01 00:05:09,ACT-SAFE-34,ACT-SAFE-28,Metro Credit Union,204.3,ACH,7,Cleared,,88.21.41.45,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0164,2026-06-01 00:15:05,ACT-SAFE-25,ACT-SAFE-32,Metro Credit Union,807.8,P2P,14,Cleared,,194.87.12.143,"New York, US",Brave/Windows 10
+TXN-SAFE-0459,2026-06-01 01:10:58,ACT-SAFE-15,ACT-SAFE-08,Zenith Global Trust,1023.15,ACH,16,Cleared,,99.74.66.160,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0448,2026-06-01 01:42:30,ACT-SAFE-09,ACT-SAFE-14,Metro Credit Union,317.37,Card,4,Cleared,,137.79.16.115,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0094,2026-06-01 03:05:31,ACT-SAFE-32,ACT-SAFE-40,FraudShield AI Bank,301.99,P2P,20,Cleared,,93.45.76.32,"New York, US",Chrome/macOS
+TXN-SAFE-0219,2026-06-01 04:30:57,ACT-SAFE-09,ACT-SAFE-32,Zenith Global Trust,668.92,Card,9,Cleared,,152.79.82.233,"Seattle, US",Firefox/Linux
+TXN-SAFE-0377,2026-06-01 04:42:08,ACT-SAFE-31,ACT-SAFE-02,Metro Credit Union,1098.85,ACH,19,Cleared,,96.94.51.44,"Seattle, US",Chrome/Android 13
+TXN-FRAUD-0153,2026-06-01 05:35:49,ACT-HUB-07,ACT-EXIT-07,Sovereign Crypto Bank,25618.62,Wire,96,Flagged,"Large Integration Outflow,High Risk Crypto Route",120.15.19.88,Canada (via VPN),Chrome/Android 13
+TXN-SAFE-0202,2026-06-01 05:42:04,ACT-SAFE-38,ACT-SAFE-26,Vanguard Retail,506.88,ACH,6,Cleared,,196.81.55.246,"Austin, US",Chrome/macOS
+TXN-SAFE-0265,2026-06-01 05:47:58,ACT-SAFE-36,ACT-SAFE-09,Vanguard Retail,952.57,ACH,11,Cleared,,168.37.59.22,"Seattle, US",Firefox/Linux
+TXN-SAFE-0277,2026-06-01 06:11:37,ACT-SAFE-07,ACT-SAFE-29,NeoBank Tech,546.99,Card,13,Cleared,,125.54.92.74,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0121,2026-06-01 06:25:40,ACT-SAFE-37,ACT-SAFE-50,Zenith Global Trust,1318.1,ACH,14,Cleared,,188.83.52.178,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0101,2026-06-01 06:40:34,ACT-HUB-03,ACT-EXIT-03,Sovereign Crypto Bank,39669.91,Wire,93,Blocked,"Large Integration Outflow,High Risk Crypto Route",79.78.68.226,Switzerland (via VPN),Brave/Windows 10
+TXN-FRAUD-0120,2026-06-01 06:56:13,ACT-SMURF-06-1,ACT-HUB-06,Sovereign Crypto Bank,3208.15,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",62.82.19.137,Russia (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0365,2026-06-01 07:54:40,ACT-SAFE-33,ACT-SAFE-20,Vanguard Retail,1221.37,Card,1,Cleared,,181.97.45.84,"Seattle, US",Brave/Windows 10
+TXN-FRAUD-0156,2026-06-01 07:56:15,ACT-SAFE-32,ACT-SMURF-05-2,Apex Digital Bank,2153.39,ACH,75,Under Review,Unusual High Value deposit,143.65.86.76,Cayman Islands (via Proxy),Safari/macOS 14
+TXN-SAFE-0059,2026-06-01 08:34:55,ACT-SAFE-42,ACT-SAFE-45,Zenith Global Trust,742.96,Card,9,Cleared,,103.34.50.128,"Austin, US",Safari/macOS 14
+TXN-FRAUD-0029,2026-06-01 09:06:03,ACT-SMURF-09-1,ACT-HUB-09,First Offshore Corp,4258.89,Wire,88,Flagged,"Structuring Threshold Mismatch,Layering Phase",88.88.83.217,Russia (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0799,2026-06-01 09:38:00,ACT-SAFE-33,ACT-SAFE-27,First Offshore Corp,602.38,Card,11,Cleared,,150.20.51.71,"New York, US",Brave/Windows 10
+TXN-SAFE-0633,2026-06-01 10:25:25,ACT-SAFE-04,ACT-SAFE-25,First Offshore Corp,1252.11,Card,0,Cleared,,125.36.37.104,"New York, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0466,2026-06-01 10:38:15,ACT-SAFE-06,ACT-SAFE-12,NeoBank Tech,80.25,P2P,14,Cleared,,148.84.49.72,"New York, US",Brave/Windows 10
+TXN-SAFE-0140,2026-06-01 10:59:39,ACT-SAFE-19,ACT-SAFE-15,Apex Digital Bank,1433.39,P2P,15,Cleared,,100.98.72.230,"New York, US",Safari/iOS 17
+TXN-SAFE-0413,2026-06-01 11:03:38,ACT-SAFE-35,ACT-SAFE-41,Metro Credit Union,591.8,Card,11,Cleared,,76.84.35.90,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0714,2026-06-01 11:32:20,ACT-SAFE-07,ACT-SAFE-32,NeoBank Tech,621.98,Card,13,Cleared,,71.88.92.29,"Austin, US",Safari/iOS 17
+TXN-SAFE-0236,2026-06-01 13:32:45,ACT-SAFE-41,ACT-SAFE-42,Metro Credit Union,55.85,Card,3,Cleared,,121.73.22.15,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0510,2026-06-01 15:04:30,ACT-SAFE-23,ACT-SAFE-36,Sovereign Crypto Bank,417.28,ACH,6,Cleared,,44.100.78.79,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0223,2026-06-01 15:13:58,ACT-SAFE-31,ACT-SAFE-49,Offshore Finance,605.33,ACH,16,Cleared,,152.27.31.20,"Austin, US",Safari/macOS 14
+TXN-SAFE-0514,2026-06-01 15:19:22,ACT-SAFE-48,ACT-SAFE-03,Apex Digital Bank,549.64,P2P,2,Cleared,,33.39.80.146,"Chicago, US",Safari/iOS 17
+TXN-FRAUD-0146,2026-06-01 15:40:21,ACT-SAFE-20,ACT-SMURF-08-1,FraudShield AI Bank,1039.03,ACH,52,Under Review,Unusual High Value deposit,34.22.48.75,Russia (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0366,2026-06-01 17:24:10,ACT-SAFE-37,ACT-SAFE-41,First Offshore Corp,310.25,P2P,3,Cleared,,134.36.55.176,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0621,2026-06-01 18:07:03,ACT-SAFE-31,ACT-SAFE-48,Offshore Finance,144.17,Card,16,Cleared,,198.61.51.169,"Seattle, US",Chrome/Android 13
+TXN-SAFE-0602,2026-06-01 18:47:18,ACT-SAFE-13,ACT-SAFE-10,Vanguard Retail,538.39,Card,6,Cleared,,106.12.10.29,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0238,2026-06-01 18:50:32,ACT-SAFE-04,ACT-SAFE-33,Apex Digital Bank,166.67,ACH,9,Cleared,,37.37.65.160,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0429,2026-06-01 20:19:40,ACT-SAFE-07,ACT-SAFE-26,First Offshore Corp,717.43,ACH,9,Cleared,,185.45.93.207,"New York, US",Safari/iOS 17
+TXN-SAFE-0566,2026-06-01 20:22:09,ACT-SAFE-17,ACT-SAFE-18,Sovereign Crypto Bank,193.7,P2P,16,Cleared,,99.69.31.41,"Austin, US",Safari/iOS 17
+TXN-SAFE-0560,2026-06-01 22:22:12,ACT-SAFE-34,ACT-SAFE-11,Caribbean Cayman Bank,1223.63,P2P,17,Cleared,,153.61.33.142,"New York, US",Chrome/macOS
+TXN-SAFE-0095,2026-06-01 23:32:23,ACT-SAFE-23,ACT-SAFE-19,Apex Digital Bank,894.72,Card,3,Cleared,,38.13.55.90,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0028,2026-06-01 23:41:30,ACT-SAFE-06,ACT-SMURF-04-1,NeoBank Tech,1082.77,ACH,65,Under Review,Unusual High Value deposit,76.16.77.66,Cyprus (via Proxy),Brave/Windows 10
+TXN-SAFE-0592,2026-06-01 23:46:03,ACT-SAFE-44,ACT-SAFE-24,Offshore Finance,1370.19,Card,14,Cleared,,82.72.80.160,"Seattle, US",Chrome/macOS
+TXN-SAFE-0083,2026-06-02 01:07:43,ACT-SAFE-01,ACT-SAFE-33,Vanguard Retail,1344.08,P2P,4,Cleared,,166.19.81.185,"Austin, US",Safari/macOS 14
+TXN-SAFE-0666,2026-06-02 01:36:17,ACT-SAFE-41,ACT-SAFE-32,NeoBank Tech,797.49,P2P,8,Cleared,,77.82.71.187,"New York, US",Chrome/Android 13
+TXN-SAFE-0444,2026-06-02 01:40:57,ACT-SAFE-46,ACT-SAFE-10,Metro Credit Union,195.48,P2P,13,Cleared,,40.100.89.240,"Austin, US",Firefox/Linux
+TXN-SAFE-0543,2026-06-02 02:34:06,ACT-SAFE-31,ACT-SAFE-16,Metro Credit Union,1022.76,ACH,17,Cleared,,32.54.92.179,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0764,2026-06-02 03:18:09,ACT-SAFE-15,ACT-SAFE-47,Apex Digital Bank,47.94,ACH,0,Cleared,,100.32.56.82,"New York, US",Chrome/Android 13
+TXN-SAFE-0640,2026-06-02 03:50:16,ACT-SAFE-10,ACT-SAFE-42,Zenith Global Trust,811.9,P2P,7,Cleared,,73.38.80.74,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0021,2026-06-02 04:10:03,ACT-SAFE-34,ACT-SAFE-07,Offshore Finance,1183.87,Card,15,Cleared,,82.60.57.194,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0722,2026-06-02 04:47:47,ACT-SAFE-24,ACT-SAFE-18,Offshore Finance,1423.24,Card,9,Cleared,,141.81.51.56,"Austin, US",Safari/iOS 17
+TXN-SAFE-0330,2026-06-02 04:54:41,ACT-SAFE-42,ACT-SAFE-43,Apex Digital Bank,38.49,P2P,15,Cleared,,36.20.38.92,"New York, US",Safari/iOS 17
+TXN-SAFE-0545,2026-06-02 05:23:01,ACT-SAFE-10,ACT-SAFE-18,Metro Credit Union,223.0,ACH,0,Cleared,,155.61.91.31,"New York, US",Safari/iOS 17
+TXN-SAFE-0240,2026-06-02 05:31:18,ACT-SAFE-32,ACT-SAFE-28,Zenith Global Trust,236.74,Card,9,Cleared,,162.81.37.123,"New York, US",Chrome/macOS
+TXN-SAFE-0794,2026-06-02 05:58:26,ACT-SAFE-20,ACT-SAFE-39,NeoBank Tech,1479.28,Card,19,Cleared,,165.50.57.130,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0762,2026-06-02 06:01:22,ACT-SAFE-15,ACT-SAFE-08,Zenith Global Trust,1350.02,Card,8,Cleared,,194.12.62.16,"Chicago, US",Chrome/macOS
+TXN-SAFE-0687,2026-06-02 07:25:58,ACT-SAFE-28,ACT-SAFE-03,Caribbean Cayman Bank,337.55,ACH,10,Cleared,,113.56.97.246,"New York, US",Chrome/macOS
+TXN-SAFE-0171,2026-06-02 08:40:04,ACT-SAFE-38,ACT-SAFE-04,Vanguard Retail,1358.54,P2P,2,Cleared,,143.68.45.168,"Seattle, US",Chrome/macOS
+TXN-SAFE-0706,2026-06-02 09:36:28,ACT-SAFE-17,ACT-SAFE-48,First Offshore Corp,717.05,ACH,2,Cleared,,128.21.52.220,"Austin, US",Safari/iOS 17
+TXN-SAFE-0019,2026-06-02 10:45:15,ACT-SAFE-36,ACT-SAFE-48,Offshore Finance,1365.95,Card,13,Cleared,,31.62.42.98,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0698,2026-06-02 11:13:16,ACT-SAFE-17,ACT-SAFE-25,Apex Digital Bank,1218.28,Card,15,Cleared,,176.70.13.55,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0213,2026-06-02 12:10:38,ACT-SAFE-37,ACT-SAFE-36,First Offshore Corp,598.33,P2P,5,Cleared,,193.71.99.23,"Austin, US",Safari/iOS 17
+TXN-SAFE-0533,2026-06-02 12:15:07,ACT-SAFE-14,ACT-SAFE-30,First Offshore Corp,343.35,Card,3,Cleared,,66.93.14.188,"Austin, US",Safari/macOS 14
+TXN-SAFE-0475,2026-06-02 12:32:24,ACT-SAFE-26,ACT-SAFE-36,Apex Digital Bank,1256.32,P2P,6,Cleared,,108.97.21.190,"New York, US",Firefox/Linux
+TXN-SAFE-0126,2026-06-02 13:42:31,ACT-SAFE-05,ACT-SAFE-06,Offshore Finance,1224.86,Card,10,Cleared,,181.49.28.120,"Seattle, US",Safari/macOS 14
+TXN-SAFE-0361,2026-06-02 14:11:40,ACT-SAFE-21,ACT-SAFE-02,Sovereign Crypto Bank,1289.56,P2P,3,Cleared,,114.53.96.35,"Seattle, US",Firefox/Linux
+TXN-SAFE-0669,2026-06-02 14:31:04,ACT-SAFE-04,ACT-SAFE-45,FraudShield AI Bank,872.61,P2P,6,Cleared,,181.37.32.138,"New York, US",Chrome/macOS
+TXN-SAFE-0540,2026-06-02 14:49:52,ACT-SAFE-43,ACT-SAFE-23,Offshore Finance,1162.0,P2P,3,Cleared,,124.79.74.94,"Austin, US",Safari/macOS 14
+TXN-SAFE-0509,2026-06-02 14:51:29,ACT-SAFE-19,ACT-SAFE-49,Sovereign Crypto Bank,508.36,ACH,1,Cleared,,39.85.20.246,"New York, US",Chrome/Android 13
+TXN-SAFE-0672,2026-06-02 14:57:43,ACT-SAFE-27,ACT-SAFE-07,Metro Credit Union,814.69,P2P,4,Cleared,,110.43.86.158,"Austin, US",Firefox/Linux
+TXN-SAFE-0455,2026-06-02 15:40:09,ACT-SAFE-04,ACT-SAFE-40,NeoBank Tech,1490.56,ACH,10,Cleared,,140.44.31.210,"Seattle, US",Chrome/macOS
+TXN-SAFE-0523,2026-06-02 16:40:34,ACT-SAFE-04,ACT-SAFE-15,Offshore Finance,581.82,P2P,9,Cleared,,154.13.85.39,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0074,2026-06-02 18:19:00,ACT-SAFE-06,ACT-SAFE-07,Metro Credit Union,601.05,ACH,2,Cleared,,57.67.85.20,"Austin, US",Chrome/Android 13
+TXN-SAFE-0641,2026-06-02 19:01:51,ACT-SAFE-46,ACT-SAFE-22,Caribbean Cayman Bank,711.05,ACH,7,Cleared,,120.93.73.224,"Austin, US",Safari/macOS 14
+TXN-SAFE-0037,2026-06-02 19:16:18,ACT-SAFE-41,ACT-SAFE-27,Sovereign Crypto Bank,92.28,P2P,7,Cleared,,150.27.61.13,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0597,2026-06-02 19:45:09,ACT-SAFE-12,ACT-SAFE-17,NeoBank Tech,1212.59,Card,5,Cleared,,84.66.15.225,"New York, US",Safari/macOS 14
+TXN-SAFE-0658,2026-06-02 20:27:06,ACT-SAFE-07,ACT-SAFE-10,Apex Digital Bank,537.12,Card,20,Cleared,,160.81.60.127,"Austin, US",Brave/Windows 10
+TXN-SAFE-0224,2026-06-02 21:11:57,ACT-SAFE-31,ACT-SAFE-42,Caribbean Cayman Bank,478.32,Card,8,Cleared,,120.61.55.110,"New York, US",Safari/macOS 14
+TXN-SAFE-0226,2026-06-02 23:32:21,ACT-SAFE-37,ACT-SAFE-31,First Offshore Corp,722.53,Card,20,Cleared,,125.10.48.70,"New York, US",Firefox/Linux
+TXN-SAFE-0070,2026-06-03 00:06:32,ACT-SAFE-17,ACT-SAFE-03,Apex Digital Bank,1480.71,P2P,0,Cleared,,162.78.81.64,"Chicago, US",Firefox/Linux
+TXN-SAFE-0057,2026-06-03 00:36:45,ACT-SAFE-11,ACT-SAFE-37,Vanguard Retail,659.95,P2P,19,Cleared,,59.54.49.170,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0160,2026-06-03 03:40:31,ACT-SAFE-46,ACT-SAFE-21,Metro Credit Union,671.19,P2P,4,Cleared,,124.14.34.176,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0149,2026-06-03 05:00:38,ACT-SAFE-34,ACT-SAFE-41,Apex Digital Bank,803.02,ACH,17,Cleared,,107.75.71.138,"New York, US",Chrome/Android 13
+TXN-SAFE-0451,2026-06-03 05:02:10,ACT-SAFE-24,ACT-SAFE-29,Metro Credit Union,563.18,P2P,4,Cleared,,151.53.35.111,"Chicago, US",Chrome/macOS
+TXN-SAFE-0189,2026-06-03 06:59:40,ACT-SAFE-31,ACT-SAFE-24,Caribbean Cayman Bank,855.51,ACH,17,Cleared,,173.93.16.197,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0283,2026-06-03 07:08:22,ACT-SAFE-33,ACT-SAFE-38,Vanguard Retail,118.52,P2P,5,Cleared,,49.36.75.46,"New York, US",Safari/iOS 17
+TXN-SAFE-0306,2026-06-03 08:23:20,ACT-SAFE-10,ACT-SAFE-19,Sovereign Crypto Bank,776.65,P2P,13,Cleared,,187.38.36.206,"New York, US",Safari/macOS 14
+TXN-SAFE-0531,2026-06-03 08:49:18,ACT-SAFE-29,ACT-SAFE-50,First Offshore Corp,1068.03,P2P,1,Cleared,,49.30.73.74,"Austin, US",Safari/macOS 14
+TXN-SAFE-0368,2026-06-03 08:53:18,ACT-SAFE-43,ACT-SAFE-35,Metro Credit Union,214.69,Card,14,Cleared,,83.59.54.92,"Chicago, US",Firefox/Linux
+TXN-SAFE-0575,2026-06-03 09:24:39,ACT-SAFE-43,ACT-SAFE-41,Caribbean Cayman Bank,1117.73,P2P,19,Cleared,,165.77.23.30,"New York, US",Brave/Windows 10
+TXN-FRAUD-0155,2026-06-03 10:01:16,ACT-SAFE-28,ACT-SMURF-10-1,Sovereign Crypto Bank,1933.99,ACH,57,Under Review,Unusual High Value deposit,49.25.77.79,Cayman Islands (via Proxy),Safari/iOS 17
+TXN-SAFE-0417,2026-06-03 10:21:43,ACT-SAFE-01,ACT-SAFE-20,FraudShield AI Bank,1065.12,ACH,17,Cleared,,101.26.90.227,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0138,2026-06-03 10:34:33,ACT-SAFE-33,ACT-SAFE-25,Zenith Global Trust,151.74,Card,1,Cleared,,42.91.60.78,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0442,2026-06-03 11:10:36,ACT-SAFE-24,ACT-SAFE-02,Sovereign Crypto Bank,1216.29,Card,8,Cleared,,56.99.30.7,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0703,2026-06-03 12:37:01,ACT-SAFE-32,ACT-SAFE-24,FraudShield AI Bank,507.45,P2P,16,Cleared,,154.44.71.149,"New York, US",Chrome/Android 13
+TXN-FRAUD-0042,2026-06-03 12:43:09,ACT-SAFE-46,ACT-SMURF-07-2,Caribbean Cayman Bank,2593.94,ACH,65,Under Review,Unusual High Value deposit,122.52.90.33,Cyprus (via Proxy),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0258,2026-06-03 13:36:43,ACT-SAFE-08,ACT-SAFE-11,Metro Credit Union,1020.16,Card,12,Cleared,,90.76.49.98,"Austin, US",Safari/iOS 17
+TXN-SAFE-0729,2026-06-03 13:57:39,ACT-SAFE-03,ACT-SAFE-15,Zenith Global Trust,1044.46,Card,1,Cleared,,121.39.24.37,"New York, US",Firefox/Linux
+TXN-SAFE-0763,2026-06-03 14:01:18,ACT-SAFE-43,ACT-SAFE-14,Metro Credit Union,540.84,P2P,8,Cleared,,167.44.24.12,"Chicago, US",Safari/macOS 14
+TXN-FRAUD-0095,2026-06-03 15:35:36,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,20208.87,Wire,99,Blocked,"Large Integration Outflow,High Risk Crypto Route",119.88.37.191,United States (via VPN),Chrome/macOS
+TXN-SAFE-0128,2026-06-03 16:16:40,ACT-SAFE-01,ACT-SAFE-31,Apex Digital Bank,1347.06,ACH,3,Cleared,,49.63.11.84,"Austin, US",Chrome/macOS
+TXN-FRAUD-0191,2026-06-03 17:09:34,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,42546.16,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",104.44.78.98,Canada (via VPN),Firefox/Linux
+TXN-SAFE-0129,2026-06-03 17:19:42,ACT-SAFE-04,ACT-SAFE-07,FraudShield AI Bank,574.68,Card,3,Cleared,,121.44.71.252,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0765,2026-06-03 19:03:09,ACT-SAFE-22,ACT-SAFE-41,FraudShield AI Bank,1105.95,P2P,12,Cleared,,92.96.93.104,"Seattle, US",Safari/iOS 17
+TXN-SAFE-0217,2026-06-03 19:09:24,ACT-SAFE-04,ACT-SAFE-39,Zenith Global Trust,43.92,P2P,6,Cleared,,139.69.61.45,"Austin, US",Safari/macOS 14
+TXN-SAFE-0701,2026-06-03 21:22:13,ACT-SAFE-34,ACT-SAFE-02,Sovereign Crypto Bank,140.61,P2P,8,Cleared,,192.78.95.220,"New York, US",Safari/macOS 14
+TXN-FRAUD-0005,2026-06-03 21:32:40,ACT-SAFE-33,ACT-SMURF-02-1,Apex Digital Bank,2964.29,ACH,69,Under Review,Unusual High Value deposit,60.79.45.179,United Kingdom (via Proxy),Chrome/Android 13
+TXN-SAFE-0724,2026-06-03 21:34:45,ACT-SAFE-32,ACT-SAFE-21,Metro Credit Union,1008.99,Card,10,Cleared,,183.43.82.191,"Chicago, US",Chrome/Android 13
+TXN-SAFE-0420,2026-06-04 01:38:12,ACT-SAFE-40,ACT-SAFE-10,NeoBank Tech,259.97,ACH,9,Cleared,,175.62.31.215,"New York, US",Firefox/Linux
+TXN-SAFE-0363,2026-06-04 02:10:25,ACT-SAFE-32,ACT-SAFE-06,FraudShield AI Bank,320.44,ACH,10,Cleared,,154.32.38.114,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0301,2026-06-04 02:55:17,ACT-SAFE-09,ACT-SAFE-25,Caribbean Cayman Bank,958.32,ACH,2,Cleared,,102.35.75.105,"New York, US",Chrome/Android 13
+TXN-FRAUD-0100,2026-06-04 03:18:29,ACT-SAFE-21,ACT-SMURF-05-2,Vanguard Retail,3121.37,ACH,67,Under Review,Unusual High Value deposit,70.74.21.52,Cyprus (via Proxy),Brave/Windows 10
+TXN-SAFE-0208,2026-06-04 03:47:05,ACT-SAFE-18,ACT-SAFE-09,FraudShield AI Bank,939.48,Card,12,Cleared,,190.28.47.231,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0458,2026-06-04 05:29:30,ACT-SAFE-14,ACT-SAFE-19,Sovereign Crypto Bank,1002.4,P2P,19,Cleared,,35.16.10.251,"Seattle, US",Safari/iOS 17
+TXN-FRAUD-0162,2026-06-04 05:48:26,ACT-SMURF-05-2,ACT-HUB-05,Caribbean Cayman Bank,3183.85,Wire,89,Flagged,"Structuring Threshold Mismatch,Layering Phase",139.49.90.52,Iceland (via VPN),Safari/macOS 14
+TXN-SAFE-0172,2026-06-04 06:47:49,ACT-SAFE-39,ACT-SAFE-44,FraudShield AI Bank,414.19,P2P,14,Cleared,,199.73.48.40,"New York, US",Brave/Windows 10
+TXN-SAFE-0430,2026-06-04 07:02:04,ACT-SAFE-12,ACT-SAFE-29,Sovereign Crypto Bank,376.89,P2P,12,Cleared,,60.18.64.28,"Austin, US",Brave/Windows 10
+TXN-FRAUD-0086,2026-06-04 07:06:16,ACT-HUB-08,ACT-EXIT-08,Sovereign Crypto Bank,29221.88,Wire,100,Flagged,"Large Integration Outflow,High Risk Crypto Route",123.28.16.211,Cyprus (via VPN),Chrome/macOS
+TXN-SAFE-0616,2026-06-04 09:03:40,ACT-SAFE-34,ACT-SAFE-23,Offshore Finance,1139.34,P2P,10,Cleared,,134.98.43.78,"Austin, US",Firefox/Linux
+TXN-SAFE-0333,2026-06-04 10:20:15,ACT-SAFE-48,ACT-SAFE-39,Caribbean Cayman Bank,1106.61,P2P,15,Cleared,,83.11.10.142,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0450,2026-06-04 11:21:09,ACT-SAFE-05,ACT-SAFE-04,FraudShield AI Bank,735.85,P2P,9,Cleared,,41.32.39.66,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0736,2026-06-04 11:29:50,ACT-SAFE-19,ACT-SAFE-12,Zenith Global Trust,904.36,Card,19,Cleared,,133.94.45.97,"Austin, US",Chrome/Android 13
+TXN-FRAUD-0021,2026-06-04 13:51:39,ACT-SAFE-10,ACT-SMURF-01-1,Vanguard Retail,3509.1,ACH,45,Cleared,Unusual High Value deposit,109.73.23.58,Germany (via Proxy),Chrome/macOS
+TXN-FRAUD-0022,2026-06-04 14:39:23,ACT-SMURF-06-2,ACT-HUB-06,FraudShield AI Bank,4302.04,Wire,77,Flagged,"Structuring Threshold Mismatch,Layering Phase",98.48.36.226,Cayman Islands (via VPN),Firefox/Linux
+TXN-FRAUD-0069,2026-06-04 15:16:21,ACT-SAFE-33,ACT-SMURF-01-1,FraudShield AI Bank,3069.35,ACH,74,Under Review,Unusual High Value deposit,177.56.50.72,Germany (via Proxy),Chrome/macOS
+TXN-FRAUD-0165,2026-06-04 15:17:57,ACT-HUB-04,ACT-EXIT-04,Sovereign Crypto Bank,40959.14,Wire,98,Blocked,"Large Integration Outflow,High Risk Crypto Route",44.100.76.7,Cayman Islands (via VPN),Firefox/Linux
+TXN-SAFE-0200,2026-06-04 16:05:26,ACT-SAFE-12,ACT-SAFE-05,Offshore Finance,933.75,ACH,1,Cleared,,148.45.12.246,"Chicago, US",Brave/Windows 10
+TXN-SAFE-0549,2026-06-04 17:31:25,ACT-SAFE-33,ACT-SAFE-04,Caribbean Cayman Bank,117.93,P2P,15,Cleared,,165.32.75.16,"New York, US",Chrome/macOS
+TXN-SAFE-0738,2026-06-04 19:09:39,ACT-SAFE-13,ACT-SAFE-15,Metro Credit Union,781.23,P2P,6,Cleared,,153.11.29.213,"Austin, US",Chrome/macOS
+TXN-SAFE-0620,2026-06-04 19:46:10,ACT-SAFE-23,ACT-SAFE-18,Zenith Global Trust,243.13,ACH,2,Cleared,,67.57.42.188,"New York, US",Chrome/Android 13
+TXN-SAFE-0251,2026-06-04 20:08:52,ACT-SAFE-20,ACT-SAFE-03,Offshore Finance,813.46,P2P,9,Cleared,,167.16.72.121,"Chicago, US",Safari/iOS 17
+TXN-SAFE-0546,2026-06-04 20:23:19,ACT-SAFE-40,ACT-SAFE-05,Apex Digital Bank,79.8,P2P,17,Cleared,,116.51.13.77,"Chicago, US",Chrome/macOS
+TXN-FRAUD-0127,2026-06-05 01:22:01,ACT-HUB-01,ACT-EXIT-01,Sovereign Crypto Bank,24465.25,Wire,96,Blocked,"Large Integration Outflow,High Risk Crypto Route",105.82.51.232,United Kingdom (via VPN),Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0548,2026-06-05 02:10:32,ACT-SAFE-31,ACT-SAFE-44,FraudShield AI Bank,402.16,ACH,7,Cleared,,185.93.30.117,"Chicago, US",Firefox/Linux
+TXN-FRAUD-0085,2026-06-05 03:20:45,ACT-HUB-09,ACT-EXIT-09,Sovereign Crypto Bank,16428.75,Wire,94,Flagged,"Large Integration Outflow,High Risk Crypto Route",49.80.45.52,Singapore (via VPN),Firefox/Linux
+TXN-SAFE-0767,2026-06-05 04:35:40,ACT-SAFE-36,ACT-SAFE-32,Vanguard Retail,540.28,P2P,10,Cleared,,90.27.23.166,"Austin, US",Safari/iOS 17
+TXN-SAFE-0260,2026-06-05 04:46:11,ACT-SAFE-30,ACT-SAFE-35,FraudShield AI Bank,548.82,Card,2,Cleared,,89.49.51.150,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0256,2026-06-05 05:14:01,ACT-SAFE-09,ACT-SAFE-18,Offshore Finance,916.47,ACH,20,Cleared,,150.32.97.30,"New York, US",Firefox/Linux
+TXN-FRAUD-0172,2026-06-05 06:30:44,ACT-HUB-10,ACT-EXIT-10,Sovereign Crypto Bank,18757.0,Wire,97,Blocked,"Large Integration Outflow,High Risk Crypto Route",88.14.38.209,Cyprus (via VPN),Safari/iOS 17
+TXN-SAFE-0504,2026-06-05 06:40:05,ACT-SAFE-32,ACT-SAFE-31,Sovereign Crypto Bank,1031.15,Card,0,Cleared,,58.67.41.165,"New York, US",Firefox/Linux
+TXN-SAFE-0778,2026-06-05 06:51:26,ACT-SAFE-39,ACT-SAFE-16,Metro Credit Union,762.42,P2P,17,Cleared,,73.82.81.230,"New York, US",Chrome/macOS
+TXN-FRAUD-0181,2026-06-05 07:20:18,ACT-SMURF-09-2,ACT-HUB-09,Sovereign Crypto Bank,3565.69,Wire,74,Flagged,"Structuring Threshold Mismatch,Layering Phase",30.57.93.195,Canada (via VPN),Chrome/Android 13
+TXN-SAFE-0570,2026-06-05 08:52:35,ACT-SAFE-06,ACT-SAFE-46,Vanguard Retail,719.04,P2P,10,Cleared,,89.42.56.87,"Seattle, US",Brave/Windows 10
+TXN-SAFE-0600,2026-06-05 11:27:36,ACT-SAFE-30,ACT-SAFE-10,NeoBank Tech,360.43,Card,12,Cleared,,196.43.94.55,"Seattle, US",Mozilla/5.0 (Linux; Android 11)
+TXN-FRAUD-0186,2026-06-05 11:42:46,ACT-SMURF-09-2,ACT-HUB-09,First Offshore Corp,3870.23,Wire,71,Flagged,"Structuring Threshold Mismatch,Layering Phase",97.18.22.22,United States (via VPN),Safari/iOS 17
+TXN-SAFE-0646,2026-06-05 12:46:26,ACT-SAFE-30,ACT-SAFE-19,Metro Credit Union,281.54,P2P,2,Cleared,,24.70.73.139,"Chicago, US",Safari/macOS 14
+TXN-SAFE-0594,2026-06-05 13:06:53,ACT-SAFE-31,ACT-SAFE-36,First Offshore Corp,1350.56,Card,9,Cleared,,61.19.96.64,"Austin, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0754,2026-06-05 20:45:30,ACT-SAFE-11,ACT-SAFE-30,Sovereign Crypto Bank,1172.18,P2P,6,Cleared,,51.85.58.14,"Chicago, US",Mozilla/5.0 (Linux; Android 11)
+TXN-SAFE-0317,2026-06-05 21:26:56,ACT-SAFE-28,ACT-SAFE-04,FraudShield AI Bank,1296.2,Card,18,Cleared,,86.17.77.244,"New York, US",Firefox/Linux
+TXN-SAFE-0795,2026-06-05 22:44:02,ACT-SAFE-10,ACT-SAFE-30,NeoBank Tech,1171.66,Card,13,Cleared,,59.35.35.136,"Chicago, US",Safari/macOS 14

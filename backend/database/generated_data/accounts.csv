@@ -1,0 +1,101 @@
+id,label,bank,balance,risk_score,type,x,y
+ACT-HUB-01,Mule Ring 1 Hub Account,FraudShield AI Bank,139834.97,91,Mule Hub,300,90
+ACT-SMURF-01-1,Mule Ring 1 Smurf 1,Sovereign Crypto Bank,10030.82,70,Smurf,180,70
+ACT-SMURF-01-2,Mule Ring 1 Smurf 2,Zenith Global Trust,19791.55,66,Smurf,260,70
+ACT-EXIT-01,Mule Ring 1 Exit Integration,Caribbean Cayman Bank,410242.42,99,Integrator,600,90
+ACT-HUB-02,Mule Ring 2 Hub Account,First Offshore Corp,61931.13,89,Mule Hub,300,130
+ACT-SMURF-02-1,Mule Ring 2 Smurf 1,Sovereign Crypto Bank,13308.66,76,Smurf,180,110
+ACT-SMURF-02-2,Mule Ring 2 Smurf 2,Metro Credit Union,23862.72,61,Smurf,260,110
+ACT-EXIT-02,Mule Ring 2 Exit Integration,Sovereign Crypto Bank,431249.81,99,Integrator,600,130
+ACT-HUB-03,Mule Ring 3 Hub Account,FraudShield AI Bank,142069.67,94,Mule Hub,300,170
+ACT-SMURF-03-1,Mule Ring 3 Smurf 1,Zenith Global Trust,12502.6,66,Smurf,180,150
+ACT-SMURF-03-2,Mule Ring 3 Smurf 2,Offshore Finance,23782.57,79,Smurf,260,150
+ACT-EXIT-03,Mule Ring 3 Exit Integration,Caribbean Cayman Bank,210151.62,99,Integrator,600,170
+ACT-HUB-04,Mule Ring 4 Hub Account,First Offshore Corp,107044.95,92,Mule Hub,300,210
+ACT-SMURF-04-1,Mule Ring 4 Smurf 1,First Offshore Corp,17175.36,60,Smurf,180,190
+ACT-SMURF-04-2,Mule Ring 4 Smurf 2,Offshore Finance,15806.06,71,Smurf,260,190
+ACT-EXIT-04,Mule Ring 4 Exit Integration,Sovereign Crypto Bank,448574.33,96,Integrator,600,210
+ACT-HUB-05,Mule Ring 5 Hub Account,Apex Digital Bank,134641.56,89,Mule Hub,300,250
+ACT-SMURF-05-1,Mule Ring 5 Smurf 1,Sovereign Crypto Bank,11524.1,83,Smurf,180,230
+ACT-SMURF-05-2,Mule Ring 5 Smurf 2,FraudShield AI Bank,23293.91,72,Smurf,260,230
+ACT-EXIT-05,Mule Ring 5 Exit Integration,Caribbean Cayman Bank,488442.41,94,Integrator,600,250
+ACT-HUB-06,Mule Ring 6 Hub Account,Metro Credit Union,140455.61,95,Mule Hub,300,290
+ACT-SMURF-06-1,Mule Ring 6 Smurf 1,Caribbean Cayman Bank,23213.86,66,Smurf,180,270
+ACT-SMURF-06-2,Mule Ring 6 Smurf 2,NeoBank Tech,19372.3,65,Smurf,260,270
+ACT-EXIT-06,Mule Ring 6 Exit Integration,Sovereign Crypto Bank,373322.95,99,Integrator,600,290
+ACT-HUB-07,Mule Ring 7 Hub Account,Offshore Finance,88188.96,96,Mule Hub,300,330
+ACT-SMURF-07-1,Mule Ring 7 Smurf 1,Metro Credit Union,14043.21,77,Smurf,180,310
+ACT-SMURF-07-2,Mule Ring 7 Smurf 2,NeoBank Tech,10463.64,70,Smurf,260,310
+ACT-EXIT-07,Mule Ring 7 Exit Integration,Caribbean Cayman Bank,368964.59,97,Integrator,600,330
+ACT-HUB-08,Mule Ring 8 Hub Account,NeoBank Tech,143202.64,93,Mule Hub,300,370
+ACT-SMURF-08-1,Mule Ring 8 Smurf 1,Apex Digital Bank,10927.32,83,Smurf,180,350
+ACT-SMURF-08-2,Mule Ring 8 Smurf 2,NeoBank Tech,19876.85,74,Smurf,260,350
+ACT-EXIT-08,Mule Ring 8 Exit Integration,Sovereign Crypto Bank,270427.86,96,Integrator,600,370
+ACT-HUB-09,Mule Ring 9 Hub Account,Metro Credit Union,130642.88,91,Mule Hub,300,410
+ACT-SMURF-09-1,Mule Ring 9 Smurf 1,First Offshore Corp,19704.94,81,Smurf,180,390
+ACT-SMURF-09-2,Mule Ring 9 Smurf 2,Zenith Global Trust,16411.35,71,Smurf,260,390
+ACT-EXIT-09,Mule Ring 9 Exit Integration,Caribbean Cayman Bank,234154.98,97,Integrator,600,410
+ACT-HUB-10,Mule Ring 10 Hub Account,Caribbean Cayman Bank,118146.44,85,Mule Hub,300,450
+ACT-SMURF-10-1,Mule Ring 10 Smurf 1,Offshore Finance,20609.02,75,Smurf,180,430
+ACT-SMURF-10-2,Mule Ring 10 Smurf 2,Caribbean Cayman Bank,5705.52,82,Smurf,260,430
+ACT-EXIT-10,Mule Ring 10 Exit Integration,Sovereign Crypto Bank,484546.08,97,Integrator,600,450
+ACT-SUSP-01,Michael Martin,First Offshore Corp,4773.17,42,Standard,175,400
+ACT-SUSP-02,Maria White,Offshore Finance,34719.06,33,Standard,174,294
+ACT-SUSP-03,Susan Harris,Apex Digital Bank,36690.21,43,Standard,198,241
+ACT-SUSP-04,Amanda White,Vanguard Retail,46006.46,32,Standard,123,59
+ACT-SUSP-05,Joseph Garcia,FraudShield AI Bank,15150.72,42,Standard,153,50
+ACT-SUSP-06,Alex Ross,FraudShield AI Bank,77581.89,41,Standard,138,92
+ACT-SUSP-07,Joseph Ross,Vanguard Retail,25604.72,43,Standard,130,390
+ACT-SUSP-08,William Kim,Zenith Global Trust,37514.79,44,Standard,174,347
+ACT-SUSP-09,Michael Anderson,Sovereign Crypto Bank,74585.93,37,Standard,149,279
+ACT-SUSP-10,Emily Jackson,Caribbean Cayman Bank,43667.44,41,Standard,192,315
+ACT-SAFE-01,Daniel Henderson,FraudShield AI Bank,44895.76,21,Standard,123,157
+ACT-SAFE-02,Alex Anderson,First Offshore Corp,5867.79,13,Standard,92,319
+ACT-SAFE-03,Maria Thomas,Apex Digital Bank,39530.86,20,Standard,165,68
+ACT-SAFE-04,Susan Ross,FraudShield AI Bank,10754.43,6,Standard,132,384
+ACT-SAFE-05,Emily Davidson,Zenith Global Trust,36478.71,14,Standard,157,387
+ACT-SAFE-06,Daniel Martinez,Vanguard Retail,31547.07,8,Standard,153,418
+ACT-SAFE-07,Robert Martin,Caribbean Cayman Bank,18705.84,9,Standard,145,56
+ACT-SAFE-08,Maria White,NeoBank Tech,30234.09,2,Standard,94,120
+ACT-SAFE-09,David Ross,First Offshore Corp,21607.37,0,Standard,170,234
+ACT-SAFE-10,Sarah Garcia,NeoBank Tech,39516.82,5,Standard,81,213
+ACT-SAFE-11,Maria Thomas,Zenith Global Trust,28207.81,13,Standard,97,325
+ACT-SAFE-12,Linda Davidson,Caribbean Cayman Bank,3160.46,13,Standard,94,71
+ACT-SAFE-13,Sarah Henderson,Metro Credit Union,10892.98,14,Standard,121,298
+ACT-SAFE-14,Sarah Taylor,Vanguard Retail,4690.99,24,Standard,190,117
+ACT-SAFE-15,Linda Robinson,Zenith Global Trust,28329.17,5,Standard,195,276
+ACT-SAFE-16,William Jenkins,Caribbean Cayman Bank,44796.72,16,Standard,148,178
+ACT-SAFE-17,Jennifer Jenkins,NeoBank Tech,25801.03,7,Standard,175,235
+ACT-SAFE-18,Jennifer Kim,Caribbean Cayman Bank,21826.66,16,Standard,135,441
+ACT-SAFE-19,Amanda White,Sovereign Crypto Bank,27489.88,3,Standard,145,107
+ACT-SAFE-20,John Robinson,Apex Digital Bank,46143.61,0,Standard,147,59
+ACT-SAFE-21,John Robinson,Sovereign Crypto Bank,49409.38,5,Standard,126,366
+ACT-SAFE-22,Patricia Anderson,FraudShield AI Bank,43763.23,12,Standard,118,180
+ACT-SAFE-23,Michael Harris,Offshore Finance,27016.24,0,Standard,103,74
+ACT-SAFE-24,John Harris,Zenith Global Trust,49123.7,12,Standard,151,303
+ACT-SAFE-25,Michael Martin,Apex Digital Bank,14890.0,2,Standard,104,315
+ACT-SAFE-26,Susan Robinson,Vanguard Retail,20617.27,9,Standard,177,216
+ACT-SAFE-27,Maria Miller,Sovereign Crypto Bank,8806.59,0,Standard,195,80
+ACT-SAFE-28,Maria Ross,Metro Credit Union,2103.99,23,Standard,125,139
+ACT-SAFE-29,James Thomas,Apex Digital Bank,24652.36,9,Standard,106,117
+ACT-SAFE-30,Maria Miller,Caribbean Cayman Bank,27721.9,21,Standard,147,380
+ACT-SAFE-31,Emily Ross,Metro Credit Union,39595.78,5,Standard,122,440
+ACT-SAFE-32,Joseph Chen,Metro Credit Union,38051.4,18,Standard,170,68
+ACT-SAFE-33,Amanda Garcia,Offshore Finance,25209.34,20,Standard,101,249
+ACT-SAFE-34,Susan Martin,Zenith Global Trust,37353.49,23,Standard,106,328
+ACT-SAFE-35,Robert Gonzalez,FraudShield AI Bank,31481.96,23,Standard,191,225
+ACT-SAFE-36,Maria Smith,FraudShield AI Bank,22202.07,10,Standard,94,310
+ACT-SAFE-37,Jennifer Kim,FraudShield AI Bank,1843.48,4,Standard,138,211
+ACT-SAFE-38,Robert Miller,First Offshore Corp,48646.65,21,Standard,143,159
+ACT-SAFE-39,Amanda Jenkins,NeoBank Tech,37819.23,4,Standard,100,370
+ACT-SAFE-40,Joseph Davidson,Caribbean Cayman Bank,9323.05,14,Standard,190,282
+ACT-SAFE-41,David Harris,Zenith Global Trust,47963.39,19,Standard,176,188
+ACT-SAFE-42,Linda Taylor,Sovereign Crypto Bank,29246.22,11,Standard,170,85
+ACT-SAFE-43,Linda Smith,Metro Credit Union,20971.76,6,Standard,90,193
+ACT-SAFE-44,William Jenkins,NeoBank Tech,43435.51,6,Standard,108,129
+ACT-SAFE-45,David Robinson,First Offshore Corp,6978.21,2,Standard,108,172
+ACT-SAFE-46,James Gonzalez,Metro Credit Union,28950.83,7,Standard,82,63
+ACT-SAFE-47,Michael Miller,Zenith Global Trust,5240.26,8,Standard,199,186
+ACT-SAFE-48,Robert Garcia,Sovereign Crypto Bank,4964.89,16,Standard,173,95
+ACT-SAFE-49,Maria White,Caribbean Cayman Bank,20432.25,20,Standard,81,318
+ACT-SAFE-50,William Miller,Apex Digital Bank,34443.99,13,Standard,117,79

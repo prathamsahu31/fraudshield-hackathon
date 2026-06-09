@@ -1,0 +1,27 @@
+services:
+  # Backend API (FastAPI)
+  - type: web
+    name: fraudshield-api
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn app:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        sync: false # You will paste your Supabase URL here in the Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      
+  # Frontend App (Next.js)
+  - type: web
+    name: fraudshield-web
+    env: node
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          type: web
+          name: fraudshield-api
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: NODE_VERSION
+        value: 20.0.0
