@@ -64,12 +64,12 @@ export function Sidebar({ mobileOpen, setMobileOpen }: SidebarProps) {
         {/* Sidebar Header */}
         <div className="flex h-16 items-center justify-between px-6 border-b border-zinc-900">
           <Link href="/dashboard" className="flex items-center gap-2.5" onClick={() => setMobileOpen(false)}>
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-cyber-cyan/10 border border-cyber-cyan/30 text-cyber-cyan shadow-[0_0_15px_rgba(6,182,212,0.2)]">
-              <ShieldAlert className="h-5.5 w-5.5 animate-pulse-slow" />
+            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-indigo-500 text-white shadow-md shadow-indigo-500/20">
+              <ShieldAlert className="h-5 w-5" />
             </div>
             {!collapsed && (
-              <span className="font-bold text-lg tracking-wider text-glow-cyan text-zinc-100">
-                FRAUD<span className="text-cyber-cyan">SHIELD</span>
+              <span className="font-bold text-lg tracking-tight text-zinc-100">
+                FraudShield
               </span>
             )}
           </Link>
@@ -94,40 +94,40 @@ export function Sidebar({ mobileOpen, setMobileOpen }: SidebarProps) {
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
                 className={cn(
-                  "relative group flex items-center gap-3.5 rounded-lg px-3.5 py-3 text-sm font-medium transition-colors duration-200",
+                  "relative group flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-medium transition-all duration-200",
                   isActive 
-                    ? "text-cyber-cyan"
-                    : "text-zinc-400 hover:text-zinc-200"
+                    ? "bg-indigo-500/10 text-indigo-400"
+                    : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900/50"
                 )}
               >
+                <Icon className={cn("h-5 w-5", isActive ? "text-indigo-400" : "text-zinc-500 group-hover:text-zinc-300")} />
+                {!collapsed && <span>{item.name}</span>}
                 {isActive && (
                   <motion.div
-                    layoutId="sidebar-active-highlight"
-                    className="absolute inset-0 rounded-lg bg-cyber-cyan/10 border border-cyber-cyan/30 shadow-[0_0_15px_rgba(6,182,212,0.1)]"
+                    layoutId="sidebar-active"
+                    className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-500 rounded-r-full"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                   />
-                )}
-                <Icon className={cn(
-                  "relative z-10 h-5 w-5 shrink-0 transition-transform duration-200 group-hover:scale-110",
-                  isActive ? "text-cyber-cyan" : "text-zinc-500 group-hover:text-zinc-300"
-                )} />
-                {!collapsed && (
-                  <span className="relative z-10 truncate tracking-wide">{item.name}</span>
                 )}
               </Link>
             );
           })}
         </nav>
 
-        {/* Sidebar Collapse Toggle (Desktop only) */}
-        <div className="hidden lg:flex p-4 border-t border-zinc-900 justify-end">
-          <button
+        {/* Footer actions */}
+        <div className="p-4 border-t border-zinc-900">
+          <button 
             onClick={() => setCollapsed(!collapsed)}
-            className="rounded-lg p-1.5 text-zinc-500 hover:bg-zinc-900 hover:text-zinc-200 border border-transparent hover:border-zinc-800"
+            className="hidden lg:flex w-full items-center justify-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/30 py-2.5 text-sm font-medium text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 transition-colors"
           >
-            {collapsed ? <ChevronRight className="h-4 w-4" /> : <ChevronLeft className="h-4 w-4" />}
+            {collapsed ? <ChevronRight className="h-4 w-4" /> : (
+              <>
+                <ChevronLeft className="h-4 w-4" />
+                <span>Collapse Panel</span>
+              </>
+            )}
           </button>
         </div>
       </aside>

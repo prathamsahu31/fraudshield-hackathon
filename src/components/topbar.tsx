@@ -42,29 +42,29 @@ export function Topbar({ setMobileOpen }: TopbarProps) {
           <Search className="absolute top-2.5 left-3 h-4 w-4 text-zinc-500" />
           <input
             type="text"
-            placeholder="Search transactions, accounts, entity nodes..."
-            className="w-full rounded-lg border border-zinc-800 bg-zinc-900/40 py-1.5 pr-4 pl-9 text-sm text-zinc-200 placeholder-zinc-500 focus:border-cyber-cyan/60 focus:bg-zinc-900/80 focus:ring-1 focus:ring-cyber-cyan/50 focus:outline-none transition-all duration-200"
+            placeholder="Search transactions, accounts, or IP addresses..."
+            className="w-full rounded-full border border-zinc-800 bg-zinc-900/50 py-1.5 pr-4 pl-9 text-sm text-zinc-200 placeholder-zinc-500 focus:border-indigo-500/50 focus:bg-zinc-900 focus:ring-1 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
           />
         </div>
       </div>
 
       {/* Right side - Metrics and Notifications */}
       <div className="flex items-center gap-6">
-        {/* Threat Level Badge */}
-        <div className="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-rose/10 border border-cyber-rose/30 text-cyber-rose shadow-[0_0_15px_rgba(244,63,94,0.1)]">
-          <ShieldAlert className="h-3.5 w-3.5 animate-pulse" />
-          <span className="text-xs font-semibold uppercase tracking-wider">
-            THREAT LEVEL: DEFCON 3
+        {/* Threat Level Badge -> Status Pill */}
+        <div className="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-500">
+          <Activity className="h-3.5 w-3.5" />
+          <span className="text-[11px] font-semibold uppercase tracking-wider">
+            System Optimal
           </span>
         </div>
 
         {/* Live System Sync */}
-        <div className="hidden lg:flex items-center gap-2 text-xs text-zinc-400">
+        <div className="hidden lg:flex items-center gap-2 text-[11px] font-medium text-zinc-400 uppercase tracking-wider">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyber-cyan opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-cyber-cyan"></span>
+            <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
           </span>
-          <span className="font-mono tracking-widest uppercase">SYS-SYNC: SECURE</span>
+          Live Sync
         </div>
 
         {/* Notifications Popover */}
