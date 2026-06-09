@@ -4,12 +4,14 @@ services:
     name: fraudshield-api
     env: python
     buildCommand: "cd backend && pip install -r requirements.txt"
-    startCommand: "cd backend && uvicorn app:app --host 0.0.0.0 --port $PORT"
+    startCommand: "cd backend && gunicorn app:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT"
     envVars:
       - key: DATABASE_URL
         sync: false # You will paste your Supabase URL here in the Render dashboard
       - key: PYTHON_VERSION
         value: 3.10.0
+      - key: ALLOWED_ORIGINS
+        value: "*"
       
   # Frontend App (Next.js)
   - type: web
