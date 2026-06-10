@@ -4,9 +4,9 @@ from typing import Dict, Any
 from database.connection import get_db
 from services.flow_service import FlowService
 
-router = APIRouter(prefix="/accounts", tags=["Money Flow Tracing"])
+router = APIRouter(prefix="/money-flow", tags=["Money Flow Tracing"])
 
-@router.get("/{account_id}/flow-trace", response_model=Dict[str, Any])
+@router.get("/{account_id}", response_model=Dict[str, Any])
 def get_money_flow_trace(
     account_id: str,
     depth: int = Query(3, ge=1, le=5, description="Maximum path depth for flow tracing"),

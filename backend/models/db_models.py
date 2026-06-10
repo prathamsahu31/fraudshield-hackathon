@@ -1,4 +1,5 @@
 import datetime
+from datetime import timezone
 from sqlalchemy import Column, String, Integer, Float, Boolean, DateTime, ForeignKey, Text
 from sqlalchemy.orm import relationship
 from database.connection import Base
@@ -22,7 +23,7 @@ class Transaction(Base):
     __tablename__ = "transactions"
 
     id = Column(String, primary_key=True, index=True)
-    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+    timestamp = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
     sender_id = Column(String, ForeignKey("accounts.id"), nullable=False)
     receiver_id = Column(String, nullable=False)
     receiver_bank = Column(String, nullable=False)
@@ -52,7 +53,7 @@ class Alert(Base):
     __tablename__ = "alerts"
 
     id = Column(String, primary_key=True, index=True)
-    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+    timestamp = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
     ip_address = Column(String, nullable=False)
     country = Column(String, nullable=False)
     risk_score = Column(Integer, default=0)
@@ -64,7 +65,7 @@ class Complaint(Base):
     __tablename__ = "complaints"
 
     id = Column(String, primary_key=True, index=True)
-    date = Column(DateTime, default=datetime.datetime.utcnow)
+    date = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
     customer_name = Column(String, nullable=False)
     account_id = Column(String, ForeignKey("accounts.id"), nullable=False)
     transaction_id = Column(String, ForeignKey("transactions.id"), nullable=True)
@@ -82,8 +83,8 @@ class Investigation(Base):
     severity = Column(String, default="Medium")  # Critical, High, Medium, Low
     status = Column(String, default="Reported")  # Reported, Under Review, Escalated, Closed
     assignee = Column(String, nullable=False)
-    created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
+    created_at = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
+    updated_at = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc), onupdate=lambda: datetime.datetime.now(timezone.utc))
 
 class InvestigationTransaction(Base):
     __tablename__ = "investigation_transactions"
@@ -98,7 +99,7 @@ class InvestigationNote(Base):
     case_id = Column(String, ForeignKey("investigations.id", ondelete="CASCADE"), nullable=False)
     author = Column(String, nullable=False)
     text = Column(Text, nullable=False)
-    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
 
 class InvestigationTimeline(Base):
     __tablename__ = "investigation_timeline"
@@ -108,4 +109,5 @@ class InvestigationTimeline(Base):
     action = Column(String, nullable=False)
     user_identity = Column(String, nullable=False)
     details = Column(Text, nullable=False)
-    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, default=lambda: datetime.datetime.now(timezone.utc))
+

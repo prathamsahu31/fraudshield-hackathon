@@ -75,7 +75,7 @@ export default function MoneyFlowPage() {
     setIsTracing(true);
     setError(null);
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/accounts/${accountId}/flow-trace?depth=3`);
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/money-flow/${accountId}?depth=3`);
       if (!res.ok) {
         if (res.status === 404) {
           throw new Error(`Account "${accountId}" was not found in the database.`);

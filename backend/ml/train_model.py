@@ -79,7 +79,7 @@ def main():
     print(classification_report(y_test, y_pred_test))
 
     # Save model
-    model_path = os.path.join(script_dir, "fraud_model.pkl")
+    model_path = os.path.join(script_dir, "model2.pkl")
     joblib.dump(model, model_path)
     print(f"\nModel saved to: {model_path}")
     print(f"Model file size: {os.path.getsize(model_path) / 1024 / 1024:.2f} MB")

@@ -9,6 +9,10 @@ from models.schemas import (
     InvestigationBase, InvestigationCreate, InvestigationNoteBase, 
     InvestigationNoteCreate, InvestigationTimelineBase, InvestigationDetailResponse
 )
+from pydantic import BaseModel
+
+class FreezeAccountRequest(BaseModel):
+    account_id: str
 
 router = APIRouter(prefix="/investigations", tags=["Investigations"])
 
@@ -32,8 +36,8 @@ def create_investigation(payload: InvestigationCreate, db: Session = Depends(get
         severity=payload.severity,
         status="Reported",
         assignee=payload.assignee,
-        created_at=datetime.datetime.utcnow(),
-        updated_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC),
+        updated_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(new_case)
     
@@ -43,7 +47,7 @@ def create_investigation(payload: InvestigationCreate, db: Session = Depends(get
         action="Case Opened",
         user_identity=payload.assignee,
         details=f"Case opened manually by investigator with severity {payload.severity}.",
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(timeline_entry)
     
@@ -82,6 +86,7 @@ def read_investigation_details(case_id: str, db: Session = Depends(get_db)):
     mapped_txns = []
     for tx in transactions:
         tx_dict = tx.__dict__.copy()
+        tx_dict.pop("_sa_instance_state", None)
         tx_dict["flags"] = tx.flags
         mapped_txns.append(tx_dict)
 
@@ -106,7 +111,7 @@ def add_investigation_note(case_id: str, payload: InvestigationNoteCreate, db: S
         case_id=case_id,
         author=payload.author,
         text=payload.text,
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(new_note)
 
@@ -115,17 +120,17 @@ def add_investigation_note(case_id: str, payload: InvestigationNoteCreate, db: S
         action="Note Added",
         user_identity=payload.author,
         details=f"Added case note: \"{payload.text[:50]}...\"",
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(timeline)
     
-    case.updated_at = datetime.datetime.utcnow()
+    case.updated_at = datetime.datetime.now(datetime.UTC)
     db.commit()
     db.refresh(new_note)
     return new_note
 
 @router.post("/{case_id}/freeze")
-def freeze_case_accounts(case_id: str, payload: Dict[str, str], db: Session = Depends(get_db)):
+def freeze_case_accounts(case_id: str, payload: FreezeAccountRequest, db: Session = Depends(get_db)):
     """
     Freezes a specific linked account. Set its risk score to 100 and logs the action on the timeline.
     """
@@ -133,7 +138,7 @@ def freeze_case_accounts(case_id: str, payload: Dict[str, str], db: Session = De
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
 
-    account_id = payload.get("account_id")
+    account_id = payload.account_id
     if not account_id:
         raise HTTPException(status_code=400, detail="Missing account_id parameter")
 
@@ -148,18 +153,18 @@ def freeze_case_accounts(case_id: str, payload: Dict[str, str], db: Session = De
     # Also block transactions involving this account
     db.query(Transaction).filter(
         (Transaction.sender_id == account_id) | (Transaction.receiver_id == account_id)
-    ).update({"status": "Blocked"})
+    ).update({"status": "Blocked"}, synchronize_session=False)
 
     timeline = InvestigationTimeline(
         case_id=case_id,
         action="Account Frozen",
         user_identity="Agent-Compliance",
         details=f"Asset freeze order executed on account {account_id} ({account.label}). All pending transfers blocked.",
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(timeline)
     
-    case.updated_at = datetime.datetime.utcnow()
+    case.updated_at = datetime.datetime.now(datetime.UTC)
     db.commit()
     
     return {"status": "success", "message": f"Account {account_id} has been frozen successfully."}
@@ -175,14 +180,14 @@ def escalate_case(case_id: str, db: Session = Depends(get_db)):
 
     case.status = "Escalated"
     case.severity = "Critical"
-    case.updated_at = datetime.datetime.utcnow()
+    case.updated_at = datetime.datetime.now(datetime.UTC)
 
     timeline = InvestigationTimeline(
         case_id=case_id,
         action="Case Escalated",
         user_identity="Agent-In-Charge",
         details="Case status escalated to Escalated. Severity boosted to Critical. Sent alert notifications to AML Legal Desks.",
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(timeline)
     db.commit()
@@ -199,16 +204,17 @@ def close_case(case_id: str, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Case not found")
 
     case.status = "Closed"
-    case.updated_at = datetime.datetime.utcnow()
+    case.updated_at = datetime.datetime.now(datetime.UTC)
 
     timeline = InvestigationTimeline(
         case_id=case_id,
         action="Case Closed",
         user_identity="Agent-In-Charge",
         details="Investigation resolved. SAR filed with regulatory authorities. Case marked as Closed.",
-        created_at=datetime.datetime.utcnow()
+        created_at=datetime.datetime.now(datetime.UTC)
     )
     db.add(timeline)
     db.commit()
     db.refresh(case)
     return case
+

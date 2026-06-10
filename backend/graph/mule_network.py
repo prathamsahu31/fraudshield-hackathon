@@ -32,7 +32,7 @@ class MuleNetworkBuilder:
                 "source": tx.sender_id,
                 "target": tx.receiver_id,
                 "amount": tx.amount,
-                "timestamp": tx.timestamp.strftime("%Y-%m-%d %H:%M")
+                "timestamp": tx.timestamp.strftime("%Y-%m-%d %H:%M") if tx.timestamp else "N/A"
             })
 
         return {

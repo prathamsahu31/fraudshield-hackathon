@@ -21,8 +21,8 @@ def run_simulation(db: Session = Depends(get_db)):
         db.query(InvestigationTransaction).filter(InvestigationTransaction.case_id == "CASE-SIM-01").delete()
         db.query(Investigation).filter(Investigation.id == "CASE-SIM-01").delete()
         db.query(Complaint).filter(Complaint.id == "CMP-SIM-01").delete()
-        db.query(Transaction).filter(Transaction.id.in_(["TXN-SIM-01", "TXN-SIM-02"])).delete()
-        db.query(Account).filter(Account.id.in_(["ACT-SAFE-99", "ACT-SMURF-99", "ACT-HUB-99"])).delete()
+        db.query(Transaction).filter(Transaction.id.in_(["TXN-SIM-01", "TXN-SIM-02"])).delete(synchronize_session=False)
+        db.query(Account).filter(Account.id.in_(["ACT-SAFE-99", "ACT-SMURF-99", "ACT-HUB-99"])).delete(synchronize_session=False)
         db.commit()
         
         # 2. Seed Accounts
@@ -64,7 +64,7 @@ def run_simulation(db: Session = Depends(get_db)):
         # 3. Seed Complaint
         complaint = Complaint(
             id="CMP-SIM-01",
-            date=datetime.datetime.utcnow() - datetime.timedelta(minutes=10),
+            date=datetime.datetime.now(datetime.UTC) - datetime.timedelta(minutes=10),
             customer_name="Alice Cooper",
             account_id="ACT-SAFE-99",
             transaction_id="TXN-SIM-01", # Will link to transaction below
@@ -79,7 +79,7 @@ def run_simulation(db: Session = Depends(get_db)):
         # Txn 1: Victim to Smurf
         txn1 = Transaction(
             id="TXN-SIM-01",
-            timestamp=datetime.datetime.utcnow() - datetime.timedelta(minutes=8),
+            timestamp=datetime.datetime.now(datetime.UTC) - datetime.timedelta(minutes=8),
             sender_id="ACT-SAFE-99",
             receiver_id="ACT-SMURF-99",
             receiver_bank="Zenith Global Trust",
@@ -95,7 +95,7 @@ def run_simulation(db: Session = Depends(get_db)):
         # Txn 2: Layering hop from Smurf to Hub
         txn2 = Transaction(
             id="TXN-SIM-02",
-            timestamp=datetime.datetime.utcnow() - datetime.timedelta(minutes=5),
+            timestamp=datetime.datetime.now(datetime.UTC) - datetime.timedelta(minutes=5),
             sender_id="ACT-SMURF-99",
             receiver_id="ACT-HUB-99",
             receiver_bank="Offshore Finance",
@@ -127,8 +127,8 @@ def run_simulation(db: Session = Depends(get_db)):
             severity="Critical",
             status="Under Review",
             assignee="Marcus Brody",
-            created_at=datetime.datetime.utcnow(),
-            updated_at=datetime.datetime.utcnow()
+            created_at=datetime.datetime.now(datetime.UTC),
+            updated_at=datetime.datetime.now(datetime.UTC)
         )
         db.add(case)
         db.commit()
@@ -143,14 +143,14 @@ def run_simulation(db: Session = Depends(get_db)):
             action="Case Opened",
             user_identity="System-Compliance",
             details="Critical phishing ring alerts triggered. Automatic audit case initialized.",
-            created_at=datetime.datetime.utcnow() - datetime.timedelta(seconds=60)
+            created_at=datetime.datetime.now(datetime.UTC) - datetime.timedelta(seconds=60)
         )
         timeline2 = InvestigationTimeline(
             case_id="CASE-SIM-01",
             action="Transaction Linked",
             user_identity="System-Compliance",
             details="Linked fraudulent wire TXN-SIM-01 ($12,450.00) and layering transfer TXN-SIM-02 ($12,000.00).",
-            created_at=datetime.datetime.utcnow() - datetime.timedelta(seconds=45)
+            created_at=datetime.datetime.now(datetime.UTC) - datetime.timedelta(seconds=45)
         )
         db.add(timeline1)
         db.add(timeline2)
@@ -208,3 +208,4 @@ def run_simulation(db: Session = Depends(get_db)):
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=f"Simulation trigger failed: {e}")
+

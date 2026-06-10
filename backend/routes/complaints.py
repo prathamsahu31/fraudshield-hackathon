@@ -44,8 +44,6 @@ def read_complaints(db: Session = Depends(get_db)):
                         best_match = t
                         
             if best_match:
-                comp.transaction_id = best_match.id
-                db.commit()
                 txn = best_match
                 
         # 3. Retrieve connected accounts via money flow tracing
@@ -96,7 +94,7 @@ def create_complaint(payload: ComplaintCreate, db: Session = Depends(get_db)):
     # 2. Save Complaint
     new_comp = Complaint(
         id=comp_id,
-        date=datetime.datetime.utcnow(),
+        date=datetime.datetime.now(datetime.UTC),
         customer_name=payload.customer_name,
         account_id=payload.account_id,
         transaction_id=best_match.id if best_match else None,
@@ -140,3 +138,4 @@ def override_complaint_status(
         raise HTTPException(status_code=404, detail="Complaint not found")
         
     return updated_comp
+

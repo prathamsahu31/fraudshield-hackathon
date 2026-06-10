@@ -21,6 +21,7 @@ def read_transactions(
     response_list = []
     for tx in transactions:
         tx_dict = tx.__dict__.copy()
+        tx_dict.pop("_sa_instance_state", None)
         # Ensure we translate property flags
         tx_dict["flags"] = tx.flags
         response_list.append(TransactionResponse(**tx_dict))
@@ -42,5 +43,6 @@ def override_transaction_status(
         raise HTTPException(status_code=404, detail="Transaction not found")
         
     tx_dict = updated_tx.__dict__.copy()
+    tx_dict.pop("_sa_instance_state", None)
     tx_dict["flags"] = updated_tx.flags
     return TransactionResponse(**tx_dict)

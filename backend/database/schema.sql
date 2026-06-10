@@ -62,6 +62,7 @@ CREATE TABLE complaints (
     date TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
     customer_name VARCHAR(100) NOT NULL,
     account_id VARCHAR(50) NOT NULL REFERENCES accounts(id) ON DELETE RESTRICT,
+    transaction_id VARCHAR(50) REFERENCES transactions(id) ON DELETE SET NULL,
     dispute_type VARCHAR(100) NOT NULL, -- Unauthorized Wire, Card Skimming, Phishing Transfer, Identity Theft, ACH Dispute
     amount DECIMAL(15, 2) NOT NULL CHECK (amount > 0),
     status VARCHAR(50) NOT NULL DEFAULT 'Pending Review', -- Pending Review, Chargeback Initiated, Resolved - Refunded, Resolved - Dismissed
